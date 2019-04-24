@@ -1,0 +1,159 @@
+[
+    {
+        "displayPicture":"https://sessionize.com/image?f=fd31d66d66d823a37ee37596ab8426c7,400,400,True,False,a72ed7ee-704c-453a-9d4e-ca5014ed0e5a.jpg",
+        "name":"Rivu Chakraborty",
+        "description":"GDG Kolkata Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "http://rivuchk.com/"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/rivuchakraborty"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/rivu.chakraborty.71"
+            }
+        ]
+    },
+    {
+        "displayPicture":"https://secure.meetupstatic.com/photos/member/b/8/b/4/member_277007284.jpeg",
+        "name":"Manisha Biswas",
+        "description":"WTM Kolkata Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "https://devmesh.intel.com/users/manisha-biswas"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/manisha_biswas7?lang=en"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/manisha.biswas.12"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/manisha-biswas-2a3228114/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/15109375_1214995668547072_4872617467968732519_n.jpg?_nc_cat=105&oh=82d5814f6ff2ba344df5785617888333&oe=5C5CA015",
+        "name":"Koushik Pal",
+        "description":"Founder - GDG Kolkata",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "https://about.me/koushikpal"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/hello2pal"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/koushiksoft"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/koushik-pal-06572525/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/36990671_1981905995195672_7592689562925662208_n.jpg?_nc_cat=103&oh=e28c53c6b0fc59e42c38479fa52edbb9&oe=5C5917C3",
+        "name":"Suvankar Bose",
+        "description":"Founder - GDG Kolkata",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "http://www.suvankar.com/welcome.jsf"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/suvankarbose"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/suvankar.bose"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/suvankar-bose-a6602937/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"https://secure.meetupstatic.com/photos/member/a/6/0/8/member_278862504.jpeg",
+        "name":"Raveesh Agarwal",
+        "description":"Event Organizer",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "https://medium.com/@raveeshagarwal"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/raveesh_me"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/raveesh.me"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/raveeshagarwal"
+            }
+        ]
+    },
+    {
+        "displayPicture":"https://sessionize.com/image?f=f039a5f498cf2d462fcab8cff141d72e,200,200,True,False,a4-720f-4317-b318-37a0cf4afef0.0949733d-1f00-40f8-86bb-3a85c02626dd.jpg",
+        "name":"Anubhav Singh",
+        "description":"Event Organizer",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "https://xprilion.com/?fbclid=IwAR1UkIs68CFowIvVcDW92ndqS_L0sL4E3YnURWf9k1EqgBwif03oxb4aOHM"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/xprilion?fbclid=IwAR3dAxugtT2j15OIbZq-dVJKD6h1LOwAhFywMbFBpnRoQk0UVQHq_bOwwQ8"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/xprilion"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/xprilion?fbclid=IwAR0jkCbWJBXsMLrpSrbERf-2cjiggaZ6qjVjSQX5RdcVjdkifF3gRVVUFZY"
+            }
+        ]
+    },
+    {
+        "displayPicture":"https://sessionize.com/image?f=2ea06f514643e8becc583438ce39ffd6,200,200,True,False,f9a739e3-76ed-4bfa-89da-98caf52d2238.jpg",
+        "name":"Shuvam Manna",
+        "description":"Event Organizer",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "https://distortedaura.wordpress.com/"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/shuvam360"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/shuvam.manna.3"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/shuvam-manna"
+            }
+        ]
+    }
+]

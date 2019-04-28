@@ -5,12 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff"/>
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="assets/img/kit/free/apple-icon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
     <link rel="icon" href="favicon.png">
+    <link rel="manifest" href="/manifest.json">
     <title>
-        Team | DevFest 18 Kolkata
+        DSC HIT
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
@@ -18,14 +19,40 @@
     <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.2">
     <!-- Documentation extras -->
     <link href="assets/assets-custom/demo.css" rel="stylesheet" />
-    <link href="assets/assets-custom/css/team/style.css" rel="stylesheet">
-    <link href="assets/assets-custom/css/base.css" rel="stylesheet">
-    <link href="assets/assets-custom/css/footer.css" rel="stylesheet">
+    <link href="assets/assets-custom/css/image-grid.css" rel="stylesheet" />
+    <link href="assets/assets-custom/css/footer.css" rel="stylesheet" />
     <link href="assets/assets-custom/css/termynal.css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+
+        body{
+            overflow-x: hidden;
+        }
+
+
+
+        #top-button
+        {
+            font-size:20px;
+            transition: 0.3s ease;
+        }
+        
+        .tab { margin-left: 40px; }
+/*
+        .grid-item { width: 25%; }
+        .grid-item--width2 { width: 50%; }*/
+
+        .img-fluid
+        {
+            border-radius: 5px 5px;
+        }
+
+        </style>
     <!-- iframe removal -->
 </head>
 
@@ -33,9 +60,8 @@
     <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="/"><span id="gdg-logo"><img src="assets/img/kit/gdg-logo-t.png" style="max-height: 90%;" /></span>&nbsp;&nbsp;<span
-                        class="logo">DevFest<span id="orange_text">18</span></span> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="/"><span id="gdg-logo"><img src="assets/img/logos/dsc_header.png" style="max-height: 90%;" /> </a>
+                <button style="color:rgb(120,120,120)" class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
@@ -44,22 +70,27 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="dropdown nav-item">
-                        <a href="./" data-page="index" class="nav-link">
+                        <a href="#" data-page="index" class="nav-link">
                             <span><b>Home</b></span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./speakers" data-page="speakers" class="nav-link">
-                            <span><b id="header_text">Speakers</b></span>
+                        <a href="#" data-page="speakers" class="nav-link">
+                            <span><b id="header_text">Events</b></span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./schedule" data-page="schedule" class="nav-link">
-                            <span><b id="header_text">Schedule</b></span>
+                        <a href="#" data-page="schedule" class="nav-link">
+                            <span><b id="header_text">Resources</b></span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./team" data-page="team" class="nav-link">
+                            <a href="#" data-page="schedule" class="nav-link">
+                                <span><b id="header_text">Projects</b></span>
+                            </a>
+                        </li>
+                    <li class="nav-item">
+                        <a href="#" data-page="team" class="nav-link">
                             <span><b id="header_text">Team</b></span>
                         </a>
                     </li>
@@ -70,95 +101,106 @@
                     </li> -->
                     <!--  <li class="nav-item">
                         <a href="./about" data-page="about" class="nav-link">
-                            <span><b id="header_text">About</b></span>
+                             <span ><b id="header_text">About</b></span>
                         </a>
                     </li> -->
                     <li class="nav-item">
-                        <a target="blank" class="nav-link" href="https://www.meetup.com/GDG-Kolkata/events/255454280/">
-                            <span class="btn" id="joinbtn"><b id="header_text">Register</b></span>
+                        <a target="blank" class="nav-link" href="https://forms.gle/xfqLFWCzy34624yLA">
+                            <span class="btn" id="joinbtn"><b id="header_text">Sign Up</b></span>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container-page">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <p>&nbsp;</p>
-                <h1>Team</h1>
-                <h5 class="description">One piece of log creates a small fire, adequate to warm you up, add just a few more pieces to blast an immense bonfire, large enough to warm up your entire circle of friends;
-                    needless to say that individuality counts but teamwork dynamites. We at GDG Kolkata and WTM Kolkata celebrate teamwork and attribute the entire success of the event to the wonderful individuals who put untiring efforts for it.</h5>
-
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <img class="img-fluid" src="assets/img/kit/team.png" />
-            </div>
-        </div>
-        <div class="container no-padding container-sub-page">
-            <div id="container-team" class="row">
-            </div>
-        </div>
-    </div>
-
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="main main-raised" style="margin-top: 0;">
+            
+        <div class="container">
+            
+                    
+                            <p>&nbsp;</p>
+                            <div class="container-page">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <p>&nbsp;</p>
+                                        <h2 class="title">Team</h2>
+                                        <h5 class="description">One piece of log creates a small fire, adequate to warm you up, add just a few more pieces to blast an immense bonfire, large enough to warm up your entire circle;
+                                            needless to say that individuality counts but teamwork dynamites. At <b id="blue_text">DSC HIT</b> celebrate teamwork and attribute the success of DSC to the wonderful individuals who put untiring efforts for it.</h5>
+                                            <p>&nbsp;</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <img class="img-fluid" src="assets/img/kit/team.png" />
+                                    </div>
+                                </div>
+                                <div class="container no-padding container-sub-page">
+                                    <div id="container-team" class="row">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                   
+                
+         </div>     
+         <p>&nbsp;</p> 
+         <p>&nbsp;</p>
     <div id="footer">
-        <hr style="margin-bottom:6px"/>
-        <a href="#top" id="top-button" style="background:rgba(83, 109, 254, 0.1);">
-            <i class="material-icons" style=" font-size: 30px;">
-                keyboard_arrow_up
-            </i>
+        <a href="#top" id="top-button" class="top">
+                <i class="material-icons" style=" font-size: 30px;">
+                        keyboard_arrow_up
+                        </i>
         </a>
         <div class="container" style="padding-top: 20px;">
 
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="share-social share">
-                        <span><b>SHARE</b>
-                            <a href="https://facebook.com/sharer/sharer.php" target="_blank"><i class="fa fa-facebook"></i></a>
+                <div class="col-lg-4">
+                    <div class="share-social">
+                        <span><a><b>Keep In Touch</b></a></span>
+                            <a id="social_button" href="https://www.facebook.com/dscheritageit/" target="_blank"><i class="fa fa-facebook"></i></a><a>&nbsp;</a>
+                            <a id="social_button" href="https://twitter.com/dscheritageit1" target="_blank"><i class="fa fa-twitter"></i></a><a>&nbsp;</a>
+                            <a id="social_button" href="https://medium.com/@dscheritageit" target="_blank"><i class="fa fa-medium"></i></a><a>&nbsp;</a>
+                            <a id="social_button" href="https://github.com/DSC-HIT" target="_blank"><i class="fa fa-github"></i></a><a>&nbsp;</a>
+                            
                             <a>&nbsp;</a>
-                            <a href="https://twitter.com/home?status=Join%20in%20the%20GDG%20Kolkata%20DevFest18%20and%20have%20the%20experience%20of%20a%20lifetime!%20Register%20now%20at%20-%20https%3A//localhost/DevFest18/"
-                                target="_blank"><i class="fa fa-twitter"></i></a>
                         </span>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="share-social">
-                        <span><b>FOLLOW US</b><a>&nbsp;</a>
-                            <a href="https://facebook.com/GDGKolkata/" target="_blank"><i class="fa fa-facebook"></i></a><a>&nbsp;</a>
-                            <a href="https://twitter.com/gdgkolkata" target="_blank"><i class="fa fa-twitter"></i></a><a>&nbsp;</a>
-                            <a href="https://meetup.com/GDG-Kolkata/" target="_blank"><i class="fa fa-meetup"
-                                    aria-hidden="true"></i></a><a>&nbsp;</a>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="share-social">
-                        <span><a href="mailto:gdgkolkata@gmail.com"><b>EMAIL US</b></a></span>
+                        <span><a href="mailto:dscheritageit@gmail.com"><b>Email Us : <b id="blue_text">dscheritageit@gmail.com</b></b></a></span>
                     </div>
                 </div>
             </div>
         </div>
-        <hr />
+        <br/>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-xs-12 footer-details">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
                     <span><b>ABOUT</b></span>
                     <p>
-                        <a href="https://facebook.com/pg/GDGKolkata/about/" target="_blank">GDG Kolkata</a><br />
-                        <a href="https://developers.google.com/programs/community/gdg/" target="_blank">Google
+                        <a href="https://facebook.com/pg/GDGKolkata/about/" id="details_redirect" target="_blank"><b>GDG Kolkata</b></a><br />
+                        <a href="https://developers.google.com/programs/community/gdg/" id="details_redirect" target="_blank">Google
                             Developers Group</a><br />
-                        <a href="/team">Meet the Team</a><br />
-                        <a href="https://twitter.com/hashtag/devfestkol" target="_blank"><b>#DevFestKol</b></a> &nbsp;
-                        <a href="https://twitter.com/hashtag/devfest18" target="_blank"><b>#DevFest18</b></a>
-                    </p>
+                            
+                        <a href="/team" id="details_redirect" >Meet the Team</a><br />
+                        </p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-xs-12 footer-details">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
                     <span><b>ABOUT WTM</b></span>
                     <p>
-                        <a href="https://facebook.com/WTMKolkata/" target="_blank">WTM Kolkata</a><br />
-                        <a href="https://www.womentechmakers.com/" target="_blank">Women Techmakers</a><br />
+                        <a href="https://facebook.com/WTMKolkata/" id="details_redirect" target="_blank"><b>WTM Kolkata</b></a><br />
+                        <a href="https://www.womentechmakers.com/" id="details_redirect" target="_blank" style="color:rgb(66, 66, 66);">Women Techmakers</a><br />
                     </p>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
+                        <span><b>OTHER LINKS</b></span>
+                        <p>
+                            <a href="#" id="details_redirect" target="_blank" style="color:rgb(65, 64, 64);">Call for Speakers</a><br />
+                            <a href="#" id="details_redirect" target="_blank" style="color:rgb(65, 64, 64);">Call for Sponsors</a><br />
+                            <a href="https://docs.google.com/document/d/1rkZySaO-iXyrDdlsUa2xsIgH9iWEtIviqMwxRwop5Ng/edit?usp=sharing" id="details_redirect" target="_blank"><b>Community Guidelines</b></a><br />
+                        </p>
+                    </div>
             </div>
         </div>
         <hr />
@@ -166,67 +208,43 @@
 
             <div class="row">
                 <div class="col-lg-3">
-                    <img src="assets/img/kit/gdg-logo-t.png" alt="gdg-logo" />
+                    <img src="assets/img/logos/dsc_linear.png" alt="dsc-logo" />
                 </div>
-                <div class="col-lg-9 copyright" style="font-family: 'Open Sans', sans-serif;">
-                    &copy; Copyright 2018 | GDG Kolkata <span class="hide-bar"> | </span><a id="dev-credits" href="#"
-                        data-toggle="modal" onclick="var term = new Termynal('#termynal', {lineDelay: 750}); $('#myModal').css('padding-right', '0px !important');"
-                        data-target="#myModal">Devel❤️er Credits</a>
+                <div class="col-lg-9 copyright" style="font-family: 'Open Sans', sans-serif; font-size:14px;">
+                    &copy; Copyright 2019 <b>DSC HIT</b> <span class="hide-bar"> | </span><a id="details_redirect" href="#"><b>Developed with ❤️</b></a>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog" style="margin: 0 !important; width: calc(100vw + 15px) !important;">
-        <div class="modal-dialog" style="margin: 0 !important; max-width: calc(100vw + 15px) !important; height: 100vh !important;">
-            <!-- Modal content-->
-            <div class="modal-content" style="height: 100vh !important">
-                <div class="modal-body">
-                    <div id="termynal" data-ty-startDelay="600" style="height: 83vh;">
-                        <span data-ty="input">credits-roll</span>
-                        <span data-ty>Credits</span>
-                        <span data-ty>Developers: </span>
-                        <span data-ty class="termynal-tab">[1] <a href="https://xprilion.com" target="_blank">Anubhav
-                                Singh</a></span>
-                        <span data-ty class="termynal-tab">[2] <a href="https://alfarhanzahedi.com/" target="_blank">Alfarhan
-                                Zahedi</a></span>
-                        <span data-ty class="termynal-tab">[3] <a href="https://linkedin.com/in/shuvam-manna" target="_blank">Shuvam
-                                Manna</a></span>
-                        <span data-ty class="termynal-tab">[4] <a href="https://github.com/suvhradipghosh07" target="_blank">Suvhradip
-                                Ghosh</a></span>
-                        <span data-ty>Designer: </span>
-                        <span data-ty class="termynal-tab">[1] <a href="https://www.behance.net/ritwikraha" target="_blank">Ritwik
-                                Raha</a></span>
-                        <span data-ty class="termynal-tab">[2] <a href="https://linkedin.com/in/shuvam-manna" target="_blank">Shuvam
-                                Manna</a></span>
-                        <span data-ty class="termynal-dash-divider">----------------------------------------------------</span>
-                        <span data-ty="input" style="word-break: break-all;">Fork us on:
-                            https://github.com/xprilion/DevFest18</span>
-                        <span data-ty class="termynal-dash-divider">----------------------------------------------------</span>
-                        <span data-ty="input">Have a nice day!</span>
-                        </span>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" style="background:rgb(0,101,202);">Close</button>
-                </div>
-            </div>
 
-        </div>
-    </div>
 
+</div>
+
+
+    <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker
+                   .register('/sw.js')
+                   .then(function() { console.log("Service Worker Registered"); });
+        }
+        </script>
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery.min.js"></script>
     <script src="assets/js/core/popper.min.js"></script>
     <script src="assets/js/bootstrap-material-design.js"></script>
     <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
     <script src="assets/js/material-kit.js?v=2.0.2"></script>
-    <!-- Fixed Sidebar Nav - js With initialisations For Demo Purpose, Don't Include it in your project -->
     <script src="assets/assets-custom/js/material-kit-demo.js"></script>
-    <script src="assets/assets-custom/termynal.min.js"></script>
+    <!-- <script src="assets/assets-custom/js/GridHorizontal.js"></script> -->
+    <!-- <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
     <script src="assets/assets-custom/main.js"></script>
+    
+    <script src="assets/assets-custom/index.js"></script>
+
+
     <script>
         $('document').ready(function () {
             function getLinks(links) {

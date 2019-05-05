@@ -160,6 +160,52 @@
                 "link": "#"
             }
         ]
-    }
+    },
+    {
+        "displayPicture":"./assets/img/team/Piyush.jpg",
+        "name":"Piyush Maheshwari",
+        "description":"Android TA",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/piyush.maheswari.946"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Sayak.jpg",
+        "name":"Sayak Banerjee",
+        "description":"Tech Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/sayak.banerjee.96155"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
    
 ]

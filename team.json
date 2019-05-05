@@ -21,6 +21,8 @@
                 "link": "#"
             }
         ]
+<<<<<<< HEAD
+=======
     },
     {
         "displayPicture":"./assets/img/team/Generic.jpg",
@@ -368,5 +370,6 @@
             }
         ]
 
+>>>>>>> b183c5a17805d66980a4c90c948c133b8a844fee
     }
 ]

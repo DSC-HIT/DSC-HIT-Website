@@ -206,6 +206,98 @@
                 "link": "#"
             }
         ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Sayantak.jpg",
+        "name":"Sayantak Karar",
+        "description":"Project Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/sayantak.karar"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Shuvam.jpg",
+        "name":"Shuvam Manna",
+        "description":"DSC Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "https://distortedaura.wordpress.com"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/shuvam360"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/shuvam.manna.3"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/shuvam-manna/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "name":"Somopriya Seth",
+        "description":"Head of Public Relations",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/somopriya.seth.75?ref=br_rs"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Subhasis.jpg",
+        "name":"Subhasis Das",
+        "description":"Web Technologies TA",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/omega.ohm.54"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
     }
    
 ]

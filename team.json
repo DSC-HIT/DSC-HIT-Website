@@ -1,20 +1,24 @@
 [
     {
-        "displayPicture":"https://sessionize.com/image?f=fd31d66d66d823a37ee37596ab8426c7,400,400,True,False,a72ed7ee-704c-453a-9d4e-ca5014ed0e5a.jpg",
-        "name":"Rivu Chakraborty",
-        "description":"GDG Kolkata Lead",
+        "displayPicture":"./assets/img/team/Abhishek.jpg",
+        "name":"Abhishek Sen",
+        "description":"Core Programming TA",
         "links":[
             {
                 "linkType": "Blog",
-                "link": "http://rivuchk.com/"
+                "link": "#"
             },
             {
                 "linkType": "Twitter",
-                "link": "https://twitter.com/rivuchakraborty"
+                "link": "#"
             },
             {
                 "linkType": "Facebook",
-                "link": "https://www.facebook.com/rivu.chakraborty.71"
+                "link": "https://www.facebook.com/abhisheksen.theone"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
             }
         ]
     },

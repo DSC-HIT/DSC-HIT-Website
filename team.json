@@ -321,6 +321,7 @@
             }
         ]
     },
+  ,
     {
         "displayPicture":"./assets/img/team/Suranjan.jpg",
         "name":"Suranjan Daw",
@@ -366,5 +367,6 @@
                 "link": "#"
             }
         ]
+
     }
 ]

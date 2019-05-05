@@ -1,0 +1,41 @@
+﻿DSCHIT PROJECTS
+
+1.Pixel Manipulation by Shuvam Manna
+  
+https://github.com/GeekBoySupreme/Pixel_manipulation
+
+2.Instant answer chatbot by Subhasis Das
+
+https://github.com/subhasis020299/instant-answer-chatbot
+
+3.Thanos by Subhasis Das
+
+https://github.com/subhasis020299/thanos.git
+
+4.Official Android App of Heritage Utsav 2019 by Piyush Maheshwari
+
+https://play.google.com/store/apps/details?id=com.college.heritageutsav
+
+5.Notice board App by Suranjan Daw
+
+https://github.com/DSC-HIT/Notice-Board
+
+6.Selfie-tendance by Raveesh Agarwal
+
+https://github.com/DSC-HIT/selfie-tendance
+
+7.My-canteen by Raveesh Agarwal
+
+https://github.com/DSC-HIT/my-canteen
+
+8.A todoapp by Subhasis Das
+
+https://github.com/DSC-HIT/todoapp
+
+9.Code of Conduct of DSC Heritage by Shuvam Manna
+
+https://github.com/DSC-HIT/DSCHeritage
+
+10. Official website for DSC Heritage by Shuvam Manna
+
+https://github.com/DSC-HIT/DSC-HIT-Website

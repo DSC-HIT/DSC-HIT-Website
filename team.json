@@ -1,12 +1,242 @@
 [
     {
-        "displayPicture":"https://sessionize.com/image?f=2ea06f514643e8becc583438ce39ffd6,200,200,True,False,f9a739e3-76ed-4bfa-89da-98caf52d2238.jpg",
-        "name":"Shuvam Manna",
-        "description":"You Know Who?",
+        "displayPicture":"./assets/img/team/Abhishek.jpg",
+        "name":"Abhishek Sen",
+        "description":"Core Programming TA",
         "links":[
             {
                 "linkType": "Blog",
-                "link": "https://distortedaura.wordpress.com/"
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/abhisheksen.theone"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "name":"Anindit Sinha",
+        "description":"Head of Design",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/anindit.sinha.5"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Atig.jpg",
+        "name":"Atig Ghosh",
+        "description":"Event Organizer",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/atig.ghosh.24"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Ishita.jpg",
+        "name":"Ishita Bardhan",
+        "description":"Project Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/ishita.bardhan.7"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Kathakoli.jpg",
+        "name":"Kathakoli Sorkhel",
+        "description":"Project Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/kothakali.sorkhel"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Fazal.jpg",
+        "name":"Md Fazal",
+        "description":"Flutter TA",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/md.fazal.731"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "name":"Niwesh Gupta",
+        "description":"Core Programming TA",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/niweshgupta"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Piyush.jpg",
+        "name":"Piyush Maheshwari",
+        "description":"Android TA",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/piyush.maheswari.946"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Sayak.jpg",
+        "name":"Sayak Banerjee",
+        "description":"Tech Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/sayak.banerjee.96155"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Sayantak.jpg",
+        "name":"Sayantak Karar",
+        "description":"Project Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/sayantak.karar"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Shuvam.jpg",
+        "name":"Shuvam Manna",
+        "description":"DSC Lead",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "https://distortedaura.wordpress.com"
             },
             {
                 "linkType": "Twitter",
@@ -18,31 +248,125 @@
             },
             {
                 "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/shuvam-manna"
+                "link": "https://www.linkedin.com/in/shuvam-manna/"
             }
         ]
     },
     {
-        "displayPicture":"https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/ec/13/72/ec137292-f2be-9f55-3be7-bbdffb73f49a/mzl.vrvgkxus.png/320x240sr.jpg",
-        "name":"Subhasis Das",
-        "description":"The Web Guy",
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "name":"Somopriya Seth",
+        "description":"Head of Public Relations",
         "links":[
             {
                 "linkType": "Blog",
-                "link": ""
+                "link": "#"
             },
             {
                 "linkType": "Twitter",
-                "link": ""
+                "link": "#"
             },
             {
                 "linkType": "Facebook",
-                "link": ""
+                "link": "https://www.facebook.com/somopriya.seth.75?ref=br_rs"
             },
             {
                 "linkType": "LinkedIn",
-                "link": ""
+                "link": "#"
             }
         ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Subhasis.jpg",
+        "name":"Subhasis Das",
+        "description":"Web Technologies TA",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/omega.ohm.54"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Sumit.jpg",
+        "name":"Sumit Chakrabarti",
+        "description":"Head of Public Relations",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/sumitloggedin"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+  ,
+    {
+        "displayPicture":"./assets/img/team/Suranjan.jpg",
+        "name":"Suranjan Daw",
+        "description":"Android & Firebase TA",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/SUNDaw"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Yashashwee.jpg",
+        "name":"Yashashwee Chakrabarty",
+        "description":"Web Technologies TA",
+        "links":[
+            {
+                "linkType": "Blog",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "Facebook",
+                "link": "https://www.facebook.com/yashashwee.chakrabarty"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+
     }
 ]

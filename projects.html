@@ -21,7 +21,7 @@
     <link href="assets/assets-custom/demo.css" rel="stylesheet" />
     <link href="assets/assets-custom/css/image-grid.css" rel="stylesheet" />
     <link href="assets/assets-custom/css/footer.css" rel="stylesheet" />
-    <link href="assets/assets-custom/css/team/style.css" rel="stylesheet" />
+    <link href="assets/assets-custom/css/projects/style.css" rel="stylesheet" />
    
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous">
@@ -245,7 +245,7 @@
 
 
     <script>
-        /*$('document').ready(function () {
+        $('document').ready(function () {
             function getLinks(links) {
                 var result = '';
                 links.forEach(function (link) {
@@ -298,14 +298,14 @@
             }
 
             var html = '';
-            $.getJSON('team.json', function (members) {
+            $.getJSON('projects.json', function (members) {
                 members.forEach(function (member) {
                     html += getTemplate(member);
                 });
                 $('#container-team').append(html);
             });
 
-        });*/
+        });
     </script>
 </body>
 

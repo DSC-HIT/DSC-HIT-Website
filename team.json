@@ -23,25 +23,26 @@
         ]
     },
     {
-        "displayPicture":"https://secure.meetupstatic.com/photos/member/b/8/b/4/member_277007284.jpeg",
-        "name":"Manisha Biswas",
-        "description":"WTM Kolkata Lead",
+       
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "name":"Anindit Sinha",
+        "description":"Head of Design",
         "links":[
             {
                 "linkType": "Blog",
-                "link": "https://devmesh.intel.com/users/manisha-biswas"
+                "link": "#"
             },
             {
                 "linkType": "Twitter",
-                "link": "https://twitter.com/manisha_biswas7?lang=en"
+                "link": "#"
             },
             {
                 "linkType": "Facebook",
-                "link": "https://www.facebook.com/manisha.biswas.12"
+                "link": "https://www.facebook.com/anindit.sinha.5"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/manisha-biswas-2a3228114/"
+                "link": "#"
             }
         ]
     },

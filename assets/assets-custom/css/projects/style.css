@@ -1,73 +1,114 @@
-.team-introduction {
-    margin-top: 2%;
-    background-color: rgba(83, 109, 254, 0.05);
+body{
+    overflow-x: hidden;
 }
 
-#container-team {
-    padding-top: 10%;
+.card {
+    min-height: 400px;
+    background: #fff;
+    transition: 0.4s;
+    margin: 8px;
+    border-radius: 3px;
+    padding: 0px;
 }
 
-.container-team-member {
-    padding-bottom: 50px;
+.card:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
 }
 
-.col-sm-12 {
-    padding: 1% 1%;
+.card .box {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
-
-.float-my-children {
-    margin: 0px 20px;
-}
-
-.float-my-children>* {
-    float: left;
-    margin-right: 5px;
-}
-
-.float-my-children img {
-    width: 100px;
-    height: 100px;
+.card .box .img {
+    position: relative;
+    top: 10px;
+    margin: 10px auto 40px auto;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-
+    overflow: hidden;
 }
 
-.clearfix {
-    *zoom: 1
+.card .box .img img {
+    width: 100%;
+    height: 100%;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+.card .box h2 {
+    font-size: 20px;
+    color: #262626;
+    margin: 20px auto;
 }
 
-.clearfix:after {
-    clear: both;
+.card .box h2 span {
+    font-size: 14px;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 15px;
 }
 
-ul {
+.card .box p {
+    color: #262626;
+}
+
+.card .box span {
+    display: inline-flex;
+}
+
+.card .box ul {
     margin: 0;
-    padding: 7px 0px 0px 0px;
+    padding: 0;
 }
 
-ul li {
+.card .box ul li {
     list-style: none;
     float: left;
 }
 
-ul li a i {
+.card .box ul li a i{
     display: block;
     color: #888;
-    margin: 0px 15px 0px 0px;
+    width: 35px;
+    height: 35px;
+    margin: 0px 2px;
+    padding: 7px;
     font-size: 20px;
     text-align: center;
 }
 
-.team-member-details {
-    margin: 10px auto 16px 20px;
+.parent-card{
+    padding: 0px 8px;
+    margin: 0px;
 }
 
-.team-member-details .team-member-name {
-    font-weight: bold;
+.project-social{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+.row{
+    margin: 0px 10px 0px -5px;
+}
+
+/*
+.fa-facebook{
+    background-color: #3b5998;
+}
+
+.fa-twitter{
+    background-color: #00aced;
+}
+
+.fa-google-plus{
+    background-color: #dd4b39;
+}
+
+.fa-linkedin{
+    background-color: #0077B5;
+}
+*/

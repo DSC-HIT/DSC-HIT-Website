@@ -299,7 +299,7 @@
             }
 
             var html = '';
-            $.getJSON('team.json', function (members) {
+            $.getJSON('./assets/json/team.json', function (members) {
                 members.forEach(function (member) {
                     html += getTemplate(member);
                 });

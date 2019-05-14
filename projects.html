@@ -51,6 +51,12 @@
             border-radius: 5px 5px;
         }
 
+        .dot
+        {
+            height: 0.8em;
+            width: 0.8em;
+            border-radius: 50%;
+        }
         </style>
     <!-- iframe removal -->
 </head>
@@ -268,6 +274,37 @@
                 return result;
             }
 
+            function getColour(project)
+            {
+                var colour="";
+
+                switch(project.category)
+                {
+                    case "Android":colour= "rgb(13, 243, 90)";
+                    break;
+
+                    case "Cloud" :colour= "rgb(250, 67, 5)";
+                    break;
+
+                    case "AR":colour= "rgb(133, 7, 235)";
+                    break;
+
+                    case "Web":colour= "rgb(0,101,202)";
+                    break;
+
+                    case "Firebase":colour= "rgb(255, 201,14)";
+                    break;
+
+                    case "Flutter":colour="rgb(2,134,204)";
+                    break;
+
+                    default:colour="rgb(255, 201,14)";
+                    break;
+                }
+
+                return colour;
+            }
+
             function getTemplate(project) {
                 var template =
                     '                                                                                                                                               \
@@ -280,13 +317,13 @@
                                 <img src="' +
                     project.profilePicture +
                     '" alt="">                                                                                 \
-                            </div>  <h4 style="font-weight:200; padding:7px; margin:3px; border:1px solid rgb(100,100,100);">' + project.type +'</h2>                                                                                                                            \
+                            </div>                                                                                                                             \
                             <h2 style="font-weight:400;" id="blue_text">' +
                     project.fullName +
                     '</h2>                                                                                                \
-                     <p class="description">' +
-                    project.tagLine.split('.')[0] +
-                    '</p>            <p class="about"> '+ project.bio +'</p>                                                                               \
+                     <p class="description" style="font-weight:300;">' +
+                    project.category.split('.')[0] +
+                    '<span class="dot" style="'+ getColour(project) +'";></span></p>            <p class="about"> '+ project.bio +'</p>                                                                               \
                             <span class="project-social">                                                                                                       \
                                 <ul>' +
                     getLinks(project.links) +

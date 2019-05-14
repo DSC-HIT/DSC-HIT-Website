@@ -5,7 +5,7 @@
     "lastName": "Rungta",
     "fullName": "Abhishek  Rungta",
     "bio": "CEO, Indus Net Technologies Pvt Ltd",
-    "category": "Android",
+    "category": "CEO, Indus Net Technologies Pvt Ltd",
     "profilePicture": "https://sessionize.com/image?f=71cdc97b5ec8c0b6bfcd38da6e7c6e7b,400,400,True,False,a4-720f-4317-b318-37a0cf4afef0.f826e501-fa0c-4a75-9e93-97661a0e3149.jpg",
     "sessions": [
       {
@@ -21,8 +21,8 @@
     "firstName": "Anubhav",
     "lastName": "Singh",
     "fullName": "Anubhav Singh",
-    "bio": "A Web Developer since before Bootstrap was launched, Anubhav has been an explorer of technologies, often pulling off crazy combinations of uncommon tech.",
-    "category": "Cloud",
+    "bio": "A Web Developer since before Bootstrap was launched, Anubhav has been an explorer of technologies, often pulling off crazy combinations of uncommon tech!",
+    "category": "Founder at The Code Foundation",
     "profilePicture": "https://sessionize.com/image?f=0155abbde0ef8a4a4c9a48dba3d1968d,400,400,True,False,a4-720f-4317-b318-37a0cf4afef0.0949733d-1f00-40f8-86bb-3a85c02626dd.jpg",
     "sessions": [
       {
@@ -49,13 +49,14 @@
       }
     ]
   },
+  
   {
     "id": "40ee2eed-e7c4-47fc-baf4-f31b50ff6d77",
     "firstName": "Vignesh",
     "lastName": "Ramachandra",
     "fullName": "Vignesh Ramachandra",
     "bio": "https://about.me/vigneshramachandra",
-    "category": "Web",
+    "category": "Mobile Engineer @ Freshworks!",
     "profilePicture": "https://sessionize.com/image?f=cabd356e5ad836709e89d3cd38f6a6a0,400,400,True,False,ed-e7c4-47fc-baf4-f31b50ff6d77.ad8e0852-21e4-404c-97ad-8a01f7169d49.jpg",
     "sessions": [
       {

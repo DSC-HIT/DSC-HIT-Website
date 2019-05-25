@@ -1,7 +1,7 @@
 [
   {
     "fullName": "Heritage Utsav App",
-    "bio": "The official App for Heritage utsav, the annual fest of HIT.\nBy Piyush Maheshwari.",
+    "bio": "The official App for Heritage utsav, the annual fest of HIT.",
     "category": "Android",
     "profilePicture": "http://heritageutsav.com/sources/imgs/logo/logo_qp5gce_c_scale,w_954-min.png",
     "sessions": [
@@ -20,7 +20,7 @@
   },
   {
     "fullName": "Thanos Snap",
-    "bio": "A small project to replicate the Thanos Easter Egg on Google Search Results.\nBy Subhasis Das.",
+    "bio": "A small project to replicate the Thanos Easter Egg on Google Search Results.",
     "category": "Web",
     "profilePicture": "https://i.pinimg.com/originals/9f/7c/b7/9f7cb79579c2282c6c8daf83f8149a18.jpg",
     "sessions": [
@@ -39,9 +39,9 @@
   },
   {
     "fullName": "HITCrunch",
-    "bio": "A Project for DSC Solution Challenge that aggregates notice and other colle-related Stuff.",
+    "bio": "A Project for DSC Solution Challenge that aggregates notices.",
     "category": "Android",
-    "profilePicture": "./assets/img/logos/dsc_logo.png",
+    "profilePicture": "https://lh6.googleusercontent.com/J1apM39C-exwibuDklEOblvRhAbBH4_xl62rB4JoYbQrkzrFvK8NMJfmWxZkENepmOABawUJfKa8NPDNCmuI3nf8ngBtuHWJ1kb3yP3ziQ5b7v_qasGFzWlRrEU2FTKRu7aqT6oe",
     "sessions": [
       {
         "id": 67151,
@@ -60,7 +60,7 @@
     "fullName": "GDG Slackbot",
     "bio": "A Bot that posts Opportunities to the GDG Slack Channel.",
     "category": "Web",
-    "profilePicture": "./assets/img/logos/dsc_logo.png",
+    "profilePicture": "https://lh6.googleusercontent.com/J1apM39C-exwibuDklEOblvRhAbBH4_xl62rB4JoYbQrkzrFvK8NMJfmWxZkENepmOABawUJfKa8NPDNCmuI3nf8ngBtuHWJ1kb3yP3ziQ5b7v_qasGFzWlRrEU2FTKRu7aqT6oe",
     "sessions": [
       {
         "id": 67330,

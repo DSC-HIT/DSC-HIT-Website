@@ -1,0 +1,83 @@
+[
+  {
+    "fullName": "Heritage Utsav App",
+    "bio": "The official App for Heritage utsav, the annual fest of HIT.",
+    "category": "Android",
+    "profilePicture": "http://heritageutsav.com/sources/imgs/logo/logo_qp5gce_c_scale,w_954-min.png",
+    "sessions": [
+      {
+        "id": 71595,
+        "name": "Android App"
+      }
+    ],
+    "links": [
+      {
+        "title": "Blog",
+        "url": "https://play.google.com/store/apps/details?id=com.college.heritageutsav&hl=en",
+        "linkType": "Blog"
+      }
+    ]
+  },
+  {
+    "fullName": "Thanos Snap",
+    "bio": "A small project to replicate the Thanos Easter Egg on Google Search Results.",
+    "category": "Web",
+    "profilePicture": "https://i.pinimg.com/originals/9f/7c/b7/9f7cb79579c2282c6c8daf83f8149a18.jpg",
+    "sessions": [
+      {
+        "id": 67330,
+        "name": "Snap and Gone!"
+      }
+    ],
+    "links": [
+      {
+        "title": "Github",
+        "url": "https://github.com/subhasis020299/thanos",
+        "linkType": "Github"
+      }
+    ]
+  },
+  {
+    "fullName": "HITCrunch",
+    "bio": "A Project for DSC Solution Challenge that aggregates notices.",
+    "category": "Android",
+    "profilePicture": "https://ih0.redbubble.net/image.39047923.0157/pp,550x550.jpg",
+    "sessions": [
+      {
+        "id": 67151,
+        "name": "Notice Board App"
+      }
+    ],
+    "links": [
+      {
+        "title": "Github",
+        "url": "https://github.com/DSC-HIT/Notice-Board",
+        "linkType": "Github"
+      }
+    ]
+  },
+  {
+    "fullName": "GDG Slackbot",
+    "bio": "A Bot that posts Opportunities to the GDG Slack Channel.",
+    "category": "Web",
+    "profilePicture": "https://store-images.s-microsoft.com/image/apps.50744.13620573475464507.9a51f97d-cbd4-427c-a275-2c2017a591e8.87f95465-847f-4f84-a39f-f6a176ad99c6?mode=scale&q=90&h=300&w=300",
+    "sessions": [
+      {
+        "id": 67330,
+        "name": "Slack Bot"
+      }
+    ],
+    "links": [
+      {
+        "title": "Blog",
+        "url": "http://gdgkolslack.netlify.com",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Github",
+        "url": "https://github.com/GeekBoySupreme/GDG-Slackbot",
+        "linkType": "Github"
+      }
+    ]
+  }
+]

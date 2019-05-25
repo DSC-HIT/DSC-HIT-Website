@@ -1,112 +1,82 @@
 [
   {
-    "id": "c0ba53be-1621-41d0-884a-2d639b82926d",
-    "firstName": "Abhishek ",
-    "lastName": "Rungta",
-    "fullName": "Abhishek  Rungta",
-    "bio": "CEO, Indus Net Technologies Pvt Ltd",
-    "category": "Web",
-    "profilePicture": "https://sessionize.com/image?f=71cdc97b5ec8c0b6bfcd38da6e7c6e7b,400,400,True,False,a4-720f-4317-b318-37a0cf4afef0.f826e501-fa0c-4a75-9e93-97661a0e3149.jpg",
+    "fullName": "Heritage Utsav App",
+    "bio": "The official App for Heritage utsav, the annual fest of HIT.\nBy Piyush Maheshwari.",
+    "category": "Android",
+    "profilePicture": "http://heritageutsav.com/sources/imgs/logo/logo_qp5gce_c_scale,w_954-min.png",
     "sessions": [
       {
         "id": 71595,
-        "name": "Product Strategies"
+        "name": "Android App"
       }
     ],
-    "isTopSpeaker": false,
-    "links": []
-  },
-  {
-    "id": "21ae28a4-720f-4317-b318-37a0cf4afef0",
-    "firstName": "Anubhav",
-    "lastName": "Singh",
-    "fullName": "Anubhav Singh",
-    "bio": "Web",
-    "category": "Cloud",
-    "profilePicture": "https://sessionize.com/image?f=0155abbde0ef8a4a4c9a48dba3d1968d,400,400,True,False,a4-720f-4317-b318-37a0cf4afef0.0949733d-1f00-40f8-86bb-3a85c02626dd.jpg",
-    "sessions": [
-      {
-        "id": 67330,
-        "name": "The simple science of unsupervised NLP"
-      }
-    ],
-    "isTopSpeaker": false,
     "links": [
       {
-        "title": "Twitter",
-        "url": "https://twitter.com/xprilion",
-        "linkType": "Twitter"
-      },
-      {
-        "title": "LinkedIn",
-        "url": "https://linkedin.com/in/xprilion",
-        "linkType": "LinkedIn"
-      },
-      {
         "title": "Blog",
-        "url": "https://xprilion.com",
+        "url": "https://play.google.com/store/apps/details?id=com.college.heritageutsav&hl=en",
         "linkType": "Blog"
       }
     ]
   },
   {
-    "id": "40ee2eed-e7c4-47fc-baf4-f31b50ff6d77",
-    "firstName": "Vignesh",
-    "lastName": "Ramachandra",
-    "fullName": "Vignesh Ramachandra",
-    "bio": "https://about.me/vigneshramachandra",
-    "category": "Flutter",
-    "profilePicture": "https://sessionize.com/image?f=cabd356e5ad836709e89d3cd38f6a6a0,400,400,True,False,ed-e7c4-47fc-baf4-f31b50ff6d77.ad8e0852-21e4-404c-97ad-8a01f7169d49.jpg",
+    "fullName": "Thanos Snap",
+    "bio": "A small project to replicate the Thanos Easter Egg on Google Search Results.\nBy Subhasis Das.",
+    "category": "Web",
+    "profilePicture": "https://i.pinimg.com/originals/9f/7c/b7/9f7cb79579c2282c6c8daf83f8149a18.jpg",
+    "sessions": [
+      {
+        "id": 67330,
+        "name": "Snap and Gone!"
+      }
+    ],
+    "links": [
+      {
+        "title": "Github",
+        "url": "https://github.com/subhasis020299/thanos",
+        "linkType": "Github"
+      }
+    ]
+  },
+  {
+    "fullName": "HITCrunch",
+    "bio": "A Project for DSC Solution Challenge that aggregates notice and other colle-related Stuff.",
+    "category": "Android",
+    "profilePicture": "./assets/img/logos/dsc_logo.png",
     "sessions": [
       {
         "id": 67151,
-        "name": "Freshworks' journey to cross-platform development"
+        "name": "Notice Board App"
       }
     ],
-    "isTopSpeaker": false,
     "links": [
       {
-        "title": "Twitter",
-        "url": "https://twitter.com/_vigneshr",
-        "linkType": "Twitter"
-      },
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/vignesh-ramachandra-78a62b77/",
-        "linkType": "LinkedIn"
+        "title": "Github",
+        "url": "https://github.com/DSC-HIT/Notice-Board",
+        "linkType": "Github"
       }
     ]
   },
   {
-    "id": "21ae28a4-720f-4317-b318-37a0cf4afef0",
-    "firstName": "Anubhav",
-    "lastName": "Singh",
-    "fullName": "Anubhav Singh",
-    "bio": "A Web Developer since before Bootstrap was launched,",
-    "category": "ML/AI",
-    "profilePicture": "https://sessionize.com/image?f=0155abbde0ef8a4a4c9a48dba3d1968d,400,400,True,False,a4-720f-4317-b318-37a0cf4afef0.0949733d-1f00-40f8-86bb-3a85c02626dd.jpg",
+    "fullName": "GDG Slackbot",
+    "bio": "A Bot that posts Opportunities to the GDG Slack Channel.",
+    "category": "Web",
+    "profilePicture": "./assets/img/logos/dsc_logo.png",
     "sessions": [
       {
         "id": 67330,
-        "name": "The simple science of unsupervised NLP"
+        "name": "Slack Bot"
       }
     ],
-    "isTopSpeaker": false,
     "links": [
       {
-        "title": "Twitter",
-        "url": "https://twitter.com/xprilion",
-        "linkType": "Twitter"
-      },
-      {
-        "title": "LinkedIn",
-        "url": "https://linkedin.com/in/xprilion",
-        "linkType": "LinkedIn"
-      },
-      {
         "title": "Blog",
-        "url": "https://xprilion.com",
+        "url": "http://gdgkolslack.netlify.com",
         "linkType": "Blog"
+      },
+      {
+        "title": "Github",
+        "url": "https://github.com/GeekBoySupreme/GDG-Slackbot",
+        "linkType": "Github"
       }
     ]
   }

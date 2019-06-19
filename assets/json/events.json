@@ -1,0 +1,37 @@
+[
+    {
+        "eventName": "Cloud Study Jam",
+        "info":"Cloud is one of the most vital technologies in the world of development and this is what makes this event so vital. We had several speakers talk to us about GCP, its scope, use cases and the amazing world of cloud computing",
+        "date":"31st May, 2019",
+        "imgSrc":"./assets/img/Events/Cloud.jpg",
+        "fbLink":"https://www.facebook.com/dscheritageit/posts/1509451732530249?__tn__=-R"
+    },
+    {
+        "eventName": "ML/AR Developer Day",
+        "info":"An exciting event about a technology which is the bee's knees today!",
+        "date":"3oth May, 2019",
+        "imgSrc":"./assets/img/Events/mlar.jpg",
+        "fbLink":"https://www.facebook.com/dscheritageit/posts/1507924349349654?__tn__=-R"
+    },
+    {
+        "eventName": "TF Dev Summit 2019 veiwing party",
+        "info":"TensorFlow 2.0 has arrived, with a focus on ease of use, developer productivity, and scalable, production-ready machine learning workloads. And what a party it was!",
+        "date":"23rd March, 2019",
+        "imgSrc":"./assets/img/Events/tf.jpg",
+        "fbLink":"https://www.facebook.com/dscheritageit/posts/1456715217803901?__tn__=-R"
+    },
+    {
+        "eventName": "Google DSC Solutions Challenge",
+        "info":"Google DSC Solutions Challenge is a worldwide Program that calls for Developers, Coders, and learners from all over the world to put their best feet forward in solving a Problem with a Social cause.",
+        "date":"March, 2019",
+        "imgSrc":"./assets/img/Events/solution.png",
+        "fbLink":"https://www.facebook.com/dscheritageit/photos/a.1447801942028562/1478738198934936/?type=3&__tn__=-R"
+    },
+    {
+        "eventName": "Session Zero",
+        "info":"The Inaugural Session of DSC HIT ",
+        "date":"27th February, 2019",
+        "imgSrc":"./assets/img/Events/SessZ.jpg",
+        "fbLink":"https://www.facebook.com/dscheritageit/posts/1494494194026003?__tn__=-R"
+    }
+]

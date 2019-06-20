@@ -8,7 +8,7 @@
     },
     {
         "eventName": "ML/AR Developer Day",
-        "info":"An exciting event about a technology which is the bee's knees today!",
+        "info":"An exciting event about a technology which is the bee's knees today! ",
         "date":"3oth May, 2019",
         "imgSrc":"./assets/img/Events/mlar.jpg",
         "fbLink":"https://www.facebook.com/dscheritageit/posts/1507924349349654?__tn__=-R"
@@ -22,7 +22,7 @@
     },
     {
         "eventName": "Google DSC Solutions Challenge",
-        "info":"Google DSC Solutions Challenge is a worldwide Program that calls for Developers, Coders, and learners from all over the world to put their best feet forward in solving a Problem with a Social cause.",
+        "info":"Google DSC Solutions Challenge is a worldwide Program that calls for Developers from all over the world to put their best feet forward in solving a Problem with a Social cause.",
         "date":"March, 2019",
         "imgSrc":"./assets/img/Events/solution.png",
         "fbLink":"https://www.facebook.com/dscheritageit/photos/a.1447801942028562/1478738198934936/?type=3&__tn__=-R"

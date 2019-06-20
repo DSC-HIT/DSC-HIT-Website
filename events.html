@@ -122,6 +122,19 @@
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <div id="container-event" class="container">
+                <div class="row mt-5">
+                        <div class="col-lg-6">
+                            <p>&nbsp;</p>
+                            <h2 class="title">Events</h2>
+                            <h5 class="description">Here at DSC-HIT we put the fun in functions and events.<br>
+                                Attend Study Jams/ Hackathons/ Developer Conferences to learn more about the latest technologies.<br>
+                                Interested in being a Speaker at one of our events? Just drop us your Proposal. </h5>
+                                <p>&nbsp;</p>
+                        </div>
+                        <div class="col-lg-6" style="text-align:center;">
+                            <img class="img-fluid" src="assets/img/kit/events.jpg" />
+                        </div>
+                    </div>
         </div>     
          <p>&nbsp;</p> 
          <p>&nbsp;</p>
@@ -231,8 +244,8 @@
             function getTemplate(member) {
                 var template =
                 '<div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">\
-                    <div class="card">\
-                        <img class="img-fluid" src="' +
+                    <div class="card" style="height: 600px">\
+                        <img class="img-fluid" style="height: 300px" src="' +
                     member.imgSrc +
                     '">\
                         <div class="card-body">\
@@ -251,9 +264,9 @@
             //I can explain this mess!
             var cards = ''; //just to store cards
             var i=1;        
-            var temp = '' ;//Every 2 iteratios the two cards get stored in this
+            var temp = '' ;//Every 2 iteratios the two cards get stored in temp
             var size = Object.keys('./assets/json/events.json').length/5; //Here 5 is the no of properties in the json file
-            var html = '';//finally every 2 interations we add temp to this
+            var html = '';//finally every 2 interations we add temp to html
             $.getJSON('./assets/json/events.json', function (members) {
                 members.forEach(function (member) {
                     cards += getTemplate(member);
@@ -265,7 +278,7 @@
                     html += temp;
                     temp = '';
                     if(i==size){
-                        html += '<div class="row mt-5 wow">' + cards + '</div>' ;
+                        html += '<div class="row mt-5 wow">' + cards + '</div>' ;  //For the last card we store on its own in html
                     };
                     i += 1;
                 });

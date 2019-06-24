@@ -166,5 +166,11 @@
     "description": " The Official Flutter YouTube channel. Subscribe to stay up to date with best practices about the Flutter SDK.",
     "imgSrc": "https://www.spiria.com/site/assets/files/2790/flutter-bandeau.-large.png",
     "link": "https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw"
+},
+{
+    "title": "Two Minute Papers",
+    "description": " Two Minute Papers is a series where the author attempt to explain many interesting research works, a couple minutes at a time. You don’t need to be an expert at mathematics or have any kind of science degree – the language of this series is understandable to anyone.",
+    "imgSrc":"https://yt3.ggpht.com/a/AGF-l7-HtigQFRSxp4OSMyQBRLmkarVw-R9FomFsvw=s900-mo-c-c0xffffffff-rj-k-no",
+    "link": "https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg"
 }
 ]

@@ -283,9 +283,14 @@
             var cards = ''; 
             var i=1;        
             var temp = '' ;
-            var size = Object.keys('./assets/json/events.json').length/4;
+            var size = 0;
             var html = '';
             $.getJSON('./assets/json/resources.json', function (members) {
+                var item = [];
+                members.forEach(function (member){
+                    size += 1
+                }
+                );
                 members.forEach(function (member) {
                     cards += getTemplate(member);
                     if(i%3 == 0){
@@ -295,10 +300,11 @@
                     };
                     html += temp;
                     temp = '';
-                    if(i==size){
-                        html += '<div class="row mt-5 wow">' + cards + '</div>' ;
-                    };
+                    if(i==size || i==(size+1)){
+                         html += '<div class="row mt-5 wow">' + cards + '</div>' ;
+                     };
                     i += 1;
+            
                 });
                 html = '<div class="container-page">' + html + '</div>';
                 $('#container-resources').append(html);

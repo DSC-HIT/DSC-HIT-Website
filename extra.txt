@@ -1,0 +1,727 @@
+<div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://siliconangle.com/wp-content/blogs.dir/1/files/2018/07/Google-Next18_Day-0-7640.jpg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Qwiklabs</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;"> Qwiklabs is a learning platform for those who want to become more familiar with operating cloud environments.</h5>
+                                <a href="https://www.qwiklabs.com/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://googlecloud.tips/img/031/codelabs.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Codelabs</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Codelabs provide a guided, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application. </h5>
+                                <a href="https://codelabs.developers.google.com/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+    
+                    <!--Third column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://pbs.twimg.com/media/DJt9bLbV4AUy33f.jpg" alt="Card image cap">
+                            <span>&nbsp;</span>
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Dartpad</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">This project is a web based interactive Dart service in a zero-install, zero configuration environment.  </h5>
+                                <a href="https://dartpad.dartlang.org/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+                </div>
+                <!--/.First row-->
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://docs.codeanywhere.com/images/container-created.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Codeanywhere.com</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Codeanywhere is a cross-platform Cloud IDE. Codeanywhere enables users to instantly write, edit, collaborate and run web development projects</h5>
+                                <a href="https://codeanywhere.com/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://pentagram-production.imgix.net/1cbbfce1-48d5-4257-95e5-745c10e6492e/eo_codecademy_01.jpg?rect=375%2C0%2C2256%2C1412&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Codeacademy</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Codecademy is an online interactive platform that offers free coding classes in 12 different Programming Languages.</h5>
+                                <a href="https://www.codecademy.com/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+    
+                    <!--Third column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://user-images.githubusercontent.com/639336/27248733-c6d12b30-52bc-11e7-949e-ff55b187bd18.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Codewars</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">An educational community for programming. On the platform, software developers train on programming challenges known as kata. </h5>
+                                <a href="https://www.codewars.com/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+                </div>
+                <!--/.First row-->
+ 
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://cdn-images-1.medium.com/max/1600/1*eDaRLwBlwmjCpkeeqRM4vw.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Freecodecamp</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">freeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum and more.</h5>
+                                <a href="https://www.freecodecamp.org/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="http://webmatrix.co.in/wp-content/uploads/2017/12/web-development.jpg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>W3Schools</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">W3Schools is an educational website for learning web technologies online. Content includes tutorials and references.</h5>
+                                <a href="https://www.w3schools.com/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+    
+                    <!--Third column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://www.theodinproject.com/assets/og-logo-003bdac3098010b4f1143000a941b80c67eebd74fbc6f36b2e7ef92dd03e8020.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>The Odin Project</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">The Odin Project was created to provide a complete path for students to go from zero to employed as web developers while working with other students.</h5>
+                                <a href="https://www.theodinproject.com/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+                </div>
+                <!--/.First row-->
+ 
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://cdn.scotch.io/1/7bqllytYQmWIMmYWF2RA_super-duper-cover-image.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Scotch.io</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Scotch Development is a web development blog discussing all things programming, development, web and life. It was founded by it's primary authors Nicholas Cerminara and Chris Sevilleja.                                </h5>
+                                <a href="https://scotch.io/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://miro.medium.com/max/1100/1*iLb_cjrHAG538hgnx8Odzg.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <span>&nbsp;</span>
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Nodeschool.io</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Nodeschool is a series of open-source command line workshops published on nodeschool.io by developers, and created to teach people the basic concepts of node programming.</h5>
+                                <a href="https://nodeschool.io/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+    
+                    <!--Third column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="assets/img/kit/mdn.jpg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Mozilla Developer Network</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Mozilla Developer Network is the official Mozilla website for development documentation of web standards</h5>
+                                <a href="https://developer.mozilla.org/en-US/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+                </div>
+                <!--/.First row-->
+ 
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://web.dev/hands-on-portals/hero.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Web.dev</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">As the web advances, users' expectations get higher. With web.dev's guidance, you can give your users the best possible experience, wherever they are.</h5>
+                                <a href="https://web.dev/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="assets/img/kit/google_dev.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+            
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Google Developers</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Google Developers is Google's site for software development tools, APIs, and technical resources. The site contains documentation for tools and APIs.</h5>
+                                <a href="https://nodeschool.io/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+
+                     <!--Third column-->
+                     <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://cdn-images-1.medium.com/max/1200/1*F-eBWsHWtgsNJLlK3jN3XQ.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Papers with Code</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Papers With Code is a free and open resource with Machine Learning papers, code and evaluation tables.</h5>
+                                <a href="https://paperswithcode.com/" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+    
+                </div>
+                <!--/.First row-->
+                <p>&nbsp;</p> 
+
+                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
+                    <div class="col-lg-6">
+                       
+                        <span id="mobile" class="icon"><i class="material-icons">
+                               ondemand_video
+                            </i></span><span class="about_title_track" style="color:rgb(54, 53, 53);">YouTube</span>
+                    </div>
+                    <div class="col-lg-6">
+                        <span class="about_title_track">&nbsp;</span>
+                    </div>
+                </div>
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://storage.googleapis.com/spec-host-backup/mio-develop%2Fassets%2F1MS2ZcIBr0qASdaum9-_5nDbX6RghHcuL%2Fweb-documents-quickstart-2x1-large.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <span>&nbsp;</span>
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Google Developers</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">A channel for every kind of developer. For every Platform. Get the best guides, coding practices and more.</h5>
+                                <a href="https://www.youtube.com/user/GoogleDevelopers" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://harvardmagazine.com/sites/default/files/img/article/0915/11896362_10102344839190261_5340142804149076664_o.jpg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>CS50</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">CS50 is Harvard University's introduction to computer science and the art of programming. </h5>
+                                <a href="https://www.youtube.com/user/cs50tv" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+    
+                    <!--Third column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="http://devs.gr/uploads/84759-liam.jpg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Dev Ed</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Learn web development, web design, 3d modelling with tools like Figma, and more without getting bored!
+                                   </h5>
+                                <a href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+                </div>
+                <!--/.First row-->
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://mspoweruser.com/wp-content/uploads/2015/11/meme-generator.jpg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>DesignCourse</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">You will see tutorials regarding UI/UX, Frontend Dev, Backend Dev, Graphic Design and more!</h5>
+                                <a href="https://www.youtube.com/user/DesignCourse" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://static1.squarespace.com/static/58e6ba91440243097a011b0c/t/5c3531ec21c67c3150f47292/1546990074444/" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>The Coding Train</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Subjects covered range from the basics of programming languages to generative algorithms like simulation & computer vision.</h5>
+                                <a href="https://www.youtube.com/user/shiffman" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+    
+                    <!--Third column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://cdn-images-1.medium.com/max/1600/1*h3AVS1q_jbh6MmZqwNHmaQ.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <span>&nbsp;</span>
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Traversy Media</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Traversy Media features web development and programming tutorials for all of the latest web technologies. </h5>
+                                <a href="https://www.youtube.com/user/TechGuyWeb" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+                </div>
+                <!--/.First row-->
+ 
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://d33wubrfki0l68.cloudfront.net/5d70e92210332b185daf6ae345a5d803b7e02661/c230c/showcase/fireship/featured_hu3bba74627b7e233d29d5aecb29c8d0f1_136959_1024x512_fill_catmullrom_top_2.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Fireship</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Formerly Angular Firebase, It helps developers build high quality apps as fast as possible ⚡. Uses all the modern Frameworks.</h5>
+                                <a href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://secure.meetupstatic.com/photos/event/a/b/4/1/600_479443841.jpeg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>IBM Developer</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;"> IBM Developer provides the best in open source tech, learning resources, by their experts.</h5>
+                                <a href="https://www.youtube.com/user/developerworks" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+    
+                    <!--Third column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://www.codegrid.net/img/ogp_1024.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Codegrid</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Provides online content to help people learn about many concepts of web design, by implementing prolific tools.</h5>
+                                <a href="https://www.youtube.com/channel/UC7pVho4O31FyfQsZdXWejEw" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+                </div>
+                <!--/.First row-->
+ 
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://res.cloudinary.com/teepublic/image/private/s--LHgdOqGB--/t_Preview/t_Watermark/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1513517492/production/designs/2188734_1.jpg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Coding Tech</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">It partners with the tech conferences around the world that allow their videos to be republished here.</h5>
+                                <a href="https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                    <!--Second column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+    
+                        <!--Card-->
+                        <div class="card">
+                           
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://i.chzbgr.com/full/7711237/h0DF66DC4/" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>FreeCodeCamp</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">We're an open source community of busy people who learn to code and build projects for nonprofits. And let others learn. </h5>
+                                <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Second column-->
+    
+                    <!--Third column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://www.cssdesignawards.com/cdasites/2014/201412/20141227235114.jpg" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>JSConf</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">JSConf is a series of JavaScript conferences from around the world.Find the Talks here. </h5>
+                                <a href="https://www.youtube.com/user/jsconfeu" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.Third column-->
+                </div>
+                <!--/.First row-->
+ 
+
+                <div class="row mt-5 wow">
+                    <!--First column-->
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+    
+                        <!--Card-->
+                        <div class="card">
+    
+                            <!--Card image-->
+                            <img class="img-fluid" style="border-radius:3px;" src="https://www.spiria.com/site/assets/files/2790/flutter-bandeau.-large.png" alt="Card image cap">
+    
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Flutter</b></h4>
+                                <!--Text-->
+                                <h5 class="description" style=" font-family: 'Open Sans', sans-serif;"> The Official Flutter YouTube channel. Subscribe to stay up to date with best practices about the Flutter SDK.</h5>
+                                <a href="https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw" class="btn btn-primary" id="buttons">Learn More</a>
+                            </div>
+    
+                        </div>
+                        <!--/.Card-->
+                    
+                    </div>
+                    <!--/.First column-->
+    
+                </div>
+                <!--/.First row-->

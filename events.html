@@ -265,9 +265,13 @@
             var cards = ''; //just to store cards
             var i=1;        
             var temp = '' ;//Every 2 iteratios the two cards get stored in temp
-            var size = Object.keys('./assets/json/events.json').length/5; //Here 5 is the no of properties in the json file
+            var size = 0; //to check the size of the file
             var html = '';//finally every 2 interations we add temp to html
             $.getJSON('./assets/json/events.json', function (members) {
+                members.forEach(function (member){
+                    size += 1
+                }
+                );
                 members.forEach(function (member) {
                     cards += getTemplate(member);
                     if(i%2 == 0){

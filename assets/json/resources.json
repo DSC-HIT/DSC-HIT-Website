@@ -1,0 +1,176 @@
+[
+    {
+        "title": "Qwiklabs",
+        "description": " Qwiklabs is a learning platform for those who want to become more familiar with operating cloud environments.",
+        "imgSrc": "https://siliconangle.com/wp-content/blogs.dir/1/files/2018/07/Google-Next18_Day-0-7640.jpg",
+        "link": "https://www.qwiklabs.com/"
+    },
+{
+        "title": "Codelabs",
+        "description": "Codelabs provide a guided, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application. ",
+        "imgSrc": "https://googlecloud.tips/img/031/codelabs.png",
+        "link": "https://codelabs.developers.google.com/"
+        },
+{
+        "title": "Dartpad",
+        "description": "This project is a web based interactive Dart service in a zero-install, zero configuration environment.  ",
+        "imgSrc": "https://pbs.twimg.com/media/DJt9bLbV4AUy33f.jpg",
+        "link": "https://dartpad.dartlang.org/"
+},
+{
+    "title": "Codeanywhere.com",
+    "description": "Codeanywhere is a cross-platform Cloud IDE. Codeanywhere enables users to instantly write, edit, collaborate and run web development projects",
+    "imgSrc": "https://docs.codeanywhere.com/images/container-created.png",
+    "link": "https://codeanywhere.com/"
+},
+{
+    "title": "Codeacademy",
+    "description": "Codecademy is an online interactive platform that offers free coding classes in 12 different Programming Languages.",
+    "imgSrc": "https://pentagram-production.imgix.net/1cbbfce1-48d5-4257-95e5-745c10e6492e/eo_codecademy_01.jpg?rect=375%2C0%2C2256%2C1412&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+    "link": "https://www.codecademy.com/"
+},
+{
+    "title": "Codewars",
+    "description": "An educational community for programming. On the platform, software developers train on programming challenges known as kata. ",
+    "imgSrc": "https://user-images.githubusercontent.com/639336/27248733-c6d12b30-52bc-11e7-949e-ff55b187bd18.png",
+    "link": "https://www.codewars.com/"
+},
+{
+    "title": "Freecodecamp",
+    "description": "freeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum and more.",
+    "imgSrc": "https://cdn-images-1.medium.com/max/1600/1*eDaRLwBlwmjCpkeeqRM4vw.png",
+    "link": "https://www.freecodecamp.org/"
+},
+{
+    "title": "W3Schools",
+    "description": "W3Schools is an educational website for learning web technologies online. Content includes tutorials and references.",
+    "imgSrc": "http://webmatrix.co.in/wp-content/uploads/2017/12/web-development.jpg",
+    "link": "https://www.w3schools.com/"
+},
+{
+    "title": "The Odin Project",
+    "description": "The Odin Project was created to provide a complete path for students to go from zero to employed as web developers while working with other students.",
+    "imgSrc": "https://www.theodinproject.com/assets/og-logo-003bdac3098010b4f1143000a941b80c67eebd74fbc6f36b2e7ef92dd03e8020.png",
+    "link": "https://www.theodinproject.com/"
+},
+{
+    "title": "Scotch.io",
+    "description": "Scotch Development is a web development blog discussing all things programming, development, web and life. It was founded by it's primary authors Nicholas Cerminara and Chris Sevilleja.                                ",
+    "imgSrc": "https://cdn.scotch.io/1/7bqllytYQmWIMmYWF2RA_super-duper-cover-image.png",
+    "link": "https://scotch.io/"
+},
+{
+    "title": "Nodeschool.io",
+    "description": "Nodeschool is a series of open-source command line workshops published on nodeschool.io by developers, and created to teach people the basic concepts of node programming.",
+    "imgSrc": "https://miro.medium.com/max/1100/1*iLb_cjrHAG538hgnx8Odzg.png",
+    "link": "https://nodeschool.io/"
+},
+{
+    "title": "Mozilla Developer Network",
+    "description": "Mozilla Developer Network is the official Mozilla website for development documentation of web standards",
+    "imgSrc": "assets/img/kit/mdn.jpg",
+    "link": "https://developer.mozilla.org/en-US/"
+},
+{
+    "title": "Web.dev",
+    "description": "As the web advances, users' expectations get higher. With web.dev's guidance, you can give your users the best possible experience, wherever they are.",
+    "imgSrc": "https://web.dev/hands-on-portals/hero.png",
+    "link": "https://web.dev/"
+},
+{
+    "title": "Google Developers",
+    "description": "Google Developers is Google's site for software development tools, APIs, and technical resources. The site contains documentation for tools and APIs.",
+    "imgSrc": "assets/img/kit/google_dev.png",
+    "link": "https://nodeschool.io/"
+},
+{
+    "title": "Papers with Code",
+    "description": "Papers With Code is a free and open resource with Machine Learning papers, code and evaluation tables.",
+    "imgSrc": "https://cdn-images-1.medium.com/max/1200/1*F-eBWsHWtgsNJLlK3jN3XQ.png",
+    "link": "https://paperswithcode.com/"
+},
+{
+    "title": "Papers with Code",
+    "description": "Papers With Code is a free and open resource with Machine Learning papers, code and evaluation tables.",
+    "imgSrc": "https://cdn-images-1.medium.com/max/1200/1*F-eBWsHWtgsNJLlK3jN3XQ.png",
+    "link": "https://paperswithcode.com/"
+},
+{
+    "title": "CS50",
+    "description": "CS50 is Harvard University's introduction to computer science and the art of programming. ",
+    "imgSrc": "https://harvardmagazine.com/sites/default/files/img/article/0915/11896362_10102344839190261_5340142804149076664_o.jpg",
+    "link": "https://www.youtube.com/user/cs50tv"
+},
+{
+    "title": "Dev Ed",
+    "description": "Learn web development, web design, 3d modelling with tools like Figma, and more without getting bored!\n                                   ",
+    "imgSrc": "http://devs.gr/uploads/84759-liam.jpg",
+    "link": "https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q"
+},
+{
+    "title": "DesignCourse",
+    "description": "You will see tutorials regarding UI/UX, Frontend Dev, Backend Dev, Graphic Design and more!",
+    "imgSrc": "https://mspoweruser.com/wp-content/uploads/2015/11/meme-generator.jpg",
+    "link": "https://www.youtube.com/user/DesignCourse"
+},
+{
+    "title": "The Coding Train",
+    "description": "Subjects covered range from the basics of programming languages to generative algorithms like simulation & computer vision.",
+    "imgSrc": "https://static1.squarespace.com/static/58e6ba91440243097a011b0c/t/5c3531ec21c67c3150f47292/1546990074444/",
+    "link": "https://www.youtube.com/user/shiffman"
+},
+{
+    "title": "Traversy Media",
+    "description": "Traversy Media features web development and programming tutorials for all of the latest web technologies. ",
+    "imgSrc": "https://cdn-images-1.medium.com/max/1600/1*h3AVS1q_jbh6MmZqwNHmaQ.png",
+    "link": "https://www.youtube.com/user/TechGuyWeb"
+},
+{
+    "title": "Fireship",
+    "description": "Formerly Angular Firebase, It helps developers build high quality apps as fast as possible \u26a1. Uses all the modern Frameworks.",
+    "imgSrc": "https://d33wubrfki0l68.cloudfront.net/5d70e92210332b185daf6ae3 5a5d803b7e02661/c230c/showcase/fireship/featured_hu3bba7 627b7e233d29d5aecb29c8d0f1_136959_102 x512_fill_catmullrom_top_2.png",
+    "link": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA"
+},
+{
+    "title": "IBM Developer",
+    "description": " IBM Developer provides the best in open source tech, learning resources, by their experts.",
+    "imgSrc": "https://secure.meetupstatic.com/photos/event/a/b//1/600_79381.jpeg",
+    "link": "https://www.youtube.com/user/developerworks"
+},
+{
+    "title": "Codegrid",
+    "description": "Provides online content to help people learn about many concepts of web design, by implementing prolific tools.",
+    "imgSrc": "https://www.codegrid.net/img/ogp_102.png",
+    "link": "https://www.youtube.com/channel/UC7pVhoO31FyfQsZdXWejEw"
+},
+{
+    "title": "Coding Tech",
+    "description": "It partners with the tech conferences around the world that allow their videos to be republished here.",
+    "imgSrc": "https://res.cloudinary.com/teepublic/image/private/s--LHgdOqGB--/t_Preview/t_Watermark/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v151351792/production/designs/218873_1.jpg",
+    "link": "https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLHwJaQ"
+},
+{
+    "title": "FreeCodeCamp",
+    "description": "We're an open source community of busy people who learn to code and build projects for nonprofits. And let others learn. ",
+    "imgSrc": "https://i.chzbgr.com/full/7711237/h0DF66DC/",
+    "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+},
+{
+    "title": "JSConf",
+    "description": "JSConf is a series of JavaScript conferences from around the world.Find the Talks here. ",
+    "imgSrc": "https://www.cssdesignawards.com/cdasites/201/20112/201122723511.jpg",
+    "link": "https://www.youtube.com/user/jsconfeu"
+},
+{
+    "title": "Flutter",
+    "description": " The Official Flutter YouTube channel. Subscribe to stay up to date with best practices about the Flutter SDK.",
+    "imgSrc": "https://www.spiria.com/site/assets/files/2790/flutter-bandeau.-large.png",
+    "link": "https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw"
+},
+{
+    "title": "Two Minute Papers",
+    "description": " Two Minute Papers is a series where the author attempt to explain many interesting research works, a couple minutes at a time. You don’t need to be an expert at mathematics or have any kind of science degree – the language of this series is understandable to anyone.",
+    "imgSrc":"https://yt3.ggpht.com/a/AGF-l7-HtigQFRSxp4OSMyQBRLmkarVw-R9FomFsvw=s900-mo-c-c0xffffffff-rj-k-no",
+    "link": "https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg"
+}
+]

@@ -243,9 +243,8 @@
 
             function getTemplate(member) {
                 var template =
-                '<div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">\
-                    <div class="card" style="height: 600px">\
-                        <img class="img-fluid" style="height: 300px" src="' +
+                    '<div class="card narrower mb-4">\
+                        <img width= "350"; height= "175" src="' +
                     member.imgSrc +
                     '">\
                         <div class="card-body">\
@@ -256,37 +255,17 @@
                     <h6 style="font-weight:300;">' + member.date + '</h6>\
                     <a href="' + member.fbLink + '" class="btn btn-primary" id="buttons" id="buttons">Learn more</a>\
                         </div>\
-                </div>\
                 </div>';
                 return template;
             }
-
-            //I can explain this mess!
-            var cards = ''; //just to store cards
-            var i=1;        
-            var temp = '' ;//Every 2 iteratios the two cards get stored in temp
-            var size = 0; //to check the size of the file
-            var html = '';//finally every 2 interations we add temp to html
+            var cards = '';
+            var html = '';
             $.getJSON('./assets/json/events.json', function (members) {
-                members.forEach(function (member){
-                    size += 1
-                }
-                );
-                members.forEach(function (member) {
+            members.forEach(function (member) {
                     cards += getTemplate(member);
-                    if(i%2 == 0){
-                        temp=
-                        '<div class="row mt-5 wow">' + cards + '</div>' ;
-                        cards = '';
-                    };
-                    html += temp;
-                    temp = '';
-                    if(i==size){
-                        html += '<div class="row mt-5 wow">' + cards + '</div>' ;  //For the last card we store on its own in html
-                    };
-                    i += 1;
                 });
-                html = '<div class="container-page">' + html + '</div>';
+                html = '<div class="card-columns">' + cards + '</div>';
+                console.log(html)
                 $('#container-event').append(html);
             });
 

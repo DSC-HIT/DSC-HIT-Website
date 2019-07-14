@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="theme-color" content="#ffffff"/>
@@ -264,8 +264,8 @@
         $('document').ready(function () {
             function getTemplate(member) {
                 var template =
-                    '<div class="card narrower mb-4" style="height: 500px">\
-                        <img width= "350"; height= "175" src="' +
+                    '<div class="card narrower mb-4" style="height:600px">\
+                        <img  class="img-fluid" src="' +
                     member.imgSrc +
                     '">\
                         <div class="card-body">\
@@ -283,9 +283,8 @@
             $.getJSON('./assets/json/resources.json', function (members) {
                 members.forEach(function (member) {
                     cards += getTemplate(member);
-            
+                    html = '<div class="card-columns">' + cards + '</div>';
                 });
-                html = '<div class="card-columns">' + cards + '</div>';
                 $('#container-resources').append(html);
             });
         });

@@ -244,7 +244,7 @@
             function getTemplate(member) {
                 var template =
                     '<div class="card narrower mb-4">\
-                        <img width= "350"; height= "175" src="' +
+                        <img class="img-fluid" src="' +
                     member.imgSrc +
                     '">\
                         <div class="card-body">\
@@ -265,7 +265,6 @@
                     cards += getTemplate(member);
                 });
                 html = '<div class="card-columns">' + cards + '</div>';
-                console.log(html)
                 $('#container-event').append(html);
             });
 

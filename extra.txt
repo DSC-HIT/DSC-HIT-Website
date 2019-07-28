@@ -727,3 +727,69 @@ width="350" height="175"
     
                 </div>
                 <!--/.First row-->
+
+
+                $('document').ready(function () {
+            function getTemplate(member) {
+                var template =
+                    '<div class="col-lg-4 container-team-member">\
+                    <div class="clearfix float-my-children">\
+                        <img src="' +
+                    member.displayPicture +
+                '<div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">\
+                    <div class="card" style="height: 700px">\
+                        <img class="img-fluid" style="height: 300px" src="' +
+                    member.imgSrc +
+                    '">\
+                        <div class="team-member-details">\
+                            <span class="team-member-name" style="font-weight:500;" id="blue_text"><b>' +
+                    member.name + '</b></span><br />\
+                            <span>' + member.description +
+                    '</span>\
+                            <span>\
+                                <ul>' +
+                    getLinks(member.links) +
+                    '\
+                                </ul>\
+                            </span>\
+                        <div class="card-body">\
+                            <h4 class="about_title_track" style="margin-left:-8px"><b>' +
+                    member.title + '</b></h4><br />\
+                            <h5 class="description" style="font-weight:300;">' + member.description +
+                    '</h5>\
+                    <a href="' + member.link + '" class="btn btn-primary" id="buttons" id="buttons">Learn more</a>\
+                        </div>\
+                    </div>\
+                </div>\
+                </div>';
+                return template;
+            }
+            var cards = ''; 
+            var i=1;        
+            var temp = '' ;
+            var size = Object.keys('./assets/json/events.json').length/4;
+            var html = '';
+            $.getJSON('team.json', function (members) {
+            $.getJSON('./assets/json/resources.json', function (members) {
+                members.forEach(function (member) {
+                    html += getTemplate(member);
+                    cards += getTemplate(member);
+                    if(i%3 == 0){
+                        temp=
+                        '<div class="row mt-5 wow">' + cards + '</div>' ;
+                        cards = '';
+                    };
+                    html += temp;
+                    temp = '';
+                    if(i==size){
+                        html += '<div class="row mt-5 wow">' + cards + '</div>' ;
+                    };
+                    i += 1;
+                });
+                $('#container-team').append(html);
+                html = '<div class="container-page">' + html + '</div>';
+                $('#container-resources').append(html);
+            });
+        });
+        });
+    </script>

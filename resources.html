@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="theme-color" content="#ffffff"/>
@@ -50,6 +50,21 @@
         {
             border-radius: 5px 5px;
         }
+        @media (min-width: 768px) {
+  .row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.row.equal {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.equal > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
 
         </style>
     <!-- iframe removal -->
@@ -264,28 +279,51 @@
         $('document').ready(function () {
             function getTemplate(member) {
                 var template =
+<<<<<<< HEAD
                     '<div class="card narrower mb-4" style="height: 500px">\
                         <img class="img-fluid" src="' +
                     member.imgSrc +
                     '">\
+=======
+                '<div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">\
+                    <div class="card">\
+                        <img width="290" height="180" style="border-radius:3px;" src="'+ member.imgSrc +'">\
+>>>>>>> 3348fddad9c9004b90a49d59d4895eeb24d364e8
                         <div class="card-body">\
-                            <h4 class="about_title_track" style="margin-left:-8px"><b>' +
-                    member.title + '</b></h4><br />\
-                            <h6 class="description" style="font-weight:300;">' + member.description +
-                    '</h6>\
-                    <a href="' + member.link + '" class="btn btn-primary" id="buttons" id="buttons">Learn more</a>\
+                            <h4 class="about_title_track" style="margin-left:-8px; font-family: sans-serif;"><b>'+ member.title +'</b></h4>\
+                            <h5 class="description" style="sans-serif;">'+ member.description +'</h5>\
+                            <a href="'+ member.link +'" class="btn btn-primary" id="buttons">Learn More</a>\
                         </div>\
+                    </div>\
                 </div>';
                 return template;
             }
-            var cards = '';
+            var cards = ''; 
+            var i=1;        
+            var temp = '' ;
+            var size = 0; //to check the size of the file
             var html = '';
+            $.getJSON('./assets/json/resources.json', function (members) {
+                members.forEach(function (member){
+                    size += 1
+                });
+            });
             $.getJSON('./assets/json/resources.json', function (members) {
                 members.forEach(function (member) {
                     cards += getTemplate(member);
-            
+                    if(i%3 == 0){
+                        temp=
+                        '<div class="row equal mt-5 wow">' + cards + '</div>' ;
+                        cards = '';
+                    };
+                    html += temp;
+                    temp = '';
+                    if(i==size){
+                        html += '<div class="row equal mt-5 wow">' + cards + '</div>' ;
+                    };
+                    i += 1;
                 });
-                html = '<div class="card-columns">' + cards + '</div>';
+                html = '<div class="container-page">' + html + '</div>';
                 $('#container-resources').append(html);
             });
         });

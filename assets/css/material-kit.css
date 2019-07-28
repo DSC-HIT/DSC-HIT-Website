@@ -4783,7 +4783,7 @@ tbody.collapse.show {
     margin-bottom: 0.75rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 800px) {
     .card-columns {
         column-count: 3;
         column-gap: 1.25rem;

@@ -243,18 +243,18 @@
 
             function getTemplate(member) {
                 var template =
-                '<div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">\
-                    <div class="card">\
-                        <img width="450" height="225" src="' +
+                '<div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">\
+                    <div class="card" style="height: 500px">\
+                        <img class="rounded card-img-top" width="250" height="200" src="' +
                     member.imgSrc +
                     '">\
                         <div class="card-body">\
                             <h4 class="team-member-name" style="font-weight:500;" id="blue_text"><b>' +
                     member.eventName + '</b></h4><br />\
-                            <h5 style="font-weight:300;">' + member.info +
-                    '</h5>\
+                            <h5 style="font-weight:300;">' + member.info.substring(0,100) +
+                    '...</h5>\
                     <h6 style="font-weight:300;">' + member.date + '</h6>\
-                    <a href="' + member.fbLink + '" class="btn btn-primary" id="buttons" id="buttons">Learn more</a>\
+                    <a href="' + member.fbLink + '" style="position:absolute; bottom: 10px; left: 60%; margin-left: -104.5px;" class="btn btn-primary" id="buttons" id="buttons">Learn more</a>\
                         </div>\
                 </div>\
                 </div>';
@@ -273,15 +273,15 @@
             $.getJSON('./assets/json/events.json', function (members) {
                 members.forEach(function (member) {
                     cards += getTemplate(member);
-                    if(i%2 == 0){
+                    if(i%3 == 0){
                         temp=
-                        '<div class="row mt-5 wow">' + cards + '</div>' ;
+                        '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>' ;
                         cards = '';
                     };
                     html += temp;
                     temp = '';
                     if(i==size){
-                        html += '<div class="row mt-5 wow">' + cards + '</div>' ;
+                        html += '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>' ;
                     };
                     i += 1;
                 });

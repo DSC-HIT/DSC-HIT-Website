@@ -793,3 +793,49 @@ width="350" height="175"
         });
         });
     </script>
+
+    width="290" height="180" style="display: block; margin-left: 10px; margin-right: 0px; margin-top: 10px; border-radius:3px;"
+
+
+    var template =
+                '                                                                                                                                               \
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">                                                                                  \
+                    <div class="card">       \
+                        <div class="box">                                                                                                                       \
+                            <div class="img">                                                                                                                   \
+                                <img src="' +
+                    member.imgSrc +
+                    '" alt="">                                                                                 \
+                            </div>                                                                                                                             \
+                            <h2 style="font-weight:400;" id="blue_text">' +
+                    member.eventName +
+                    '</h2>                                                                                                \
+                     <p class="description"><b>' +
+                    member.info +
+                    '</b><span class="dot" style="background :'+ getColour(project) +'";></span></p>            <p class="about"> '+ project.bio +'</p>                                                                               \
+                            <span class="project-social">                                                                                                       \
+                                <ul>' +
+                    getLinks(project.links) +
+                    '</ul>                                                                                         \
+                            </span>                                                                                                                             \
+                        </div>                                                                                                                                  \
+                    </div>                                                                                                                                      \
+                </div>                                                                                                                                          \
+                '
+
+'<div style="display: inline" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card" data-wow-delay="0.2s">\
+                    <div class="card">\
+                        <img class="rounded card-img-top" width="100" height="225" src="' +
+                    member.imgSrc +
+                    '">\
+                        <div class="card-body">\
+                            <h4 class="team-member-name" style="font-weight:500;" id="blue_text"><b>' +
+                    member.eventName + '</b></h4><br />\
+                            <h5 style="font-weight:300;">' + member.info +
+                    '</h5>\
+                    <h6 style="font-weight:300;">' + member.date + '</h6>\
+                    <a href="' + member.fbLink + '" style="position:absolute; bottom: 10px; left: 50%; margin-left: -104.5px;" class="btn btn-primary" id="buttons" id="buttons">Learn more</a>\
+                        </div>\
+                </div>\
+                </div>';
+                

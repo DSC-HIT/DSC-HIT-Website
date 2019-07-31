@@ -278,21 +278,13 @@
     <script>
         $('document').ready(function () {
             function getTemplate(member) {
-                var template =
-
-                    '<div class="card narrower mb-4" style="height: 500px">\
-                        <img class="img-fluid" src="' +
-                    member.imgSrc +
-                    '">\
-
-                '<div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">\
-                    <div class="card">\
-                        <img class="img-fluid" style="border-radius:3px;" src="'+ member.imgSrc +'">\
-
+                var template = '<div class="col-lg-4 wow fadeIn"  data-wow-delay="0.2s">\
+                    <div class="card" style="height: 550px">\
+                        <img class="rounded card-img-top" width="290" height="180" src="'+ member.imgSrc +'">\
                         <div class="card-body">\
                             <h4 class="about_title_track" style="margin-left:-8px; font-family: sans-serif;"><b>'+ member.title +'</b></h4>\
                             <h5 class="description" style="sans-serif;">'+ member.description +'</h5>\
-                            <a href="'+ member.link +'" class="btn btn-primary" id="buttons">Learn More</a>\
+                            <a href="'+ member.link +'" style="position:absolute; bottom: 10px; left: 60%; margin-left: -104.5px;" class="btn btn-primary" id="buttons">Learn More</a>\
                         </div>\
                     </div>\
                 </div>';
@@ -313,13 +305,13 @@
                     cards += getTemplate(member);
                     if(i%3 == 0){
                         temp=
-                        '<div class="row equal mt-5 wow">' + cards + '</div>' ;
+                        '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>' ;
                         cards = '';
                     };
                     html += temp;
                     temp = '';
                     if(i==size){
-                        html += '<div class="row equal mt-5 wow">' + cards + '</div>' ;
+                        html += '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>' ;
                     };
                     i += 1;
                 });

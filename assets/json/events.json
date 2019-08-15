@@ -1,14 +1,21 @@
 [
     {
+        "eventName": "DSC HIT Orientation",
+        "info":"A community is nothing without its people, and therefore, we welcomed in the Freshmen at a small orientation Session about DSC wherein we told them about the Club, our vision and the end mission.",
+        "date":"1st August, 2019",
+        "imgSrc":"./assets/img/Events/dsc_orientation.png",
+        "fbLink":"https://m.facebook.com/story.php?story_fbid=1571144273027661&id=1420625911412832"
+    },
+    {
         "eventName": "Cloud Study Jam",
-        "info":"Cloud is one of the most vital technologies in the world of development and this is what makes this event so vital. We had several speakers talk to us about GCP, its scope, use cases and the amazing world of cloud computing",
+        "info":"Cloud is one of the most vital technologies in the world of development and this is what makes this event so vital. We had several speakers talk to us about GCP, its scope, use cases and the amazing world of cloud computing.",
         "date":"31st May, 2019",
         "imgSrc":"./assets/img/Events/Cloud.jpg",
         "fbLink":"https://www.facebook.com/dscheritageit/posts/1509451732530249?__tn__=-R"
     },
     {
         "eventName": "ML/AR Developer Day",
-        "info":"An exciting event about a technology which is the bee's knees today! ",
+        "info":"An exciting event about technologies which is the bee's knees today! The audience interacted with the Speakers and learnt Cool Stuff.",
         "date":"3oth May, 2019",
         "imgSrc":"./assets/img/Events/mlar.jpg",
         "fbLink":"https://www.facebook.com/dscheritageit/posts/1507924349349654?__tn__=-R"

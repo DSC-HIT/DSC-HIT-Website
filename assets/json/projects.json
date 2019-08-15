@@ -41,7 +41,7 @@
     "fullName": "HITCrunch",
     "bio": "A Project for DSC Solution Challenge that aggregates notices.",
     "category": "Android",
-    "profilePicture": "https://ih0.redbubble.net/image.39047923.0157/pp,550x550.jpg",
+    "profilePicture": "https://lh3.googleusercontent.com/e83_Cs2OGIp1q7N6fCtwc4q2rVB03u7UbvPzBqJwiYdQWvL_HZfN2gJzvVWXED-Ow98=s180-rw",
     "sessions": [
       {
         "id": 67151,
@@ -53,14 +53,19 @@
         "title": "Github",
         "url": "https://github.com/DSC-HIT/Notice-Board",
         "linkType": "Github"
-      }
+      },
+      {
+        "title": "Blog",
+        "url": "https://play.google.com/store/apps/details?id=dschik.noticeboard&hl=en",
+        "linkType": "Blog"
+      },
     ]
   },
   {
     "fullName": "GDG Slackbot",
     "bio": "A Bot that posts Opportunities to the GDG Slack Channel.",
     "category": "Web",
-    "profilePicture": "https://store-images.s-microsoft.com/image/apps.50744.13620573475464507.9a51f97d-cbd4-427c-a275-2c2017a591e8.87f95465-847f-4f84-a39f-f6a176ad99c6?mode=scale&q=90&h=300&w=300",
+    "profilePicture": "https://slackhq.com/wp-content/uploads/2019/01/2019-01_BrandRefresh_slack-brand-refresh_header-1.png?w=460",
     "sessions": [
       {
         "id": 67330,

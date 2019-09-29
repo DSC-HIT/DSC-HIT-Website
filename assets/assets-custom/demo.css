@@ -275,6 +275,13 @@ Other color edits
     border-radius: 2px;
 }
 
+.carousel-wrapper
+{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .texter1 {
     color: white;
     background-color: rgb(0, 102, 255);
@@ -294,7 +301,7 @@ Other color edits
 }
 
 #green_text {
-    color: rgb(252, 189, 0);
+    color: rgb(57, 182, 32);
 }
 
 #orange_text {

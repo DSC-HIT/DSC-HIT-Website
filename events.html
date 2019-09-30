@@ -132,9 +132,56 @@
                                 <p>&nbsp;</p>
                         </div>
                         <div class="col-lg-6" style="text-align:center;">
-                            <!--<img class="img-fluid" src="assets/img/kit/events.jpg" />-->
+                            <p>&nbsp;</p>
+                            <img class="img-fluid" src="assets/img/kit/speaker_banner.png" />
+                            <p>&nbsp;</p>
                         </div>
                     </div>
+                    <div class="row mt-5 wow fadeIn" style="text-align:center;">
+                            <div class="col-lg-12" style="text-align:center;">
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                           
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active">
+                                                  <div class="carousel-wrapper">
+                                                    <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
+                                                    <img src="assets/img/logos/exploreML.png" height="40px"/>
+                                                    <h4 class="description">Explore Machine Learning (ML) is a Google-sponsored program  for university students to get started with Machine Learning. The curriculum offers 3 tracks of machine learning content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus.</h4>
+                                                    <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
+                                                    <h4 class="description"><b>Google AI | Explore ML</b></h4>
+                                                </div>
+                                            </div>
+                                              <div class="carousel-item">
+                                                    <div class="carousel-wrapper">
+                                                    <h1 id="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
+                                                    <img src="https://www.pixitmedia.com/wp-content/uploads/2019/09/google_lockup_cloud_rgb.png" height="40px"/>
+                                                    <h4 class="description">#GCPCrashCourse is a Cloud based learning campaign that focuses on building Learning Paths for students across 3 distinct Tracks. With <span id="blue_text">#GCPCrashCourse</span> you get to learn dedicated topics across three complete tracks, namely -  Application Development, Data & Machine Learning.</h4>
+                                                    <h1 id="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
+                                                    <h4 class="description"><b>GCP Crash Course</b></h4>
+                                                    </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                    <div class="carousel-wrapper">
+                                                    <h1 id="red_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
+                                                    <img src="https://miro.medium.com/max/4282/1*PshD8n5B_7h-cmmFYpurqA.png" height="40px"/>
+                                                    <h4 class="description">Cloud Fest '19 is an occasion which promises to be a celebration of ideas, learning, productive discussions, and the conception of unique solutions to critical real-world problems using cloud computing.  </h4>
+                                                    <h1 id="red_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
+                                                    <h4 class="description"><b>Coming Soon</b></h4>
+                                                    </div>
+                                            </div>
+                                            
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                              <span>&nbsp;</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                              <span>&nbsp;</span>
+                                            </a>
+                                          </div>
+                                    
+                                </div>
+                            </div>
+                            <p>&nbsp;</p>
         </div>     
          <p>&nbsp;</p> 
          <p>&nbsp;</p>
@@ -249,12 +296,12 @@
                     member.imgSrc +
                     '">\
                         <div class="card-body" style="margin-top:-10px;">\
-                            <h4 class="team-member-name" style="font-weight:500;" id="blue_text"><b>' +
-                    member.eventName + '</b></h4><br />\
+                            <h4 class="team-member-name description" id="blue_text"><b>' +
+                    member.eventName + '</b></h4>\
                     <h5 style="font-weight:400; color:rgb(0,101,202);">' + member.date + '</h6>\
-                            <h5 style="font-weight:300;">' + member.info.substring(0,100) +
+                            <h5 class="description">' + member.info.substring(0,100) +
                     '...</h5>\
-                    <a href="' + member.fbLink + '" style="position:absolute; bottom: 10px; left: 60%; margin-left: -104.5px;" class="btn btn-primary" id="buttons" id="buttons">Learn more</a>\
+                    <a href="' + member.fbLink + '" style="position:absolute; bottom: 18px; left: 60%; margin-left: -104.5px;" class="btn btn-primary" id="buttons"><b>Learn more</b></a>\
                         </div>\
                 </div>\
                 </div>';

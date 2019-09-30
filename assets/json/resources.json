@@ -24,6 +24,36 @@
     "link": "https://www.khanacademy.org/"
 },
 {
+    "title": "GA Dash",
+    "description": "This is General Assembly’s free online learning platform. It's entirely project-based–you build a “project” with each walkthrough–making it ideal for those who like to get hands-on while learning to code online.",
+    "imgSrc": "https://i2.wp.com/generalassemb.ly/blog/wp-content/uploads/2013/10/DASH_SocialLaunch.jpg?ssl=1",
+    "link": "https://dash.generalassemb.ly/"
+},
+{
+    "title": "Dev.to",
+    "description": "Where programmers share ideas and help each other grow.",
+    "imgSrc": "https://thepracticaldev.s3.amazonaws.com/i/6hqmcjaxbgbon8ydw93z.png",
+    "link": "https://dev.to"
+},
+{
+    "title": "Hackr.io",
+    "description": "This isn't a platform itself, but it's a great list of community-curated programming resources.",
+    "imgSrc": "https://media.licdn.com/dms/image/C511BAQHna7Z2j8KUXA/company-background_10000/0?e=2159024400&v=beta&t=BfrlFpIjLuhOaRmA4V13TVe5ahxM8qHolCFu3PC5mZM",
+    "link": "https://hackr.io/"
+},
+{
+    "title": "Microsoft Virtual Academy",
+    "description": "Microsoft Virtual Academy’s Learning Paths are curated free coding courses designed to help you build valuable skills through video tutorials, demos, assessments, and more.",
+    "imgSrc": "https://slideplayer.com/slide/14650250/90/images/1/Microsoft+Virtual+Academy.jpg",
+    "link": "https://docs.microsoft.com/en-us/learn/"
+},
+{
+    "title": "Edabit",
+    "description": "Edabit is “like Duolingo for learning to code,” offering bite-sized coding challenges that simulate what programming is like in the real world.",
+    "imgSrc": "https://d2.alternativeto.net/dist/s/edabit_740382_full.jpg?format=jpg&width=1600&height=1600&mode=min&upscale=false",
+    "link": "https://edabit.com/"
+},
+{
     "title": "Codeanywhere.com",
     "description": "Codeanywhere is a cross-platform Cloud IDE. Codeanywhere enables users to instantly write, edit, collaborate and run web development projects",
     "imgSrc": "https://docs.codeanywhere.com/images/container-created.png",

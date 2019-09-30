@@ -18,6 +18,12 @@
         "link": "https://dartpad.dartlang.org/"
 },
 {
+    "title": "Khan Academy",
+    "description": "Khan Academy is a non-profit educational organization created in 2008 by Salman Khan with the goal of creating a set of online tools that help educate students.",
+    "imgSrc": "https://mma.prnewswire.com/media/740439/khan_logo_light_bg_Logo.jpg?p=facebook",
+    "link": "https://www.khanacademy.org/"
+},
+{
     "title": "Codeanywhere.com",
     "description": "Codeanywhere is a cross-platform Cloud IDE. Codeanywhere enables users to instantly write, edit, collaborate and run web development projects",
     "imgSrc": "https://docs.codeanywhere.com/images/container-created.png",
@@ -170,7 +176,43 @@
 {
     "title": "Two Minute Papers",
     "description": " Two Minute Papers is a series where the author attempt to explain many interesting research works, a couple minutes at a time.",
-    "imgSrc":"https://i.ytimg.com/vi/UePDRN94C8c/hqdefault.jpg",
+    "imgSrc":"https://miro.medium.com/max/2100/1*Bu0Fmgc8buYG8jwJ_1Qbbg.jpeg",
     "link": "https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg"
+},
+{
+    "title": "The Android Bundle",
+    "description": "In the free, self-paced Android Kotlin Fundamentals training, you learn basic Android programming concepts using the Kotlin programming language.",
+    "imgSrc":"https://developer.android.com/courses/images/android-design-skills.svg",
+    "link": "https://developer.android.com/courses"
+},
+{
+    "title": "Kotlin Bootcamp",
+    "description": "Learn the essentials of the Kotlin programming language from Kotlin experts at Google. Kotlin is a modern and concise JVM language that supports functional programming paradigms. ",
+    "imgSrc":"https://developer.android.com/courses/images/android-new-programmers.svg",
+    "link": "https://www.udacity.com/course/kotlin-bootcamp-for-programmers--ud9011"
+},
+{
+    "title": "Android Kotlin Fundamentals",
+    "description": "Android Kotlin Fundamentals leads you through a series of codelabs that teach you the fundamentals of building Android apps in Kotlin.",
+    "imgSrc":"https://miro.medium.com/max/1200/1*8YPjY2xhNwQylBBs8dYB0g.png",
+    "link": "https://codelabs.developers.google.com/android-kotlin-fundamentals/"
+},
+{
+    "title": "Web Crash Course",
+    "description": "Google's opinionated reference for building amazing web experiences.",
+    "imgSrc":"https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/assets/share_new.jpg",
+    "link": "https://developers.google.com/web/fundamentals/"
+},
+{
+    "title": "AMP for dummies",
+    "description": "These courses treat AMP as a web components library that takes care of web performance issues automatically.",
+    "imgSrc":"https://miro.medium.com/max/4796/1*QYm1_4bhfalsW3NCY9nP4g.png",
+    "link": "https://amp.dev/documentation/courses/"
+},
+{
+    "title": "Actions on Google",
+    "description": "These codelabs provide a guided, tutorial, hands-on coding experience. The codelabs will step you through the process of building an Action, or extending your Actions for specific use cases.",
+    "imgSrc":"https://www.xda-developers.com/files/2016/10/Image-008-1-e1476202547851.png",
+    "link": "https://developers.google.com/actions/codelabs/"
 }
 ]

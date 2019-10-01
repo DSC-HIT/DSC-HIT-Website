@@ -244,5 +244,11 @@
     "description": "These codelabs provide a guided, tutorial, hands-on coding experience. The codelabs will step you through the process of building an Action, or extending your Actions for specific use cases.",
     "imgSrc":"https://www.xda-developers.com/files/2016/10/Image-008-1-e1476202547851.png",
     "link": "https://developers.google.com/actions/codelabs/"
+},
+{
+    "title": "The Code Player",
+    "description": "What makes this site unique is its videos and presentations that showcase code created by others. You also get a detailed description of the topic at hand. This makes sense, since most of us want to see code built from scratch before we take aim at replication. Since you are learning from real case studies, you get a better idea of how to use a specific programming language. ",
+    "imgSrc":"https://img.business.com/rc/300x200/aHR0cHM6Ly93d3cuYnVzaW5lc3NuZXdzZGFpbHkuY29tL2ltYWdlcy9pLzAwMC8wMTMvNTYyL29yaWdpbmFsL3RoZWNvZGVwbGF5ZXItbG9nby5qcGc=",
+    "link": "http://thecodeplayer.com"
 }
 ]

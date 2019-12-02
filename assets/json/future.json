@@ -1,0 +1,72 @@
+[
+    {
+    "eventName": "Cloud Study Jam",
+    "info":"Cloud is one of the most vital technologies in the world of development and this is what makes this event so vital. We had several speakers talk to us about GCP, its scope, use cases and the amazing world of cloud computing.",
+    "date":"31st May, 2019",
+    "imgSrc":"./assets/img/Events/Cloud.jpg",
+    "fbLink":"https://www.facebook.com/dscheritageit/posts/1509451732530249?__tn__=-R"
+},
+{
+    "eventName": "ML/AR Developer Day",
+    "info":"An exciting event about technologies which is the bee's knees today! The audience interacted with the Speakers and learnt Cool Stuff.",
+    "date":"30th May, 2019",
+    "imgSrc":"./assets/img/Events/mlar.jpg",
+    "fbLink":"https://www.facebook.com/dscheritageit/posts/1507924349349654?__tn__=-R"
+},
+{
+    "eventName": "TF Dev Summit 2019 veiwing party",
+    "info":"TensorFlow 2.0 has arrived, with a focus on ease of use, developer productivity, and scalable, production-ready machine learning workloads. And what a party it was!",
+    "date":"23rd March, 2019",
+    "imgSrc":"./assets/img/Events/tf.jpg",
+    "fbLink":"https://www.facebook.com/dscheritageit/posts/1456715217803901?__tn__=-R"
+},
+{
+    "eventName": "Google DSC Solutions Challenge",
+    "info":"Google DSC Solutions Challenge is a worldwide Program that calls for Developers from all over the world to put their best feet forward in solving a Problem with a Social cause.",
+    "date":"March, 2019",
+    "imgSrc":"./assets/img/Events/solution.png",
+    "fbLink":"https://www.facebook.com/dscheritageit/photos/a.1447801942028562/1478738198934936/?type=3&__tn__=-R"
+},
+{
+    "eventName": "Session Zero",
+    "info":"The Inaugural Session of DSC HIT that saw the culmination of months of preparation as the Students got an idea of what DSC does.",
+    "date":"27th February, 2019",
+    "imgSrc":"./assets/img/Events/SessZ.jpg",
+    "fbLink":"https://www.facebook.com/dscheritageit/posts/1494494194026003?__tn__=-R"
+},
+{
+    "eventName": "DSC Summit Live Viewing Party",
+    "info": "Livestreaming of the DSC India Summit 2019 along with other fun activities.",
+    "imgSrc": "https://photos.app.goo.gl/2cUphUNWm4fATUtG9",
+    "fbLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdscheritageit%2Fposts%2F1578289052313183"
+},
+{
+    "eventName": "Android Study Jam",
+    "info": "Brace yourselves for the Android Study Jam that's scheduled to happen on 21st September 2019. We've scheduled back to back sessions on Android, AndroidX, Firebase.",
+    "date": "21st September, 2019",
+    "imgSrc": "./assets/img/Events/Android Study Jam.jpg",
+    "fbLink": "https://www.facebook.com/dscheritageit/photos/a.1447801942028562/1596935130448575/?type=3&eid=ARBAJnOQQ69V95fCBhmlbGv2uryrs2L31BYkoswVC-yXymFqmvJXB4r8bntG9BMqapnZ70-fK1ozZTEQ&__xts__%5B0%5D=68.ARAdhApUZeJ-jx7ArixB2DnKxFAtNd-WM_f4Pa8PFeUNluyItbuvhZk0VtOUMIfmTT4ZQLvsWY_CxgmBXtmV5VblTXQibHMHstMewaCh1aosTA5HqaNVqy3MgCEbGmDYEA9P4e2csXz9BR3dI9d-am1KIedmq_qZAJGygLV1w19TkgLG0u-pjLUJAP_u_cxsm-xHHbg73X5bOLBgDJ2xBV1TAykH9J2NpZFoYMKmhC75xXs1kN5yUMqzZ2rNwJyAxNvmJGzjSzB9S4OoC3Z1HLbnBgOwlsAfkyyrLlI_R2tDcchVcg0aYkow386LHqghq1sk8lzRxr9WVrT9k6zjYfoq1gu3&__tn__=EHH-R"
+},
+{
+    "eventName": "Intro to ML",
+    "info": "Machine Learning has been the industry buzzword for years now. With the rise in the number of AI startups and billions of dollars being invested in them, there couldn’t be a better time to learn this impressive and employable skill. But where to start?",
+    "date": "18th September, 2019",
+    "imgSrc": "./assets/img/Events/DCS Hit Intro to ML.jpg",
+    "fbLink": "https://www.facebook.com/dscheritageit/photos/a.1447801942028562/15969393171148"
+},
+{
+    "eventName": "Mozilla Launch Party",
+    "info":"Mozilla Launch Party is a one-day tech conference event to motivate developers and designers to contribute more to open-source projects and forthcoming technologies.",
+    "date":"27th September, 2019",
+    "imgSrc":"./assets/img/Events/Mozilla Launch.jpg",
+    "fbLink":"https://www.facebook.com/dscheritageit/photos/a.1447801942028562/1603389836469771/?type=3&theaterer"
+},
+
+{
+    "eventName": "Explore ML Session 1",
+    "info":"Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of Machine Learning Content (Beginner, Intermediate, Advanced).",
+    "date":"30th October, 2019",
+    "imgSrc":"./assets/img/Events/ExploreML.jpg",
+    "fbLink":"https://www.youtube.com/watch?v=g1FrH-kC7eU"
+}
+]

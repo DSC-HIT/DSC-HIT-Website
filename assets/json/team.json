@@ -2,7 +2,7 @@
     {
         "displayPicture":"./assets/img/team/ayush.png",
         "name":"Ayush Sharma",
-        "description":"Lead @ DSC RJIT",
+        "description":"Lead @ DSC RJIT, Google Code-in Mentor @ TensorFlow",
         "links":[
             {
                 "linkType": "Blog",

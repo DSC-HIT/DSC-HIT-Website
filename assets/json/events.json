@@ -1,10 +1,11 @@
 [
+    
     {
-        "eventName": "DSC RJIT Orientation",
-        "info":"A community is nothing without its people, and therefore, we welcomed in the Freshmen at a small orientation Session about DSC wherein we told them about the Club, our vision and the end mission.",
-        "date":"23rd September 2019",
-        "imgSrc":"./assets/img/Events/dsc_orientation.png",
-        "fbLink":"https://twitter.com/DscRjit/status/1176595792334712832?s=20"
+        "eventName": "Google AI | Explore ML Workshop",
+        "info":"Explore Machine Learning (ML) is a Google-sponsored program  for university students to get started with Machine Learning. The curriculum offers 2 tracks of machine learning content (Beginner, Intermediate) and relies on university student facilitators to train other students on campus.",
+        "date":"To Be Decided...",
+        "imgSrc":"./assets/img/Events/Explore ML.png",
+        "fbLink":"https://forms.gle/UJPi2HzZnFMrxVi17"
     },
     {
         "eventName": "GCP Crash Course",
@@ -12,6 +13,14 @@
         "date":"11th October, 2019",
         "imgSrc":"./assets/img/Events/GCP Crash Course.png",
         "fbLink":"https://twitter.com/DscRjit/status/1183073927691530240?s=20"
+    },
+    {
+        "eventName": "DSC RJIT Orientation",
+        "info":"A community is nothing without its people, and therefore, we welcomed in the Freshmen at a small orientation Session about DSC wherein we told them about the Club, our vision and the end mission.",
+        "date":"23rd September 2019",
+        "imgSrc":"./assets/img/Events/dsc_orientation.png",
+        "fbLink":"https://twitter.com/DscRjit/status/1176595792334712832?s=20"
     }
+   
     
-]
+]   

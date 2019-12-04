@@ -5,21 +5,14 @@ $(document).ready(function () {
 	// });
 	// $('#photogrid').GridHorizontal();
 	var rockstars = [{
-			"name": "Rivu Chakraborty",
+			"name": "Ayush Sharma",
 			"cover": "default",
 			"pic": "https://sessionize.com/image?f=fd31d66d66d823a37ee37596ab8426c7,400,400,True,False,a72ed7ee-704c-453a-9d4e-ca5014ed0e5a.jpg",
-			"desc": "<hr>GDG Kolkata Lead, Kotlin Evangelist, DroidJam Speaker, Google Certified Associate Android Developer",
+			"desc": "<hr>DSC Lead and GCI Mentor @ TensorFlow",
 			"fb": "fb",
 			"twitter": "twitter"
 		},
-		// {
-		// 	"name": "Manisha Biswas",
-		// 	"cover": "default",
-		// 	"pic": "https://secure.meetupstatic.com/photos/member/b/8/b/4/member_277007284.jpeg",
-		// 	"desc": "description",
-		// 	"fb": "fb",
-		// 	"twitter": "twitter"
-		// },
+	
 		{
 			"name": "Dhrumil Shah",
 			"cover": "default",
@@ -61,15 +54,15 @@ $(document).ready(function () {
 			"twitter": "twitter"
 		}
 
-		// ,
-		// {
-		// 	"name": "Biswajeet Mondal",
-		// 	"cover": "default",
-		// 	"pic": "",
-		// 	"desc": "description",
-		// 	"fb": "fb",
-		// 	"twitter": "twitter"
-		// }
+		,
+		{
+			"name": "Biswajeet Mondal",
+			"cover": "default",
+			"pic": "",
+			"desc": "description",
+			"fb": "fb",
+			"twitter": "twitter"
+		}
 
 	];
 

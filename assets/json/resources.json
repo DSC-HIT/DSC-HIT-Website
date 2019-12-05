@@ -12,6 +12,12 @@
         "link": "https://codelabs.developers.google.com/"
         },
 {
+        "title": "Tech Dev Guide",
+        "description": "Wondering what computer science is all about, or what it’s like to work in the tech industry? Dig deeper into products, careers, and more with these carefully curated resources.",
+        "imgSrc": "https://techdevguide.withgoogle.com/static/images/courses/foundations.svg",
+        "link": "https://techdevguide.withgoogle.com/"
+        },
+{
         "title": "Dartpad",
         "description": "This project is a web based interactive Dart service in a zero-install, zero configuration environment.  ",
         "imgSrc": "https://pbs.twimg.com/media/DJt9bLbV4AUy33f.jpg",
@@ -40,6 +46,12 @@
     "description": "This isn't a platform itself, but it's a great list of community-curated programming resources.",
     "imgSrc": "https://media.licdn.com/dms/image/C511BAQHna7Z2j8KUXA/company-background_10000/0?e=2159024400&v=beta&t=BfrlFpIjLuhOaRmA4V13TVe5ahxM8qHolCFu3PC5mZM",
     "link": "https://hackr.io/"
+},
+{
+    "title": "Google Design",
+    "description": "A directory of essential design tools and resources to keep your projects moving forward",
+    "imgSrc": "https://storage.googleapis.com/gd-wagtail-prod-assets/images/fonts.max-800x400.jpegquality-90.jpg",
+    "link": "https://design.google/resources/"
 },
 {
     "title": "Microsoft Virtual Academy",

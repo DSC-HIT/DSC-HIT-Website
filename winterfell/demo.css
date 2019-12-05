@@ -226,6 +226,13 @@ body {
     margin-top:0px;
     color:#3DDB86;
 }
+
+.got
+{
+    font-family: 'Game of Thrones';
+    margin-top:0px;
+    color:rgb(63, 238, 200);
+}
 .description
 {
     color: rgb(228, 226, 226);

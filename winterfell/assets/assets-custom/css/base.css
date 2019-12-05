@@ -1,0 +1,12 @@
+.container-page{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.custom-horizontal-rule{
+    border: 1px solid rgba(247,247,247);
+}
+
+.no-padding{
+    padding: 0px;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('fonts/Game-of-Thrones.eot');
+    src: url('fonts/Game-of-Thrones.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Game-of-Thrones.woff2') format('woff2'),
+         url('fonts/Game-of-Thrones.woff') format('woff'),
+         url('fonts/Game-of-Thrones.ttf')  format('truetype'),
+         url('fonts/Game-of-Thrones.svg#Game of Thrones') format('svg');
+}

@@ -122,6 +122,10 @@
             </div>
         </div>
     </nav>
+
+
+    
+
     <div class="page-header header-filter" data-parallax="true" style="height: 400px;">
         <div class="container" style="width: 100vw; padding: 0; margin: 0; max-width: 100vw;">
             <div class="row" style="height: 100vh;">
@@ -420,13 +424,13 @@
                                             <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
                                             <h4 class="description"><b>Google AI | Explore ML</b></h4>
                                             <p>
-                                                <a target="blank" href="https://forms.gle/UJPi2HzZnFMrxVi17">
+                                                <a target="blank" href="https://commudle.com/dsc-rjit/events/orientation-program">
                                                     <button class="btn btn-primary" id="buttons"><b>Register Here</b></button></a>
                                             </p> 
                                         </div>
                                     </div>
 
-                                    <div class="carousel-item">
+                                <div class="carousel-item">
                                         <div class="carousel-wrapper">
                                         <h1 id="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
                                         <img src="https://siliconangle.com/wp-content/blogs.dir/1/files/2018/12/flutter.png" height="40px"/>
@@ -689,5 +693,11 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+  const functions = firebase.functions();
+</script>
+<script src="/assets/scripts/auth.js"></script>
+<script src="/assets/scripts/index.js"></script>
 </script>
 </html>

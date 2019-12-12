@@ -55,6 +55,7 @@
 
         
     <!-- iframe removal -->
+
 </head>
 
 <body class="landing-page" name="top" id="top">
@@ -670,13 +671,11 @@
 
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
-
-
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
 
 <script>
   // Your web app's Firebase configuration
@@ -693,11 +692,21 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+</script>
   const auth = firebase.auth();
   const db = firebase.firestore();
   const functions = firebase.functions();
 </script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.3/lib/darkmode-js.min.js"></script>
+<script src="/assets/scripts/dark.js"></script> -->
+
 <script src="/assets/scripts/auth.js"></script>
 <script src="/assets/scripts/index.js"></script>
 </script>
+
+
+
+
+
+
 </html>

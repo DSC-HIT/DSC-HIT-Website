@@ -1,13 +1,13 @@
 // add admin cloud function
-const adminFore = document.querySelector('.admin-actions');
-adminFore.addEventListener('submit', (e)=>{
-    e.preventDefault();
-    const adminEmail = document.querySelector('#admin-email').value;
-    const addAdminRole = functions.httpsCallable('addAdminRole');
-    addAdminRole({email: adminEmail}).then(result=>{
-        console.log(result);
-    })
-})
+// const adminFore = document.querySelector('.admin-actions');
+// adminFore.addEventListener('submit', (e)=>{
+//     e.preventDefault();
+//     const adminEmail = document.querySelector('#admin-email').value;
+//     const addAdminRole = functions.httpsCallable('addAdminRole');
+//     addAdminRole({email: adminEmail}).then(result=>{
+//         console.log(result);
+//     })
+// })
 
 //listen for auth state change
 
@@ -36,23 +36,23 @@ auth.onAuthStateChanged(user=>{
 
 //create new guide
 
-const createForm = document.querySelector('#create-form');
-createForm.addEventListener('submit', e=>{
-    e.preventDefault();
+// const createForm = document.querySelector('#create-form');
+// createForm.addEventListener('submit', e=>{
+//     e.preventDefault();
 
-    db.collection('guides').add({
-        title: createForm['title'].value,
-        content: createForm['content'].value,
+//     db.collection('guides').add({
+//         title: createForm['title'].value,
+//         content: createForm['content'].value,
 
-    }).then(() =>{
-        const modal = document.querySelector('#modal-create');
-        M.Modal.getInstance(modal).close();
-        createForm.reset();
+//     }).then(() =>{
+//         const modal = document.querySelector('#modal-create');
+//         M.Modal.getInstance(modal).close();
+//         createForm.reset();
 
-    }).catch(err=>{
-        console.log(err.message);
-    })
-})
+//     }).catch(err=>{
+//         console.log(err.message);
+//     })
+// })
 
 
 

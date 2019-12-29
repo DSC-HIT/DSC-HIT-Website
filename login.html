@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.2">
     <!-- Documentation extras -->
+    <!-- <link rel="stylesheet" type="text/css" href=" -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylefb.css" />
+
     <link href="assets/assets-custom/demo.css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous">
@@ -117,31 +120,40 @@
                     </li> -->
 
                    
-                    <li class="nav-item logged-out">
-                        <a href="#" class="nav-link grey-text modal-trigger" data-target="modal-signup">
-                            <span class="btn" id="joinbtn"><b id="header_text">Sign Up</b></span>
-                        </a>
-                    </li>
+                   
                 </ul>
             </div>
         </div>
     </nav>
 <br><br><br><br><br>
 
-    <form>
-        <div class="form-group">
-          <label for="login-email">Email address</label>
-          <input type="email" class="form-control" id="login-email" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <!-- <form align="center"> 
+        <div class=" col-lg-3 center">
+          <label for="login-email ">Email address</label>
+          <input type="email" class="form-control" id="login-email"  placeholder="">
+          <small id="emailHelp" class="form-text ">We'll never share your email with anyone else.</small>
         </div>
-        <div class="form-group">
+        <div class="form-group col-lg-3">
           <label for="login-password">Password</label>
-          <input type="password" class="form-control" id="login-password" placeholder="Password">
+          <input type="password" class="form-control" id="login-password" placeholder="">
         </div>
          
         <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </form> -->
 
+
+        <div id="login_div" class="main-div11 sizeing">
+        <h3>login to your account</h3>
+        <input type="email" placeholder="Email..." id="email_field" />
+        <input type="password" placeholder="Password..." id="password_field" />
+    
+        <button id="login" onclick="login()">Login to Account</button>
+
+            <a href="signup.html" class="nav-link grey-text modal-trigger signup" >
+                <span class="btn" id="joinbtn"><b id="header_text">Sign Up</b></span>
+            </a>
+      
+        </div>
 
 
 
@@ -273,7 +285,7 @@ navigator.serviceWorker
 <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
 <script src="assets/assets-custom/main.js"></script>
 
-<script src="assets/assets-custom/index.js"></script>
+<script src="assets/scripts/index.js"></script>
 </body>
 
 
@@ -282,6 +294,8 @@ navigator.serviceWorker
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
 https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -306,8 +320,9 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
   const auth = firebase.auth();
   const db = firebase.firestore();
-  const functions = firebase.functions();
+//   const functions = firebase.functions();
 </script>
 <script src="/assets/scripts/auth.js"></script>
-<script src="/assets/scripts/index.js"></script>
+<!-- <script src="/assets/scripts/index.js"></script> -->
+
 </html>

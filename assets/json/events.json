@@ -1,4 +1,11 @@
 [
+    {
+        "eventName": "Actions on Google Hands-on Workshop",
+        "info":"Actions on Google is a platform that lets anyone extend the functionality of the Google Assistant, Google's virtual personal assistant, across more than 500 million devices, including smart speakers, phones, cars, TVs, headphones, and more.",     
+        "date":"TBD",
+        "imgSrc":"./assets/img/Events/aog.png",
+        "fbLink":"https://commudle.com/dsc-rjit/events/orientation-and-inaugration"
+    },
     
     {
         "eventName": "Google AI | Explore ML Workshop",

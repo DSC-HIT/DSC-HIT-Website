@@ -1,9 +1,9 @@
 [
     {
-        "eventName": "Actions on Google Hands-on Workshop",
-        "info":"Actions on Google is a platform that lets anyone extend the functionality of the Google Assistant, Google's virtual personal assistant, across more than 500 million devices, including smart speakers, phones, cars, TVs, headphones, and more.",     
-        "date":"TBD",
-        "imgSrc":"./assets/img/Events/aog.png",
+        "eventName": "Introduction to Open Source Contribution Using Git and Github",
+        "info":"Effective use of version control is an important and useful skill for any developer working on long-lived (or even medium-lived) projects, especially if more than one developer is involved.",     
+        "date":"19th Januray 2020",
+        "imgSrc":"./assets/img/Events/opens.png",
         "fbLink":"https://commudle.com/dsc-rjit/events/orientation-and-inaugration"
     },
     
@@ -14,13 +14,7 @@
         "imgSrc":"./assets/img/Events/Explore ML.png",
         "fbLink":"https://commudle.com/dsc-rjit/events/orientation-program"
     },
-    {
-        "eventName": "Flutter Interact Viewing Party",
-        "info":"Flutter Interact is a day dedicated to creation and collaboration with the world, inspired by the makers of brilliant experiences.",
-        "date":"19th January 2020",
-        "imgSrc":"https://siliconangle.com/wp-content/blogs.dir/1/files/2018/12/flutter.png",
-        "fbLink":"https://twitter.com/FlutterDev/status/1188862889500786698"
-    },
+  
     {
         "eventName": "GCP Crash Course",
         "info":"Developer Student Club RJIT in collaboration with Google Developers and Qwiklabs brings to you the #GCPCrashCourse, the best place to get started with the Google Cloud Platform.",

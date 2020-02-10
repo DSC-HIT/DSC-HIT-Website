@@ -1,9 +1,9 @@
 [
     {
-        "eventName": "Google HashCode",
+        "eventName": "Google Hashcode",
         "info":"Hash Code is a team programming competition, organized by Google, for students and professionals around the world. You pick your team and programming language and we pick an engineering problem for you to solve. ",     
         "date":"20th February 2020",
-        "imgSrc":"./assets/img/Events/hashcode.png",
+        "imgSrc":"./assets/img/Events/hashcode1.png",
         "fbLink":"https://g.co/hashcode"
     },
     {

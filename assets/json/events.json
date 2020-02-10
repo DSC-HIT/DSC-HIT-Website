@@ -1,5 +1,12 @@
 [
     {
+        "eventName": "Google Hashcode",
+        "info":"Hash Code is a team programming competition, organized by Google, for students and professionals around the world. You pick your team and programming language and we pick an engineering problem for you to solve. ",     
+        "date":"20th February 2020",
+        "imgSrc":"./assets/img/Events/hashcode1.png",
+        "fbLink":"https://g.co/hashcode"
+    },
+    {
         "eventName": "Introduction to Open Source Contribution Using Git and Github",
         "info":"Effective use of version control is an important and useful skill for any developer working on long-lived (or even medium-lived) projects, especially if more than one developer is involved.",     
         "date":"26th Januray 2020",

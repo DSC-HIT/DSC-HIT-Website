@@ -90,7 +90,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                            <a href="#" data-page="projects" class="nav-link">
+                            <a href="./projects.html" data-page="projects" class="nav-link">
                                 <span><b id="header_text">Projects</b></span>
                             </a>
                         </li>
@@ -127,46 +127,26 @@
     <div class="main main-raised" style="margin-top: 0;">
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <div class="container">
-            
-                    
-                            
-                            <div class="container-page">
-                                <div class="row mt-5">
-                                    <div class="col-lg-6">
-                                        <p>&nbsp;</p>
-                                        <h2 class="title">Projects</h2>
-                                        <h5 class="description">Learning goes hand-in-hand with building new and cool stuff.
-                                            If you have worked on something really cool and want your Project to be featured here, click on the Button below.
-                                        </h5>
-                                        <p>&nbsp;</p>
-                                        <a href="https://forms.gle/kGa44uYi1HXPVLr48" class="btn btn-primary" id="buttons" target="blank"><b>Submit a Project</b></a>
-                                        <a href="./name_generator.html" class="btn btn-primary" id="buttons"><b>Generate Name</b></a>
-                                        <p>&nbsp;</p>
-                                    </div>
-                                    <div class="col-lg-6" style="text-align:center;">
-                                        <img class="img-fluid" src="assets/img/kit/collage.png" />
-                                    </div>
-                                </div>
-                               
-                                <div class="container no-padding container-sub-page">
-                                    <p>&nbsp;</p> 
-                                    <p>&nbsp;</p>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <h3 class="title">Featured Projects</h3>
-                                        </div>    
-                                    </div>
-                                    <div id="container-projects" class="row">
-                                    </div>
-                                </div>
-                            </div>
-                            
-                   
-                
-         </div>     
-         <p>&nbsp;</p> 
-         <p>&nbsp;</p>
+         <div class="container"> 
+            <div class="container-page">
+                <p>&nbsp;</p>  
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>&nbsp;</p>
+                        <h3 class="title" id="generated_name">Click Generate to duh, Generate!</h3>
+                        <p>&nbsp;</p>
+                        <button class="btn btn-primary" id="button_generate"><b>Generate New Name</b></button>
+                    </div>
+                    <div class="col-lg-6" style="text-align: center;">
+                        <lottie-player
+                            src="https://assets9.lottiefiles.com/packages/lf20_oMpCcG.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay >
+                        </lottie-player>
+                    </div>
+                </div> 
+         <p>&nbsp;</p>          
+            </div>
+         </div>  
+         
     <div id="footer">
         <a href="#top" id="top-button" class="top">
                 <i class="material-icons" style=" font-size: 30px;">
@@ -244,14 +224,6 @@
 
 </div>
 
-
-    <script>
-        if('serviceWorker' in navigator) {
-          navigator.serviceWorker
-                   .register('/sw.js')
-                   .then(function() { console.log("Service Worker Registered"); });
-        }
-        </script>
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery.min.js"></script>
     <script src="assets/js/core/popper.min.js"></script>
@@ -262,106 +234,32 @@
     <!-- <script src="assets/assets-custom/js/GridHorizontal.js"></script> -->
     <!-- <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script> -->
     <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
-    <script src="assets/assets-custom/main.js"></script>
-    
-    <script src="assets/assets-custom/index.js"></script>
-
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <script>
-        $('document').ready(function () {
-            function getLinks(links) {
-                var result = '';
-                links.forEach(function (link) {
-                    if (link.linkType === 'Twitter') {
-                        result += '<li style="color:rgb(0,101,202);"><a id="social_link1" href="' +
-                            link.url +
-                            '" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>';
-                    }
-                    if (link.linkType == 'Github') {
-                        result += '<li style="color:rgb(0,101,202);"><a id="social_link1" href="' +
-                            link.url +
-                            '" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>';
-                    }
-                    if (link.linkType == 'Blog') {
-                        result += '<li style="color:rgb(0,101,202);"><a id="social_link1" href="' +
-                            link.url +
-                            '" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></li>';
-                    }
-                });
-                return result;
-            }
-
-            function getColour(project)
-            {
-                var colour="";
-
-                switch(project.category)
-                {
-                    case "Android":colour= "rgb(13, 243, 90)";
-                    break;
-
-                    case "Cloud" :colour= "rgb(250, 67, 5)";
-                    break;
-
-                    case "AR":colour= "rgb(133, 7, 235)";
-                    break;
-
-                    case "Web":colour= "rgb(0,101,202)";
-                    break;
-
-                    case "Firebase":colour= "rgb(255, 201,14)";
-                    break;
-
-                    case "Flutter":colour="rgb(2,134,204)";
-                    break;
-
-                    default:colour="rgb(255, 201,14)";
-                    break;
-                }
-
-                return colour;
-            }
-
-            function getTemplate(project) {
-                var template =
-                    '                                                                                                                                               \
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">                                                                                  \
-                    <div class="card" data-id="' +
-                    project.id +
-                    '">                                                                                                                          \
-                        <div class="box">                                                                                                                       \
-                            <div class="img">                                                                                                                   \
-                                <img src="' +
-                    project.profilePicture +
-                    '" alt="">                                                                                 \
-                            </div>                                                                                                                             \
-                            <h2 style="font-weight:400;" id="blue_text">' +
-                    project.fullName +
-                    '</h2>                                                                                                \
-                     <p class="description"><b>' +
-                    project.category.split('.')[0] +
-                    '</b><span class="dot" style="background :'+ getColour(project) +'";></span></p>            <p class="about"> '+ project.bio +'</p>                                                                               \
-                            <span class="project-social">                                                                                                       \
-                                <ul>' +
-                    getLinks(project.links) +
-                    '</ul>                                                                                         \
-                            </span>                                                                                                                             \
-                        </div>                                                                                                                                  \
-                    </div>                                                                                                                                      \
-                </div>                                                                                                                                          \
-                '
-                return template;
-            }
-
-            var html = '';
-            $.getJSON('./assets/json/projects.json', function (projects) {
-                projects.forEach(function (project) {
-                    html += getTemplate(project);
-                });
-                $('#container-projects').append(html);
-            });
-
+        $('#button_generate').click(function() {
+            $('#generated_name').text(randomEl(adjectives)+'_'+randomEl(nouns));
+            selectElementContents($('#generated_name')[0]);
+            console.log("Hello")
         });
+
+        function randomEl(list) {
+            var i = Math.floor(Math.random() * list.length);
+            return list[i];
+        }
+
+        function selectElementContents(el) {
+            var range = document.createRange();
+            range.selectNodeContents(el);
+            var sel = window.getSelection();
+            sel.removeAllRanges();
+            sel.addRange(range);
+        }
+
+        var adjectives = ["adamant", "adroit", "amatory", "animistic", "antic", "arcadian", "baleful", "bellicose", "bilious", "boorish", "calamitous", "caustic", "cerulean", "comely", "concomitant", "contumacious", "corpulent", "crapulous", "defamatory", "didactic", "dilatory", "dowdy", "efficacious", "effulgent", "egregious", "endemic", "equanimous", "execrable", "fastidious", "feckless", "fecund", "friable", "fulsome", "garrulous", "guileless", "gustatory", "heuristic", "histrionic", "hubristic", "incendiary", "insidious", "insolent", "intransigent", "inveterate", "invidious", "irksome", "jejune", "jocular", "judicious", "lachrymose", "limpid", "loquacious", "luminous", "mannered", "mendacious", "meretricious", "minatory", "mordant", "munificent", "nefarious", "noxious", "obtuse", "parsimonious", "pendulous", "pernicious", "pervasive", "petulant", "platitudinous", "precipitate", "propitious", "puckish", "querulous", "quiescent", "rebarbative", "recalcitant", "redolent", "rhadamanthine", "risible", "ruminative", "sagacious", "salubrious", "sartorial", "sclerotic", "serpentine", "spasmodic", "strident", "taciturn", "tenacious", "tremulous", "trenchant", "turbulent", "turgid", "ubiquitous", "uxorious", "verdant", "voluble", "voracious", "wheedling", "withering", "zealous"];
+        var nouns = ["ninja", "chair", "pancake", "statue", "unicorn", "rainbows", "laser", "senor", "bunny", "captain", "nibblets", "cupcake", "carrot", "gnomes", "glitter", "potato", "salad", "toejam", "curtains", "beets", "toilet", "exorcism", "stick_figures", "mermaid_eggs", "sea_barnacles", "dragons", "jellybeans", "snakes", "dolls", "bushes", "cookies", "apples", "ice_cream", "ukulele", "kazoo", "banjo", "opera singer", "circus", "trampoline", "carousel", "carnival", "locomotive", "hot_air_balloon", "praying_mantis", "animator", "artisan", "artist", "colorist", "inker", "coppersmith", "director", "designer", "flatter", "stylist", "leadman", "limner", "make_up_artist", "model", "musician", "penciller", "producer", "scenographer", "set_decorator", "silversmith", "teacher", "auto_mechanic", "beader", "bobbin_boy", "clerk_chapel", "filling_station_attendant", "foreman", "maintenance_engineering", "mechanic", "miller", "moldmaker", "panel_beater", "patternmaker", "plant_operator", "plumber", "sawfiler", "shop_foreman", "soaper", "stationary_engineer", "wheelwright", "woodworkers"];
+
+        $('#button_generate').click();
     </script>
 </body>
 

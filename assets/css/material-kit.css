@@ -895,6 +895,7 @@ mark,
 .img-fluid {
     max-width: 100%;
     height: auto;
+    border-radius: 3px;
 }
 
 .img-thumbnail {
@@ -2671,15 +2672,15 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #2196f3;
-    border-color: #2196f3;
+    background-color: rgb(52, 109, 241);
+    border-color: rgb(52, 109, 241);
     box-shadow: none;
 }
 
 .btn-primary:hover {
     color: #ffffff;
-    background-color: #0c83e2;
-    border-color: #0c7cd5;
+    background-color: rgb(25, 79, 204);
+    border-color: rgb(25, 79, 204);
 }
 
 .btn-primary:focus,
@@ -2983,7 +2984,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary {
     color: #2196f3;
-    background-color: transparent;
+    background-color: none;
     background-image: none;
     border-color: #2196f3;
 }

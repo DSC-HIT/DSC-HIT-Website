@@ -11,7 +11,7 @@
     <link rel="icon" href="favicon.png">
     <link rel="manifest" href="/manifest.json">
     <title>
-        Projects | DSC HIT
+       Solution Challenge | DSC HIT
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
@@ -19,14 +19,12 @@
     <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.2">
     <!-- Documentation extras -->
     <link href="assets/assets-custom/demo.css" rel="stylesheet" />
-    <link href="assets/assets-custom/css/footer.css" rel="stylesheet" />
-    <link href="assets/assets-custom/css/projects/style.css" rel="stylesheet" />
-  
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous">
+    <link href="assets/assets-custom/css/footer.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
 
@@ -42,6 +40,8 @@
             transition: 0.3s ease;
         }
         
+        .tab { margin-left: 40px; }
+/*
         .grid-item { width: 25%; }
         .grid-item--width2 { width: 50%; }*/
 
@@ -50,14 +50,9 @@
             border-radius: 5px 5px;
         }
 
-        .dot
-        {
-            height: 0.8em;
-            width: 0.8em;
-            border-radius: 50%;
-            margin-left:5px;
-        }
         </style>
+
+        
     <!-- iframe removal -->
 </head>
 
@@ -90,7 +85,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                            <a href="#" data-page="projects" class="nav-link">
+                            <a href="./projects.html" data-page="projects" class="nav-link">
                                 <span><b id="header_text">Projects</b></span>
                             </a>
                         </li>
@@ -99,8 +94,8 @@
                             <span><b id="header_text">Team</b></span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="https://medium.com/@dscheritageit" data-page="team" class="nav-link">
+                     <li class="nav-item">
+                        <a href="https://medium.com/dsc-hit" data-page="team" class="nav-link">
                             <span><b id="header_text">Blog</b></span>
                         </a>
                     </li>
@@ -123,55 +118,151 @@
             </div>
         </div>
     </nav>
-    
-    <div class="main main-raised" style="margin-top: 0;">
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
+    <div class="page-header header-filter" data-parallax="true" style="height: 400px;">
+        <div class="container" style="width: 100vw; padding: 0; margin: 0; max-width: 100vw;">
+            <div class="row" style="height: 100vh;">
+                <div class="col-md-4">&nbsp;</div>
+                
+                <div class="col-md-4 col-half-offset" id="hometop-container">
+                        <p>&nbsp;</p>
+                    <img class="img-fluid" src="https://miro.medium.com/max/1000/1*ilC2Aqp5sZd1wi0CopD1Hw.png" style="width:15%"/>
+                    
+                    <h3 class="tag_details" style="background:white; padding:5px; border-radius:10px;"><b>Flutter Interact '19</b></h3>
+                    <h4 class="tag_details" style="background:white; padding:5px; border-radius:10px;"><b>Also announcing #FlutterDevChallenge</b></h4>
+                   
+                    <p>
+                        <a href="#tracks">
+                            <button class="btn btn-primary" id="buttons"><b>Know More</b></button></a>
+                    </p> 
+                   
+                </div>
+                
+                <div class="col-md-8" style=" background-image: url('assets/img/kit/flutter.jpg'); background-position: bottom; background-size: 100% auto;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    <div class="main" style="margin-top: 0;">
+            
         <div class="container">
             
                     
-                            
-                            <div class="container-page">
-                                <div class="row mt-5">
-                                    <div class="col-lg-6">
-                                        <p>&nbsp;</p>
-                                        <h2 class="title">Projects</h2>
-                                        <h5 class="description">Learning goes hand-in-hand with building new and cool stuff.
-                                            If you have worked on something really cool and want your Project to be featured here, click on the Button below.
-                                        </h5>
-                                        <p>&nbsp;</p>
-                                        <a href="https://forms.gle/kGa44uYi1HXPVLr48" class="btn btn-primary" id="buttons" target="blank"><b>Submit a Project</b></a>
-                                        <a href="./name_generator.html" class="btn btn-primary" id="buttons"><b>Generate Name</b></a>
-                                        <p>&nbsp;</p>
-                                    </div>
-                                    <div class="col-lg-6" style="text-align:center;">
-                                        <img class="img-fluid" src="assets/img/kit/collage.png" />
-                                    </div>
-                                </div>
-                               
-                                <div class="container no-padding container-sub-page">
-                                    <p>&nbsp;</p> 
-                                    <p>&nbsp;</p>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <h3 class="title">Featured Projects</h3>
-                                        </div>    
-                                    </div>
-                                    <div id="container-projects" class="row">
-                                    </div>
-                                </div>
-                            </div>
+                            <p>&nbsp;</p>
                             
                    
                 
-         </div>     
-         <p>&nbsp;</p> 
-         <p>&nbsp;</p>
+                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
+                    <!--First column-->
+                    <div class="col-lg-6">
+                        <!--Card-->
+                        <h2 class="title" id="tracks"><b>Flutter Interact</b></h2>
+                        <p>&nbsp;</p>
+                        <span id="mobile" class="icon"><i class="material-icons">
+                                timeline
+                            </i></span><span class="about_title_track" style="color:rgb(54, 53, 53);">What is this about?</span>
+                        <!--Card-->
+                        <p>&nbsp;</p>
+                        <p><h5 class="description">The Flutter Team is holding a global party for Flutter, and we’d love you to be part of the celebration! 
+                            On December 21st, we’re hosting Flutter Interact where we’ll share a variety of news and updates about Flutter. <br/>
+                            Be a part of celebration with our community, celebrate Flutter and inspire fellow community members.  
+                            
+                        </h5></p>
+                        <p>&nbsp;</p>
+                        <p>
+                                <a href=" https://developers.google.com/events/flutter-interact" id="details_redirect" ><b>View Flutter Interact</b></a>
+                        </p>
+
+                        <!--/.Card-->
+                        
+                    </div>
+                    <!--/.First column-->
+                    <!--Second column-->
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
+                        <!--Card-->
+                        <h2 class="title" id="tracks"><b>&nbsp;</b></h2>
+                        <p>&nbsp;</p>
+                        <img class="img-fluid" src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F83945699%2F69654033915%2F1%2Foriginal.20191209-071118?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1920%2C960&s=0fb84b4ed8fe4abdd2f7da5ae0e0b0e6" width="100%"/>
+                    </div>
+                    <!--/.Second column-->
+                </div>
+                <!--/.First row-->
+                <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+            <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+                <div class="col-lg-6">
+                    <!--Card-->
+                    <p><h5 class="description">On December 11, interact, innovate and collaborate with the global community. Streaming live around the globe. Join the Kolkata Meetup on 21st to learn from fellow Flutter Developers.</h5></p>
+                    <p><h5 class="description">If you want to join in, fill up the <a href="https://forms.gle/D8611B82EjcdK4Z19" target="blank"><b id="blue_text">RSVP Form here.</b></a> and let us know on <a href="https://facebook.com/dscheritageit"><b id="blue_text">Facebook</b></a> and <a href="https://twitter.com/dscheritageit1"><b id="blue_text">Twitter</b></a> to attend an amazing day to celebrate Flutter.
+            
+                    </h5></p>
+
+                    <p>&nbsp;</p>
+                    <p>
+                        <a target="blank" href="https://forms.gle/D8611B82EjcdK4Z19">
+                            <button class="btn btn-primary" id="buttons"><b>Registration Form</b></button></a>
+                    </p> 
+                    <!--/.Card-->
+                    
+                </div>
+                <!--/.First column-->
+                <!--Second column-->
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
+                    <!--Card-->
+                    <img class="img-fluid" src="assets/img/kit/minions.gif" alt="Minions gif">
+        
+                    
+                    </div>
+                <!--/.Second column-->
+            </div>
+            <p>&nbsp;</p>
+            <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+                <div class="col-lg-12">
+                    <img class="img-fluid" src="assets/img/kit/flutternotes.jpeg"/>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+
+            <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+                <div class="col-lg-6" style="text-align:left;">
+                    <h3 class="title" id="tracks"><b>Join the Conversation</b></h3>
+                    <p>&nbsp;</p>
+                    <h5 class="description">
+                        Join our Slack Channel to know more about the Activities, Sessions and other fun stuff.
+                        <br/>
+                        <p>&nbsp;</p>
+                        <a href="https://bit.ly/2n0jVUx" target="blank" class="btn btn-primary" id="buttons" style="background: #4A154B;"><b>Join us on &nbsp; <img height="30px" src="assets/img/logos/slack.png"/></b></a>    
+                    </h5>
+                </div>
+                <div class="col-lg-6" style="text-align:left;">
+                    
+                        <h3 class="title" id="tracks"><b>&nbsp;</b></h3>
+                        <p>&nbsp;</p>
+                        <h5 class="description">
+                            Join our Discord Server to know more about the Activities, Sessions and other fun stuff.
+                            <br/>
+                            <p>&nbsp;</p>
+                            <a href="https://discord.gg/aEDyUKb" target="blank" class="btn btn-primary" id="buttons" style="background: #2C2F33;"><b>Join us on &nbsp; <img height="30px" src="assets/img/logos/discord.png"/></b></a>    
+                        </h5>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+           
+            
+            <!--/.First row-->
+            <p>&nbsp;</p>
+
+        </div>
+        </div>
+       
+    </div>
+
     <div id="footer">
         <a href="#top" id="top-button" class="top">
                 <i class="material-icons" style=" font-size: 30px;">
                         keyboard_arrow_up
-                        </i><span>&nbsp;</span>
+                        </i>
         </a>
         <div class="container" style="padding-top: 20px;">
 
@@ -218,7 +309,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
                         <span><b>OTHER LINKS</b></span>
                         <p>
-                            <a href="#" id="details_redirect" target="_blank" style="color:rgb(65, 64, 64);">Call for projects</a><br />
+                            <a href="#" id="details_redirect" target="_blank" style="color:rgb(65, 64, 64);">Call for Speakers</a><br />
                             <a href="#" id="details_redirect" target="_blank" style="color:rgb(65, 64, 64);">Call for Sponsors</a><br />
                             <a href="https://docs.google.com/document/d/1rkZySaO-iXyrDdlsUa2xsIgH9iWEtIviqMwxRwop5Ng/edit?usp=sharing" id="details_redirect" target="_blank"><b>Community Guidelines</b></a><br />
                         </p>
@@ -265,104 +356,6 @@
     <script src="assets/assets-custom/main.js"></script>
     
     <script src="assets/assets-custom/index.js"></script>
-
-
-    <script>
-        $('document').ready(function () {
-            function getLinks(links) {
-                var result = '';
-                links.forEach(function (link) {
-                    if (link.linkType === 'Twitter') {
-                        result += '<li style="color:rgb(0,101,202);"><a id="social_link1" href="' +
-                            link.url +
-                            '" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>';
-                    }
-                    if (link.linkType == 'Github') {
-                        result += '<li style="color:rgb(0,101,202);"><a id="social_link1" href="' +
-                            link.url +
-                            '" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>';
-                    }
-                    if (link.linkType == 'Blog') {
-                        result += '<li style="color:rgb(0,101,202);"><a id="social_link1" href="' +
-                            link.url +
-                            '" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a></li>';
-                    }
-                });
-                return result;
-            }
-
-            function getColour(project)
-            {
-                var colour="";
-
-                switch(project.category)
-                {
-                    case "Android":colour= "rgb(13, 243, 90)";
-                    break;
-
-                    case "Cloud" :colour= "rgb(250, 67, 5)";
-                    break;
-
-                    case "AR":colour= "rgb(133, 7, 235)";
-                    break;
-
-                    case "Web":colour= "rgb(0,101,202)";
-                    break;
-
-                    case "Firebase":colour= "rgb(255, 201,14)";
-                    break;
-
-                    case "Flutter":colour="rgb(2,134,204)";
-                    break;
-
-                    default:colour="rgb(255, 201,14)";
-                    break;
-                }
-
-                return colour;
-            }
-
-            function getTemplate(project) {
-                var template =
-                    '                                                                                                                                               \
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">                                                                                  \
-                    <div class="card" data-id="' +
-                    project.id +
-                    '">                                                                                                                          \
-                        <div class="box">                                                                                                                       \
-                            <div class="img">                                                                                                                   \
-                                <img src="' +
-                    project.profilePicture +
-                    '" alt="">                                                                                 \
-                            </div>                                                                                                                             \
-                            <h2 style="font-weight:400;" id="blue_text">' +
-                    project.fullName +
-                    '</h2>                                                                                                \
-                     <p class="description"><b>' +
-                    project.category.split('.')[0] +
-                    '</b><span class="dot" style="background :'+ getColour(project) +'";></span></p>            <p class="about"> '+ project.bio +'</p>                                                                               \
-                            <span class="project-social">                                                                                                       \
-                                <ul>' +
-                    getLinks(project.links) +
-                    '</ul>                                                                                         \
-                            </span>                                                                                                                             \
-                        </div>                                                                                                                                  \
-                    </div>                                                                                                                                      \
-                </div>                                                                                                                                          \
-                '
-                return template;
-            }
-
-            var html = '';
-            $.getJSON('./assets/json/projects.json', function (projects) {
-                projects.forEach(function (project) {
-                    html += getTemplate(project);
-                });
-                $('#container-projects').append(html);
-            });
-
-        });
-    </script>
 </body>
 
 </html>

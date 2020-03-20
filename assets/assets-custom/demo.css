@@ -280,6 +280,11 @@ p{
     border-radius: 2px;
 }
 
+#button_generate {
+    background-color: rgb(52, 109, 241);
+    border-radius: 2px;
+}
+
 .carousel-wrapper
 {
     width:80%;

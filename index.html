@@ -2,645 +2,760 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="theme-color" content="#ffffff"/>
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="favicon.png">
-    <link rel="icon" href="favicon.png">
-    <link rel="manifest" href="/manifest.json">
-    <title>
-        DSC HIT
-    </title>
-    <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.2">
-    <!-- Documentation extras -->
-    <link href="assets/assets-custom/demo.css" rel="stylesheet" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
-    <link href="assets/assets-custom/css/footer.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="theme-color" content="#ffffff" />
 
-        body{
-            overflow-x: hidden;
-        }
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="icon" href="favicon.png">
+  <link rel="manifest" href="/manifest.json">
 
+  <title>
+    DSC HIT
+  </title>
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.2">
 
+  <!-- Documentation extras -->
+  <link href="assets/assets-custom/demo.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="assets/assets-custom/css/footer.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-        #top-button
-        {
-            font-size:20px;
-            transition: 0.3s ease;
-        }
-        
-        .tab { margin-left: 40px; }
-/*
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+
+    #top-button {
+      font-size: 20px;
+      transition: 0.3s ease;
+    }
+
+    .tab {
+      margin-left: 40px;
+    }
+
+    /*
         .grid-item { width: 25%; }
         .grid-item--width2 { width: 50%; }*/
 
-        .img-fluid
-        {
-            border-radius: 5px 5px;
-        }
+    .img-fluid {
+      border-radius: 5px 5px;
+    }
 
 
-        .col-sm-6, .col-xs-6{
-            width:50%;
-        }
+    .col-sm-6,
+    .col-xs-6 {
+      width: 50%;
+    }
+  </style>
 
-        </style>
 
-        
-    <!-- iframe removal -->
+  <!-- iframe removal -->
 </head>
 
 <body class="landing-page" name="top" id="top">
-    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
-        <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand" href="/"><span id="gdg-logo"><img src="assets/img/logos/dsc_header.png" style="max-height: 90%;" /> </a>
-                <button style="color:rgb(120,120,120)" class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="dropdown nav-item">
-                        <a href="#" data-page="index" class="nav-link">
-                            <span><b>Home</b></span>
-                        </a>
-                    </li>
+  <!-- Navbar -->
+  <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100"
+    id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="/"><span id="dsc-logo"><img src="assets/img/logos/dsc_header.png" /> </span></a>
+        <!-- Menu Icon -->
+        <button style="color:rgb(120,120,120)" class="navbar-toggler" type="button" data-toggle="collapse"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown nav-item">
+            <a href="#" data-page="index" class="nav-link">
+              <span><b>Home</b></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./events.html" data-page="events" class="nav-link">
+              <span><b id="header_text">Events</b></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./resources.html" data-page="resources" class="nav-link">
+              <span><b id="header_text">Resources</b></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./projects.html" data-page="projects" class="nav-link">
+              <span><b id="header_text">Projects</b></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./team.html" data-page="team" class="nav-link">
+              <span><b id="header_text">Team</b></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://medium.com/@dscheritageit" data-page="team" class="nav-link">
+              <span><b id="header_text">Blog</b></span>
+            </a>
+          </li>
+          <!-- 
                     <li class="nav-item">
-                        <a href="./events.html" data-page="events" class="nav-link">
-                            <span><b id="header_text">Events</b></span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./resources.html" data-page="resources" class="nav-link">
-                            <span><b id="header_text">Resources</b></span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                            <a href="./projects.html" data-page="projects" class="nav-link">
-                                <span><b id="header_text">Projects</b></span>
-                            </a>
-                        </li>
-                    <li class="nav-item">
-                        <a href="./team.html" data-page="team" class="nav-link">
-                            <span><b id="header_text">Team</b></span>
-                        </a>
-                    </li>
-                     <li class="nav-item">
-                        <a href="https://medium.com/@dscheritageit" data-page="team" class="nav-link">
-                            <span><b id="header_text">Blog</b></span>
-                        </a>
-                    </li>
-                    <!-- <li class="nav-item">
                         <a class="nav-link">
                              <span ><b id="header_text">Blog</b></span>
                         </a>
-                    </li> -->
-                    <!--  <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a href="./about" data-page="about" class="nav-link">
                              <span ><b id="header_text">About</b></span>
                         </a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a target="blank" class="nav-link" href="https://forms.gle/xfqLFWCzy34624yLA">
-                            <span class="btn" id="joinbtn"><b id="header_text">Sign Up</b></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="page-header header-filter" data-parallax="true" style="height: 400px;">
-        <div class="container" style="width: 100vw; padding: 0; margin: 0; max-width: 100vw;">
-            <div class="row" style="height: 100vh;">
-                
-                <div class="col-md-4">&nbsp;</div>
-                
-                <div class="col-md-4 col-half-offset" id="hometop-container">
-                        <p>&nbsp;</p>
-                    <img class="img-fluid" src="assets\img\logos\dsc_logo.png" style="width:30%"/>
-                    
-                    <h2 class="tag_title">Developer Student Club</h1>
-                    <h4 class="tag_details"><b>Heritage Institute of Technology</b></h4>
-                    <p>&nbsp;</p>
-                    <p>
-                        <a target="blank" href="./flutterinteract.html">
-                            <button class="btn btn-primary" id="buttons"><b>Flutter Interact</b></button></a>
-                    </p> 
-                   
-                </div>
-                <div class="col-md-8" style=" background-image: url('assets/img/kit/header.png'); background-position: bottom; background-size: 100% auto;">&nbsp;</div>
-            </div>
-        </div>
+                    </li> 
+                    -->
+          <li class="nav-item">
+            <a target="blank" class="nav-link" href="https://forms.gle/xfqLFWCzy34624yLA">
+              <span class="btn" id="joinbtn"><b id="header_text">Sign Up</b></span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="main main-raised" style="margin-top: 0;">
-            
-        <div class="container">
-            
-                    
-                            <p>&nbsp;</p>
-                            
-                   
-                
-                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
-                    <!--First column-->
-                    <div class="col-lg-6">
-                        <!--Card-->
-                        <h2 class="title" id="tracks"><b>About The Program</b></h2>
-                        <p>&nbsp;</p>
-                        <span id="mobile" class="icon"><i class="material-icons">
-                                gesture
-                            </i></span><span class="about_title_track" style="color:rgb(54, 53, 53);">What we do?</span>
-                        <!--Card-->
-                        <p>&nbsp;</p>
-                        <p><h5 class="description">Google collaborates with university students who are passionate about growing developer communities.</h5></p>
-                        <p><h5 class="description">Developer Student Club powered by Google Developers is an initiative to grow their knowledge on developer technologies and more through peer to peer workshops and events, and gain relevant industry experience.</h5></p>
-                        
+  </nav>
 
-                        <p>
-                            <a target="blank" href="https://forms.gle/xfqLFWCzy34624yLA">
-                                <button class="btn btn-primary" id="buttons"><b>Sign Up</b></button>
-                                </a>
-                        </p>
-                        <p><a href="https://developers.google.com/programs/dsc/" target="blank"><span class="description" id="details_redirect"><b>Learn more about the Program</b></span></a></p>
-                        <!--/.Card-->
-                        
-                    </div>
-                    <!--/.First column-->
-                    <!--Second column-->
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
-                        <!--Card-->
-                        <h2 class="title" id="tracks"><b>&nbsp;</b></h2>
-                        <p>&nbsp;</p>
-                        <img class="img-fluid" src="assets/img/kit/event.JPG" width="100%"/>
-                    </div>
-                    <!--/.Second column-->
-                </div>
-                <!--/.First row-->
-                <p>&nbsp;</p>
-                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
-                    <!--First column-->
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
-                        <!--Card-->
-                        <h3 class="title" id="tracks"><b>What DSC HIT does?</b></h3>
-                        <p>&nbsp;</p>
-                        <p><h5 class="description">Developer Student Club HIT is inspired by the Google Developers' Family.</h5></p>
-                        <p><h5 class="description">The motive is to create a local ecosystem of Developers in and around the Campus. And having fun doing it.</h5></p>
-                        
-                        <p>&nbsp;</p>
-                        
-                        <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="https://www.facebook.com/dscheritageit/" target="_blank"><i class="fa fa-facebook"></i></a><a>&nbsp;</a>
-                        <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="https://twitter.com/dscheritageit1" target="_blank"><i class="fa fa-twitter"></i></a><a>&nbsp;</a>
-                        <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="https://medium.com/@dscheritageit" target="_blank"><i class="fa fa-medium"></i></a><a>&nbsp;</a>
-                        <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="https://github.com/DSC-HIT" target="_blank"><i class="fa fa-github"></i></a><a>&nbsp;</a>
-                        
+  <!-- Page Header/Banner-->
+  <div class="page-header header-filter" data-parallax="true" style="height: 400px;">
+    <div class="container" style="width: 100vw; padding: 0; margin: 0; max-width: 100vw;">
+      <div class="row" style="height: 100vh;">
 
-                        <!--/.Card-->
-                    </div>
-                    <!--/.First column-->
-                    <!--Second column-->
-                    <div class="col-lg-6">
-                        <!--Card-->
-                        <p>&nbsp;</p>
-                        <div class="row">
-                                <div class="col-lg-5" id="p1">
-                                    <p>
-                                        <h4 class="description" style="font-weight:600; color:rgb(228, 180, 25); padding:8px 4px; background-color:rgba(247, 212, 17, 0.15); border-radius:8px; width:100px; padding-left:11px;">Seminars</h4>
-                                    </p>
-                                    <p>
-                                        <h5 class="description">Get updated with the latest news and announcements.</h5>
-                                    </p>
-                                </div>
-                                <div class="col-lg-5 " id="p4">
-                                    <p>
-                                        <h4 class="description" style="font-weight:600; color:rgb(12, 80, 182); padding:8px 4px; background-color:rgba(12, 80, 182,0.15); border-radius:8px; width:115px; padding-left:11px;">Study Jams</h4>
-                                    </p>
-                                    <p>
-                                        <h5 class="description">Hands-on experience with the community members.</h5>
-                                    </p>
-                                </div>
-                    </div>
-                    <div class="row">
-                            <div class="col-lg-5" id="p1">
-                                <p>
-                                    <h4 class="description" style="font-weight:600; color:rgb(223, 77, 19); padding:8px 4px; background-color:rgba(223, 77, 19,0.15); border-radius:8px; width:90px; padding-left:11px;">Projects</h4>
-                                </p>
-                                <p>
-                                        <h5 class="description">Projects with a social impact that help a lot of people.</h5>
-                                </p>
-                            </div>
-                            <div class="col-lg-5 " id="p4">
-                                <p>
-                                    <h4 class="description" style="font-weight:600; color:rgb(11, 184, 83); padding:8px 4px; background-color:rgba(11, 184, 83,0.15); border-radius:8px; width:120px; padding-left:11px;">Hackathons</h4>
-                                </p>
-                                <p>
-                                        <h5 class="description">Dream. Explore. Wonder. Build it Together.</h5>
-                                </p>
-                            </div>
-                </div>
-                    <!--/.Second column-->
-                </div>
-                <!--/.First row-->
-                <p>&nbsp;</p>
-               
-               </div>
-                <!--/.First row-->
-                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
+        <div class="col-md-4">&nbsp;</div>
 
-                     <!--Second column-->
-                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
-                        <!--Card-->
-                        
-                        <img class="img-fluid" src="assets/img/kit/team.JPG" width="100%" />
-                    </div>
-                    <!--/.Second column-->
+        <div class="col-md-4 col-half-offset" id="hometop-container">
+          <p>&nbsp;</p>
+          <img class="img-fluid" src="assets\img\logos\dsc_logo.png" style="width:30%" />
 
-                        <!--First column-->
-                        <div class="col-lg-6">
-                            <!--Card-->
-                            <p>&nbsp;</p>
-                            <span id="mobile" class="icon"><i class="material-icons">
-                                    whatshot
-                                </i></span><span class="about_title_track" style="color:rgb(54, 53, 53);">The Team</span>
-                            <!--Card-->
-                            <p>&nbsp;</p>
-                            <p><h5 class="description">These are the amazing bunch of people who make the community what it is. Who are the Backbone of Developer Student Club, HIT and ensure that we can forge ahead <a target="blank" href="https://www.marvel.com/movies/avengers-endgame"><b id="blue_text">#WhateverItTakes!</b></a></h5></p>
-                            <p><h5 class="description">They take the time out from their daily grind to give back to the members and empower them to become bigger (Metaphorically). And Better.</h5></p>
-                            
-    
-                           
-                            
-                            <p><a href="./team.html" target="blank"><span class="description" id="details_redirect"><b>Meet The Team</b></span></a>&nbsp;&nbsp;
-                                </p>
-                            <p>
-                            </p>
-                            
-                            <!--/.Card-->
-                            
-                        </div>
-                        <!--/.First column-->
-                       
-                    </div>
+          <h2 class="tag_title">Developer Student Club</h1>
+            <h4 class="tag_details"><b>Heritage Institute of Technology</b></h4>
+            <p>&nbsp;</p>
+            <p>
+              <a target="blank" href="./flutterinteract.html">
+                <button class="btn btn-primary" id="buttons"><b>Flutter Interact</b></button></a>
+            </p>
 
-                
-                <p>&nbsp;</p>
+        </div>
+        <div class="col-md-8" id="background-header">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Body -->
+  <div class="main main-raised" style="margin-top: 0;">
+
+    <div class="container">
 
 
-                <div class="row mt-5 wow">
-                        <!--First column-->
-                        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
-        
-                            <!--Card-->
-                            <div class="card">
-        
-                                <!--Card image-->
-                                <img class="img-fluid" src="assets/img/kit/events.jpg" alt="Card image cap">
-        
-                                <!--Card content-->
-                                <div class="card-body">
-                                    <!--Title-->
-                                    <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Events</b></h4>
-                                    <!--Text-->
-                                    <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Attend Study Jams/ Hackathons/ Developer Conferences to learn more about the latest technologies.</h5>
-                                    <a href="./events.html" class="btn btn-primary" id="buttons" id="buttons"><b>Learn More</b></a>
-                                </div>
-        
-                            </div>
-                            <!--/.Card-->
-                        
-                        </div>
-                        <!--/.First column-->
-        
-                        <!--Second column-->
-                        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
-        
-                            <!--Card-->
-                            <div class="card">
-        
-                                <!--Card image-->
-                                <img class="img-fluid" src="assets/img/kit/cfp.png" alt="Card image cap">
-        
-                                <!--Card content-->
-                                <div class="card-body">
-                                    <!--Title-->
-                                    <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>CFP</b></h4>
-                                    <!--Text-->
-                                    <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Interested in being a Speaker at one of our events? Just drop us your Proposal.</h5>
-                                    <a href="mailto:dscheritageit@gmail.com" class="btn btn-primary" id="buttons" id="buttons"><b>Send Proposal</b></a>
-                                </div>
-        
-                            </div>
-                            <!--/.Card-->
-                        
-                        </div>
-                        <!--/.Second column-->
-        
-                        <!--Third column-->
-                        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
-        
-                            <!--Card-->
-                            <div class="card">
-        
-                                <!--Card image-->
-                                <img class="img-fluid" src="assets/img/kit/sponsor.png" alt="Card image cap">
-        
-                                <!--Card content-->
-                                <div class="card-body">
-                                    <!--Title-->
-                                    <h4 class="about_title_track" style="margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Sponsorships</b></h4>
-                                    <!--Text-->
-                                    <h5 class="description" style=" font-family: 'Open Sans', sans-serif;">Get Brand exposure and elevate your business identity within the Community. </h5>
-                                    <a href="mailto:dscheritageit@gmail.com" class="btn btn-primary" id="buttons" id="buttons"><b>Send proposal</b></a>
-                                </div>
-        
-                            </div>
-                            <!--/.Card-->
-                        
-                        </div>
-                        <!--/.Third column-->
-                    </div>
-                    <!--/.First row-->
-     
-                    <p>&nbsp;</p>  
+      <p>&nbsp;</p>
 
-                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
-                    <div class="col-lg-6" style="text-align:left;">
-                        <h3 class="title" id="tracks"><b>Partners</b></h3>
-                        <p>&nbsp;</p>
-                        <h5 class="description">
-                                Thank you to our Partners for their support towards the community. If you want to be showcased
-                                through DSC HIT, contact <a href="mailto:dscheritageit@gmail.com" id="blue_text"><b>Here</b></a> for Sponsorship details.
-                             </h5>
-                    </div>
-                    <div class="col-lg-6" style="text-align:center;">
-                            <h4 class="title" id="tracks"><b>&nbsp;</b></h4>
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="p1">
-                                <p>
-                                   
-                                </p><img style="max-width:100px;" class="img-fluid" src="assets/img/logos/google_dev.png" />
-                            </div>
-                           
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="p4">
-                                <p>
+      <!-- ****About The Program**** -->
+      <div class="row mt-5 wow fadeIn left-text" data-wow-delay="0.2s">
+        <!--First column-->
+        <div class="col-lg-6">
+          <!--Card-->
+          <h2 class="title" id="tracks"><b>About The Program</b></h2>
+          <p>&nbsp;</p>
+          <span id="mobile" class="icon"><i class="material-icons">gesture</i></span>
+          <span class="about_title_track black-lighten-3">What we do?</span>
+          <!--Card-->
+          <p>&nbsp;</p>
+          <p>
+            <h5 class="description">Google collaborates with university students who are passionate about
+              growing developer communities.</h5>
+          </p>
+          <p>
+            <h5 class="description">Developer Student Club powered by Google Developers is an initiative to
+              grow their knowledge on developer technologies and more through peer to peer workshops and
+              events, and gain relevant industry experience.</h5>
+          </p>
+          <p>
+            <a target="blank" href="https://forms.gle/xfqLFWCzy34624yLA">
+              <button class="btn btn-primary" id="buttons"><b>Sign Up</b></button>
+            </a>
+          </p>
+          <p>
+            <a href="https://developers.google.com/programs/dsc/" target="blank">
+              <span class="description" id="details_redirect"><b>Learn more about the Program</b></span>
+            </a>
+          </p>
+          <!--/.Card-->
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+          <!--Card-->
+          <h2 class="title" id="tracks"><b>&nbsp;</b></h2>
+          <p>&nbsp;</p>
+          <img class="img-fluid" src="assets/img/kit/event.JPG" width="100%" />
+        </div>
+        <!--/.Second column-->
+      </div>
+      <!-- ****/.About The Program**** -->
+
+
+      <!-- ****What DSC HIT does?**** -->
+      <p>&nbsp;</p>
+      <div class="row mt-5 wow fadeIn left-text" data-wow-delay="0.2s">
+        <!--First column-->
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+          <!--Card-->
+          <h3 class="title" id="tracks"><b>What DSC HIT does?</b></h3>
+          <p>&nbsp;</p>
+          <p>
+            <h5 class="description">Developer Student Club HIT is inspired by the Google Developers' Family.</h5>
+          </p>
+          <p>
+            <h5 class="description">The motive is to create a local ecosystem of Developers in and around
+              the Campus. And having fun doing it.</h5>
+          </p>
+          <p>&nbsp;</p>
+
+          <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="https://www.facebook.com/dscheritageit/" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a><a>&nbsp;</a>
+          <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="https://twitter.com/dscheritageit1" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a><a>&nbsp;</a>
+          <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="https://medium.com/@dscheritageit" target="_blank">
+            <i class="fa fa-medium"></i>
+          </a><a>&nbsp;</a>
+          <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="https://github.com/DSC-HIT" target="_blank">
+            <i class="fa fa-github"></i>
+          </a><a>&nbsp;</a>
+          <!--/.Card-->
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-lg-6">
+          <!--Card-->
+          <p>&nbsp;</p>
+          <div class="row">
+            <div class="col-lg-5" id="p1">
+              <p>
+                <h4 class="description header-card yellow-back yellow">Seminars</h4>
+              </p>
+              <p>
+                <h5 class="description">Get updated with the latest news and announcements.</h5>
+              </p>
+            </div>
+            <div class="col-lg-5 " id="p4">
+              <p>
+                <h4 class="description header-card blue-back blue">Study Jams</h4>
+              </p>
+              <p>
+                <h5 class="description">Hands-on experience with the community members.</h5>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5" id="p1">
+              <p>
+                <h4 class="description header-card orange-back orange">Projects</h4>
+              </p>
+              <p>
+                <h5 class="description">Projects with a social impact that help a lot of people.</h5>
+              </p>
+            </div>
+            <div class="col-lg-5 " id="p4">
+              <p>
+                <h4 class="description header-card green-back green">Hackathons</h4>
+              </p>
+              <p>
+                <h5 class="description">Dream. Explore. Wonder. Build it Together.</h5>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/.Second column-->
+        <p>&nbsp;</p>
+      </div>
+      <!-- ****/.What DSC HIT does?**** -->
+
+
+      <!-- ****The Team**** -->
+      <div class="row mt-5 wow fadeIn left-text" data-wow-delay="0.2s">
+        <!--First column-->
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+          <img class="img-fluid" src="assets/img/kit/team.JPG" width="100%" />
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-lg-6">
+          <!--Card-->
+          <p>&nbsp;</p>
+          <span id="mobile" class="icon"><i class="material-icons">whatshot</i></span>
+          <span class="about_title_track" style="color:rgb(53, 53, 53);">The Team</span>
+          <p>&nbsp;</p>
+          <p>
+            <h5 class="description">
+              These are the amazing bunch of people who make the community what it is.
+              Who are the Backbone of Developer Student Club, HIT and ensure that we can forge ahead
+              <a target="blank" href="https://www.marvel.com/movies/avengers-endgame">
+                <b class="blue_text">#WhateverItTakes!</b></a>
+            </h5>
+          </p>
+          <p>
+            <h5 class="description">
+              They take the time out from their daily grind to give back to the
+              members and empower them to become bigger (Metaphorically). And Better.
+            </h5>
+          </p>
+          <p>
+            <a href="./team.html" target="blank">
+              <span class="description" id="details_redirect"><b>Meet The Team</b></span>
+            </a>
+            &nbsp;&nbsp;
+          </p>
+          <!--/.Card-->
+        </div>
+        <!--/.Second column-->
+      </div>
+      <!-- ****/.The Team**** -->
+
+
+      <p>&nbsp;</p>
+
+      <!-- ****Events - CFP - Scholarships**** -->
+      <div class="row mt-5 wow">
+
+        <!-- First column | Events -->
+        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
+
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <img class="img-fluid" src="assets/img/kit/events.jpg" alt="Card image cap">
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="about_title_track card-title">
+                <b>Events</b>
+              </h4>
+
+              <!--Text-->
+              <h5 class="description">
+                Attend Study Jams/ Hackathons/ Developer Conferences to learn more about the latest technologies.
+              </h5>
+              <a href="./events.html" class="btn btn-primary" id="buttons">
+                <b>Learn More</b>
+              </a>
+            </div>
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!-- /.First column | Events -->
+
+        <!-- Second column | CFP -->
+        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
+
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <img class="img-fluid" src="assets/img/kit/cfp.png" alt="Card image cap">
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="about_title_track card-title">
+                <b>CFP</b>
+              </h4>
+
+              <!--Text-->
+              <h5 class="description"">
+                  Interested in being a Speaker at one of our events? Just drop us your Proposal.
+                </h5>
+                <a href=" mailto:dscheritageit@gmail.com" class="btn btn-primary" id="buttons">
+                <b>Send Proposal</b>
+                </a>
+            </div>
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!-- /.Second column | CFP -->
+
+        <!-- Third column | Scholarships -->
+        <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <img class="img-fluid" src="assets/img/kit/sponsor.png" alt="Card image cap">
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="about_title_track card-title">
+                <b>Sponsorships</b>
+              </h4>
+
+              <!--Text-->
+              <h5 class="description">
+                Get Brand exposure and elevate your business identity within the Community.
+              </h5>
+              <a href="mailto:dscheritageit@gmail.com" class="btn btn-primary" id="buttons">
+                <b>Send proposal</b>
+              </a>
+            </div>
+
+          </div>
+          <!--/.Card-->
+        </div>
+        <!-- /.Third column | Scholarships -->
+      </div>
+      <!-- /.****Events - CFP - Scholarships**** -->
+
+      <p>&nbsp;</p>
+
+      <!-- **** Our Partners **** -->
+      <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="col-lg-6 left-text">
+          <h3 class="title" id="tracks"><b>Partners</b></h3>
+          <p>&nbsp;</p>
+          <h5 class="description">
+            Thank you to our Partners for their support towards the community. If you want to be showcased
+            through DSC HIT, contact <a href="mailto:dscheritageit@gmail.com" class="blue_text"><b>Here</b></a>
+            for Sponsorship details.
+          </h5>
+        </div>
+        <div class="col-lg-6">
+          <h4 class="title" id="tracks"><b>&nbsp;</b></h4>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="p1">
+                <p>
+
+                </p><img class="img-fluid logo-partner" src="assets/img/logos/google_dev.png" />
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="p4">
+                <p>
+
+                </p><img class="img-fluid logo-partner" src="assets/img/logos/gdg.png" />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="p4">
+                <p>
+
+                </p><img class="img-fluid" src="assets/img/logos/crio.png" />
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-6 col-xs-6" id="p4">
+                <p>
+
+                </p><img class="img-fluid" src="assets/img/logos/bitgrit.png" />
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="p4">
+                <p>
+
+                </p><img class="img-fluid" src="assets/img/logos/mozilla.png" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <!--
+                                      <div class="row mt-5 wow fadeIn" style="text-align:center;">
+                      <div class="col-lg-12" style="text-align:center;">
+                              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                     
-                                </p><img style="max-width:100px;" class="img-fluid" src="assets/img/logos/gdg.png" />
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="p4">
-                                <p>
-                                    
-                                </p><img  class="img-fluid" src="assets/img/logos/crio.png" />
-                            </div>
-                            <div class="col-lg-3  col-md-3 col-sm-6 col-xs-6" id="p4">
-                                <p>
-                                    
-                                </p><img  class="img-fluid" src="assets/img/logos/bitgrit.png" />
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="p4">
-                                <p>
-                                    
-                                </p><img  class="img-fluid" src="assets/img/logos/mozilla.png" />
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-                
-                <!--/.First row-->
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-
-                <!--
-                                    <div class="row mt-5 wow fadeIn" style="text-align:center;">
-                    <div class="col-lg-12" style="text-align:center;">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                   
-                                    <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                          <div class="carousel-wrapper">
-                                            <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
-                                            <img src="assets/img/logos/exploreML.png" height="40px"/>
-                                            <h4 class="description">Explore Machine Learning (ML) is a Google-sponsored program  for university students to get started with Machine Learning. The curriculum offers 3 tracks of machine learning content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus.</h4>
-                                            <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
-                                            <h4 class="description"><b>Google AI | Explore ML</b></h4>
-                                        </div>
-                                    </div>
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="carousel-wrapper">
+                                              <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
+                                              <img src="assets/img/logos/exploreML.png" height="40px"/>
+                                              <h4 class="description">Explore Machine Learning (ML) is a Google-sponsored program  for university students to get started with Machine Learning. The curriculum offers 3 tracks of machine learning content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus.</h4>
+                                              <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
+                                              <h4 class="description"><b>Google AI | Explore ML</b></h4>
+                                          </div>
+                                      </div>
+                                        <div class="carousel-item">
+                                              <div class="carousel-wrapper">
+                                              <h1 class="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
+                                              <img src="https://www.pixitmedia.com/wp-content/uploads/2019/09/google_lockup_cloud_rgb.png" height="40px"/>
+                                              <h4 class="description">#GCPCrashCourse is a Cloud based learning campaign that focuses on building Learning Paths for students across 3 distinct Tracks. With <span class="blue_text">#GCPCrashCourse</span> you get to learn dedicated topics across three complete tracks, namely -  Application Development, Data & Machine Learning.</h4>
+                                              <h1 id="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
+                                              
+                                              <a href="./gcpcc.html" target="blank"><b><h4 class="description">Click to Sign Up for <span class="blue_text">#GCPCrashCourse</span></b></h4></a>
+                          
+                                              </div>
+                                      </div>
                                       <div class="carousel-item">
-                                            <div class="carousel-wrapper">
-                                            <h1 id="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
-                                            <img src="https://www.pixitmedia.com/wp-content/uploads/2019/09/google_lockup_cloud_rgb.png" height="40px"/>
-                                            <h4 class="description">#GCPCrashCourse is a Cloud based learning campaign that focuses on building Learning Paths for students across 3 distinct Tracks. With <span id="blue_text">#GCPCrashCourse</span> you get to learn dedicated topics across three complete tracks, namely -  Application Development, Data & Machine Learning.</h4>
-                                            <h1 id="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
-                                            
-                                            <a href="./gcpcc.html" target="blank"><b><h4 class="description">Click to Sign Up for <span id="blue_text">#GCPCrashCourse</span></b></h4></a>
-                        
-                                            </div>
+                                              <div class="carousel-wrapper">
+                                              <h1 id="red_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
+                                              <img src="https://miro.medium.com/max/4282/1*PshD8n5B_7h-cmmFYpurqA.png" height="40px"/>
+                                              <h4 class="description">Cloud Fest '19 is an occasion which promises to be a celebration of ideas, learning, productive discussions, and the conception of unique solutions to critical real-world problems using cloud computing. It will start off with a keynote sessions by the speakers, and ending with a hands-on session for the participants. </h4>
+                                              <h1 id="red_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
+                                              <h4 class="description"><b>Coming Soon</b></h4>
+                                              </div>
+                                      </div>
+                                      
+                                      </div>
+                                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span>&nbsp;</span>
+                                      </a>
+                                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span>&nbsp;</span>
+                                      </a>
                                     </div>
-                                    <div class="carousel-item">
-                                            <div class="carousel-wrapper">
-                                            <h1 id="red_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
-                                            <img src="https://miro.medium.com/max/4282/1*PshD8n5B_7h-cmmFYpurqA.png" height="40px"/>
-                                            <h4 class="description">Cloud Fest '19 is an occasion which promises to be a celebration of ideas, learning, productive discussions, and the conception of unique solutions to critical real-world problems using cloud computing. It will start off with a keynote sessions by the speakers, and ending with a hands-on session for the participants. </h4>
-                                            <h1 id="red_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
-                                            <h4 class="description"><b>Coming Soon</b></h4>
-                                            </div>
-                                    </div>
-                                    
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                      <span>&nbsp;</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                      <span>&nbsp;</span>
-                                    </a>
-                                  </div>
-                            
-                        </div>
-                    </div>
-                -->
-                </div>
-                
-            <p>&nbsp;</p>
-            <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
-                <div class="col-lg-6" style="text-align:left;">
-                    <h3 class="title" id="tracks"><b>Join the Conversation</b></h3>
-                    <p>&nbsp;</p>
-                    <h5 class="description">
-                        Join our Slack Channel to know more about the Activities, Sessions and other fun stuff.
-                        <br/>
-                        <p>&nbsp;</p>
-                        <a href="https://bit.ly/2n0jVUx" target="blank" class="btn btn-primary" id="buttons" style="background: #4A154B;"><b>Join us on &nbsp; <img height="30px" src="assets/img/logos/slack.png"/></b></a>    
-                    </h5>
-                </div>
-                <div class="col-lg-6" style="text-align:left;">
-                    
-                        <h3 class="title" id="tracks"><b>&nbsp;</b></h3>
-                        <p>&nbsp;</p>
-                        <h5 class="description">
-                            Join our Discord Server to know more about the Activities, Sessions and other fun stuff.
-                            <br/>
-                            <p>&nbsp;</p>
-                            <a href="https://discord.gg/aEDyUKb" target="blank" class="btn btn-primary" id="buttons" style="background: #2C2F33;"><b>Join us on &nbsp; <img height="30px" src="assets/img/logos/discord.png"/></b></a>    
-                        </h5>
-                </div>
-            </div>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
+                              
+                          </div>
+                      </div>
+                  -->
+      </div>
+      <!-- /. **** Our Partners ****-->
 
-            <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
-                <!--Second column-->
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
-                        <!--Card-->
-                        
-                        <img class="img-fluid" src="assets/img/kit/heritage.jpg" width="100%"/>
-                        <p>&nbsp;</p>
-                    </div>
-                    <!--/.Second column-->
+      <p>&nbsp;</p>
 
-                        <!--First column-->
-                        <div class="col-lg-7">
-                            <!--Card-->
-                            
-                            <h3 class="title" style="color:rgb(54, 53, 53);">About HIT</h3>
-                            <!--Card-->
-                            <p>&nbsp;</p>
-                            <p><h5 class="description">Heritage Institute of Technology, popularly known as HITK or HIT, is a private autonomous engineering college in Anandapur, Kolkata, West Bengal, India. The foundation behind the growth of HITK is the Kalyan Bharti Trust. To meet the demand for technical manpower, the Kalyan Bharti Trust supplemented the state government’s efforts by establishing the Heritage Institute of Technology in September 2000.
-                            </h5></p>
-                            
-                            <p><a href="https://heritageit.edu" target="blank"><span class="description" id="details_redirect"><b>Learn More</b></span></a>&nbsp;&nbsp;
-                            </p>
-   
-                        </div>
-                        <!--/.First column-->
-                       
-            </div>
-            
-            <!--/.First row-->
+      <!-- **** Join the Conversation **** -->
+      <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+
+        <!-- Slack Button -->
+        <div class="col-lg-6 left-text">
+          <h3 class="title" id="tracks"><b>Join the Conversation</b></h3>
+          <p>&nbsp;</p>
+          <h5 class="description">
+            Join our Slack Channel to know more about the Activities, Sessions and other fun stuff.
+            <br>
             <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
+            <a href="https://bit.ly/2n0jVUx" target="blank" class="btn btn-primary" id="buttons" style="background: #4A154B;">
+              <b>Join us on &nbsp; <img height="30px" src="assets/img/logos/slack.png" /></b>
+            </a>
+          </h5>
         </div>
+
+        <!-- Discord Button -->
+        <div class="col-lg-6 left-text">
+
+          <h3 class="title" id="tracks"><b>&nbsp;</b></h3>
+          <p>&nbsp;</p>
+          <h5 class="description">
+            Join our Discord Server to know more about the Activities, Sessions and other fun stuff.
+            <br />
+            <p>&nbsp;</p>
+            <a href="https://discord.gg/aEDyUKb" target="blank" class="btn btn-primary" id="buttons" style="background: #2C2F33;">
+              <b>Join us on &nbsp; <img height="30px" src="assets/img/logos/discord.png" /></b>
+            </a>
+          </h5>
         </div>
-       
+
+      </div>
+      <!-- /.**** Join the Conversation **** -->
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+      <!-- **** About HIT **** -->
+      <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+
+        <div class="col-lg-5 wow fadeIn left-text" data-wow-delay="0.2s">
+          <img class="img-fluid" src="assets/img/kit/heritage.jpg" width="100%" />
+          <p>&nbsp;</p>
+        </div>
+
+        <!-- Description -->
+        <div class="col-lg-7">
+          <h3 class="title black-lighten-3">About HIT</h3>
+
+          <p>&nbsp;</p>
+
+          <p>
+            <h5 class="description">
+              Heritage Institute of Technology, popularly known as HITK or HIT, is a
+              private autonomous engineering college in Anandapur, Kolkata, West Bengal, India. The
+              foundation behind the growth of HITK is the Kalyan Bharti Trust. To meet the demand for
+              technical manpower, the Kalyan Bharti Trust supplemented the state government’s efforts by
+              establishing the Heritage Institute of Technology in September 2000.
+            </h5>
+          </p>
+
+          <p>
+            <a href="https://heritageit.edu" target="blank">
+              <span class="description" id="details_redirect"><b>Learn More</b></span>
+            </a>
+            &nbsp;&nbsp;
+          </p>
+        </div>
+      </div>
+      <!-- /.**** About HIT **** -->
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
     </div>
-    
-    <div id="location" width="100%">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.1508383682512!2d88.41683963209341!3d22.51716647143936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027409f5382055%3A0xa47cf90c19bf73c2!2sHeritage+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1555770441032!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
+  </div>
 
-    <div id="footer">
-        <a href="#top" id="top-button" class="top">
-                <i class="material-icons" style=" font-size: 30px;">
-                        keyboard_arrow_up
-                        </i>
-        </a>
-        <div class="container" style="padding-top: 20px;">
+  <!-- Map -->
+  <div id="location" width="100%">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.1508383682512!2d88.41683963209341!3d22.51716647143936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027409f5382055%3A0xa47cf90c19bf73c2!2sHeritage+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1555770441032!5m2!1sen!2sin"
+      width="100%" height="450" frameborder="0" allowfullscreen></iframe>
+  </div>
 
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="share-social">
-                        <span><a><b>Keep In Touch</b></a></span>
-                            <a id="social_button" href="https://www.facebook.com/dscheritageit/" target="_blank"><i class="fa fa-facebook"></i></a><a>&nbsp;</a>
-                            <a id="social_button" href="https://twitter.com/dscheritageit1" target="_blank"><i class="fa fa-twitter"></i></a><a>&nbsp;</a>
-                            <a id="social_button" href="https://medium.com/@dscheritageit" target="_blank"><i class="fa fa-medium"></i></a><a>&nbsp;</a>
-                            <a id="social_button" href="https://github.com/DSC-HIT" target="_blank"><i class="fa fa-github"></i></a><a>&nbsp;</a>
-                            
-                            <a>&nbsp;</a>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="share-social">
-                        <span><a href="mailto:dscheritageit@gmail.com"><b>Email Us : <b id="blue_text">dscheritageit@gmail.com</b></b></a></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br/>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
-                    <span><b>ABOUT</b></span>
-                    <p>
-                        <a href="https://facebook.com/pg/GDGKolkata/about/" id="details_redirect" target="_blank"><b>GDG Kolkata</b></a><br />
-                        <a href="https://developers.google.com/programs/community/gdg/" id="details_redirect" target="_blank">Google
-                            Developers Group</a><br />
-                            
-                        <a href="./team.html" id="details_redirect" >Meet the Team</a><br />
-                        </p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
-                    <span><b>ABOUT WTM</b></span>
-                    <p>
-                        <a href="https://facebook.com/WTMKolkata/" id="details_redirect" target="_blank"><b>WTM Kolkata</b></a><br />
-                        <a href="https://www.womentechmakers.com/" id="details_redirect" target="_blank" style="color:rgb(66, 66, 66);">Women Techmakers</a><br />
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
-                        <span><b>OTHER LINKS</b></span>
-                        <p>
-                            <a href="#" id="details_redirect" target="_blank" style="color:rgb(65, 64, 64);">Call for Speakers</a><br />
-                            <a href="#" id="details_redirect" target="_blank" style="color:rgb(65, 64, 64);">Call for Sponsors</a><br />
-                            <a href="https://docs.google.com/document/d/1rkZySaO-iXyrDdlsUa2xsIgH9iWEtIviqMwxRwop5Ng/edit?usp=sharing" id="details_redirect" target="_blank"><b>Community Guidelines</b></a><br />
-                        </p>
-                    </div>
-            </div>
-        </div>
-        <hr />
-        <div class="container" style="padding-bottom: 20px;">
 
-            <div class="row">
-                <div class="col-lg-3">
-                    <img src="assets/img/logos/dsc_linear.png" alt="dsc-logo" />
-                </div>
-                <div class="col-lg-9 copyright" style="font-family: 'Open Sans', sans-serif; font-size:14px;">
-                    &copy; Copyright 2019 <b>DSC HIT</b> <span class="hide-bar"> | </span><a id="details_redirect" href="#"><b>Developed with ❤️</b></a>
-                </div>
-            </div>
+  <!-- **** Footer **** -->
+  <div id="footer">
+    <a href="#top" id="top-button" class="top">
+      <i class="material-icons" style="font-size: 30px;"> keyboard_arrow_up</i>
+    </a>
+    <div class="container" style="padding-top: 20px;">
+
+      <!-- Start of Row -->
+      <div class="row">
+
+        <!-- Social Media Icons -->
+        <div class="col-lg-4">
+          <div class="share-social">
+            <span><a><b>Keep In Touch</b></a></span>
+            <a id="social_button" href="https://www.facebook.com/dscheritageit/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a id="social_button" href="https://twitter.com/dscheritageit1" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a id="social_button" href="https://medium.com/@dscheritageit" target="_blank"><i class="fa fa-medium"></i></a>
+            <a id="social_button" href="https://github.com/DSC-HIT" target="_blank"><i class="fa fa-github"></i></a>
+
+            <a>&nbsp;</a>
+            </span>
+          </div>
         </div>
+
+        <!-- Mail ID -->
+        <div class="col-lg-4">
+          <div class="share-social">
+            <span>
+              <a href="mailto:dscheritageit@gmail.com">
+                <b>Email Us : <b class="blue_text">dscheritageit@gmail.com</b></b>
+              </a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+      <!-- End of Row -->
     </div>
 
+    <br>
+
+    <div class="container">
+      <!-- Start of Row -->
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
+          <span><b>ABOUT</b></span>
+          <p>
+            <a href="https://facebook.com/pg/GDGKolkata/about/" id="details_redirect" target="_blank">
+              <b>GDG Kolkata</b>
+            </a><br>
+
+            <a href="https://developers.google.com/programs/community/gdg/" id="details_redirect" target="_blank">
+              Google Developers Group
+            </a><br>
+
+            <a href="./team.html" id="details_redirect">
+              <span class="black-lighten-3">Meet the Team</span>
+            </a><br>
+          </p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
+          <span><b>ABOUT WTM</b></span>
+          <p>
+            <a href="https://facebook.com/WTMKolkata/" id="details_redirect" target="_blank">
+              <b>WTM Kolkata</b>
+            </a><br>
+
+            <a href="https://www.womentechmakers.com/" id="details_redirect" target="_blank">
+              Women Techmakers
+            </a><br>
+          </p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footer-details">
+          <span><b>OTHER LINKS</b></span>
+          <p>
+            <a href="#" id="details_redirect" target="_blank">
+              <span class="black-lighten-3">Call for Speakers</span> 
+            </a><br>
+
+            <a href="#" id="details_redirect" target="_blank">
+              <span class="black-lighten-3">Call for Sponsors</span>
+            </a><br>
+
+            <a href="https://docs.google.com/document/d/1rkZySaO-iXyrDdlsUa2xsIgH9iWEtIviqMwxRwop5Ng/edit?usp=sharing"
+              id="details_redirect" target="_blank">
+              <b>Community Guidelines</b>
+            </a><br>
+          </p>
+        </div>
+
+      </div>
+      <!-- End of Row -->
+    </div>
+
+    <hr>
+
+    <div class="container" style="padding-bottom: 20px;">
+
+      <div class="row">
+
+        <div class="col-lg-3">
+          <img src="assets/img/logos/dsc_linear.png" alt="dsc-logo" />
+        </div>
+
+        <div class="col-lg-9 copyright" style="font-size:14px;">
+          &copy; Copyright 2019 <b>DSC HIT</b> <span class="hide-bar"> | </span><a id="details_redirect" href="#"><b>Developed with ❤️</b></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(function () { console.log("Service Worker Registered"); });
+    }
+  </script>
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/bootstrap-material-design.js"></script>
+  <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+  <script src="assets/js/material-kit.js?v=2.0.2"></script>
+  <script src="assets/assets-custom/js/material-kit-demo.js"></script>
+  <!-- <script src="assets/assets-custom/js/GridHorizontal.js"></script> -->
+  <!-- <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script> -->
+  <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+  <script src="assets/assets-custom/main.js"></script>
 
-</div>
-
-
-    <script>
-        if('serviceWorker' in navigator) {
-          navigator.serviceWorker
-                   .register('/sw.js')
-                   .then(function() { console.log("Service Worker Registered"); });
-        }
-        </script>
-    <!--   Core JS Files   -->
-    <script src="assets/js/core/jquery.min.js"></script>
-    <script src="assets/js/core/popper.min.js"></script>
-    <script src="assets/js/bootstrap-material-design.js"></script>
-    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
-    <script src="assets/js/material-kit.js?v=2.0.2"></script>
-    <script src="assets/assets-custom/js/material-kit-demo.js"></script>
-    <!-- <script src="assets/assets-custom/js/GridHorizontal.js"></script> -->
-    <!-- <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script> -->
-    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
-    <script src="assets/assets-custom/main.js"></script>
-    
-    <script src="assets/assets-custom/index.js"></script>
+  <!-- <script src="assets/assets-custom/index.js"></script> -->
 </body>
 
 </html>

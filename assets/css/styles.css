@@ -21,9 +21,15 @@
     margin-top: 0;
 }
 
-#background-header {
+#background-header-home {
     background-image: url('../img/kit/header.png'); 
     background-size: 110% auto;
+}
+
+#background-header-flutter {
+    background-image: url('../img/kit/flutter.jpg'); 
+    background-size: 100% auto;
+    background-position: bottom;
 }
 
 .left-text {
@@ -95,6 +101,12 @@
 }
 .green-back {
     background-color:rgba(11, 184, 83,0.15);
+}
+
+.white-back {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 

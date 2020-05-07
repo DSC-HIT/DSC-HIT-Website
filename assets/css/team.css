@@ -9,14 +9,14 @@
 .container-team-member {
     padding-bottom: 50px;
 }
-
+/*
 .col-sm-12 {
     padding: 1% 1%;
 }
-
+*/
 
 .float-my-children {
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .float-my-children>* {

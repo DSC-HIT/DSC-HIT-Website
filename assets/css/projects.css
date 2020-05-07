@@ -91,7 +91,7 @@ body{
     transform: translateX(-50%);
 }
 
-.row{
+#container-projects{
     margin: 0px 10px 0px -5px;
 }
 

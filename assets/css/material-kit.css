@@ -8880,9 +8880,9 @@ button:focus {
 
 .btn.btn-primary {
     color: #fff;
-    background-color: #9c27b0;
-    border-color: #9c27b0;
-    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    background-color: #346DF1;
+    border-color: #346DF1;
+    box-shadow: 0 2px 2px 0 rgba(53, 109, 241, 0.14), 0 3px 1px -2px rgba(52, 109, 241, 0.2), 0 1px 5px 0 rgba(52, 109, 241, 0.12);
 }
 
 .btn.btn-primary:hover {
@@ -12066,7 +12066,7 @@ fieldset[disabled] .is-focused .switch label:focus {
 
 .form-control,
 .is-focused .form-control {
-    background-image: linear-gradient(to top, #9c27b0 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+    background-image: linear-gradient(to top, #536DFE 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
 }
 
 .form-control:invalid {

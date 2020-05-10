@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="icon" href="favicon.png">
+
+  <title>
+    Admin Panel | DSC HIT
+  </title>
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.2">
+
+  <!-- Documentation extras -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+
+    #top-button {
+      font-size: 20px;
+      transition: 0.3s ease;
+    }
+
+    .grid-item {
+      width: 25%;
+    }
+
+    .grid-item--width2 {
+      width: 50%;
+    }
+
+    .img-fluid {
+      border-radius: 5px 5px;
+    }
+  </style>
+  <!-- iframe removal -->
+</head>
+
+<body class="landing-page" name="top" id="top">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg" color-on-scroll="100"
+    id="sectionsNav">
+    <!-- ===== Navbar through JS ===== -->
+  </nav>
+  <!-- /.Navbar -->
+
+  <div class="main main-raised margin-t-0">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <div class="container">
+
+      <!-- **** Login **** -->
+      <div id="login" class="card">
+        <div class="card-body">
+      
+          <div class="row">
+            
+            <!-- Image -->
+            <div class="col-md-6" id="background-login">&nbsp;</div>
+            
+            <!-- Login Area -->
+            <div class="col-md-6" id="login-content">
+
+              <!-- Headers -->
+              <div class="center">
+                <p>&nbsp;</p>
+                <img class="img-fluid" src="assets\img\logos\dsc_header.png" style="width: 50%;"/>
+                <p>&nbsp;</p>
+                <h4 class="tag_details"><b>Admin Panel Login</b></h4>
+              </div>
+              <!-- /. Headers -->
+
+              <!-- Form -->
+              <div class="login-form">
+                <!-- Email -->
+                <div class="form-group bmd-form-group">
+                  <label class="bmd-label-floating">
+                    <i class="fa fa-user"></i> Email
+                  </label>
+                  <input type="text" class="form-control">
+                </div>
+        
+                <!-- Password -->
+                <div class="form-group bmd-form-group">
+                  <label class="bmd-label-floating">
+                    <i class="fa fa-lock"></i> Password
+                  </label>
+                  <input type="password" class="form-control">
+                </div>
+
+                <!-- Forgot Password and Login -->
+                <div class="row">
+                  <div class="col" style="padding-top: 15px;">
+                    <a href="#" class="blue_text">Forgot Password?</a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="float-right">
+                      <button class="btn btn-primary right-align" id="login-btn"><b>Login</b></button>
+                    </a>
+                  </div>
+                </div>
+                
+                <hr>
+
+                <div class="center"> OR Login with</div>
+
+                <!-- Social Logins -->
+                <div class="row" id="login-pugins">
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <a href="#">
+                      <button class="btn btn-primary" id="google-btn"><i class="fa fa-google"></i> Google</button>
+                    </a>
+                  </div>
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <a href="#">
+                      <button class="btn btn-primary" id="facebook-btn"><i class="fa fa-facebook"></i> Facebook</button>
+                    </a>
+                  </div>
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <a href="#">
+                      <button class="btn btn-primary" id="github-btn"><i class="fa fa-github"></i> GitHub</button>
+                    </a>
+                  </div>
+
+                </div>
+                <!-- /. Social Logins -->
+
+              </div>
+              <!-- /. Form-->
+            </div>
+            <!-- /. Login Area --> 
+          </div>
+      
+        </div>
+      </div>
+      
+      <!-- /.**** Login **** -->
+    </div>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <!-- **** Footer **** -->
+    <div id="footer">
+      <!-- ===== Footer Through JS ===== -->
+    </div>
+    <!-- /. Footer -->
+
+  </div>
+
+
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/footer.js"></script>
+
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/style/bootstrap-material-design.js"></script>
+  <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+  <script src="assets/js/style/material-kit.js?v=2.0.2"></script>
+  <script src="assets/assets-custom/js/material-kit-demo.js"></script>
+  <!-- <script src="assets/assets-custom/js/GridHorizontal.js"></script> -->
+  <!-- <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script> -->
+  <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+  <script src="assets/assets-custom/main.js"></script>
+
+  <!-- <script src="assets/assets-custom/index.js"></script> -->
+
+</body>
+
+</html>

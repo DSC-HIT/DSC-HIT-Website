@@ -30,58 +30,30 @@
 
     <style>
         body {
-            overflow-x: hidden;
+        overflow-x: hidden;
         }
 
-        .p-1 {
-            padding: 10px;
-        }
-        .iconstyle{
-            padding: 15px 15px 15px 0px;
-            margin:0 10px 0 0 ;
-            font-size: 25px;
-            
-
+        #top-button {
+        font-size: 20px;
+        transition: 0.3s ease;
         }
 
-        .p-1 i {
-            font-size: 25px;
+        .tab {
+        margin-left: 40px;
         }
-        .img-fluid{
-            width:65%;
-            height:auto;
-            
-            border-radius: 10px;
+
+        /*
+            .grid-item { width: 25%; }
+            .grid-item--width2 { width: 50%; }*/
+
+        .img-fluid {
+        border-radius: 5px 5px;
         }
-        .social{
-            padding:0;
-        }
-        .header{
-            width: 100vw;
-            height:12vh;
-            margin-bottom: 5vh;
-        }
-        .text-status{
-            font-size: medium;
-            width:65%;
-            text-align: center;
-        }
-        .btn{
-            width: 40%;
-            background: #D9EDFF;
-        }
-        .btn-class{
-            width: 100%;
-            margin-left:12%;
-        }
-        .icon{
-            
-            color: #4D8AE4;
-            border-radius: 50%;
-        }
-        .about{
-            font-size: medium;
-            text-align: left;
+
+
+        .col-sm-6,
+        .col-xs-6 {
+        width: 50%;
         }
         
     </style>
@@ -95,10 +67,17 @@
         </nav>
         <!-- /.Navbar -->
         <div class="main main-raised margin-t-0">
+            <div class="container">
+                    <div class="container no-padding container-sub-page">
+                        <div id="container-team" class="row">
+                            <div id="detail">
 
-            <div id="detail">
-                <div ><img  class="header w-100" src="assets/img/kit/Rectangle 2.png"></div>
+                            </div>
+                        </div>
+                      </div>
             </div>
+
+           
 
             <!-- **** Footer **** -->
             <div id="footer">
@@ -130,44 +109,59 @@
     <script>
 
         $('document').ready(function () {
-
-            function getIcons(links){
-                var result = '';
-                for(var i=0;i<links.length;i++){
-                    if(links[i].linkType === "Github"){
-                        result += `<a class="iconstyle" href="${links[i]}"><i class="icon fa fa-github" aria-hidden="true"></i></a>`                 
-                    }
-                    if(links[i].linkType === "Twitter"){
-                        result += `<a  class="iconstyle" href="${links[i]}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>`               
-                    }
-                    if(links[i].linkType === "Facebook"){
-                        result += `<a class="iconstyle" href="${links[i]}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>`                 
-                    }
-                    if(links[i].linkType === "LinkedIn"){
-                        result += `<a class="iconstyle" href="${links[i]}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>`                
-                    }
-                }
-                return result;
-                };
                 
+                function getLinks(links) {
+
+                    var result = '';
+
+                    links.forEach(function (link) {
+
+                    if (link.linkType === 'Twitter') {
+                        result += `<li>
+                                    <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="${link.link}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>`;
+                    }
+
+                    if (link.linkType == 'LinkedIn') {
+                        result += `<li>
+                                    <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="${link.link}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>`;
+                    }
+
+                    if (link.linkType == 'Github') {
+                        result += `<li>
+                                    <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="${link.link}" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </li>`;
+                    }
+
+                    if (link.linkType == 'Facebook') {
+                        result += `<li>
+                                    <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="${link.link}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>`;
+                    }
+
+                    });
+
+                    return result;
+                    }
 
             function getDetails(member) {
                 var template =
                 `<div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <img class="img-fluid mx-auto" src="${member.displayPicture} " >
                         <p class="text-status"><strong>something like Github Status something like</strong></p>
                         <div class="btn-class">
                         <button class="btn text-primary bg-light p-5">Get in touch</button></div>
                     </div>
-                    <div class="col-lg-10 col-md-10 col-sm-10 col-12">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                         <h2 class="text-name">${member.name}</h2>
                         <h4 class="description">${member.description}</h4>
                         <h4 class="year">2019-2020</h4>
                         <br><br>
                         <ul class="social">
-                        ${getIcons(member.links)}
+                        ${getLinks(member.links)}
                         </ul>
                         <p class="about">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
                         <div>

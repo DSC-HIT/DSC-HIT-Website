@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Team Detail</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        .p-1 {
+            padding: 10px;
+        }
+        .iconstyle{
+            padding: 15px 15px 15px 0px;
+            margin:0 10px 0 0 ;
+            font-size: 25px;
+            
+
+        }
+
+        .p-1 i {
+            font-size: 25px;
+        }
+        .img-fluid{
+            width:65%;
+            height:auto;
+            
+            border-radius: 10px;
+        }
+        .social{
+            padding:0;
+        }
+        .header{
+            width: 100vw;
+            height:12vh;
+            margin-bottom: 5vh;
+        }
+        .text-status{
+            font-size: medium;
+            width:65%;
+            text-align: center;
+        }
+        .btn{
+            width: 40%;
+            background: #D9EDFF;
+        }
+        .btn-class{
+            width: 100%;
+            margin-left:12%;
+        }
+        .icon{
+            
+            color: #4D8AE4;
+            border-radius: 50%;
+        }
+        .about{
+            font-size: medium;
+            text-align: left;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="detail">
+        <div ><img  class="header w-100" src="assets/img/kit/Rectangle 2.png"></div>
+    </div>
+
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/bootstrap-material-design.js"></script>
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+
+
+
+    <script>
+
+        $('document').ready(function () {
+
+            function getIcons(links){
+                var result = '';
+                for(var i=0;i<links.length;i++){
+                    if(links[i].linkType === "Github"){
+                        result += `<a class="iconstyle" href="${links[i]}"><i class="icon fa fa-github" aria-hidden="true"></i></a>`                 
+                    }
+                    if(links[i].linkType === "Twitter"){
+                        result += `<a  class="iconstyle" href="${links[i]}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>`               
+                    }
+                    if(links[i].linkType === "Facebook"){
+                        result += `<a class="iconstyle" href="${links[i]}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>`                 
+                    }
+                    if(links[i].linkType === "LinkedIn"){
+                        result += `<a class="iconstyle" href="${links[i]}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>`                
+                    }
+                }
+                return result;
+                };
+                
+
+            function getDetails(member) {
+                var template =
+                    `<div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                        <img class="img-fluid mx-auto" src="${member.displayPicture} " >
+                        <p class="text-status"><strong>something like Github Status something like</strong></p>
+                        <div class="btn-class">
+                        <button class="btn text-primary bg-light p-5">Get in touch</button></div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                        <h2 class="text-name">${member.name}</h2>
+                        <h4 class="description">${member.description}</h4>
+                        <h4 class="year">2019-2020</h4>
+                        <br><br>
+                        <ul class="social">
+                        ${getIcons(member.links)}
+                        </ul>
+                        <p class="about">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                        <div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>`
+                return template;
+            }
+            var html = '';
+
+            $.getJSON('./assets/json/team.json', function (members) {
+
+                var urlParams = new URLSearchParams(window.location.search); 
+                console.log(urlParams);
+
+                var myParam = urlParams.get('id')
+                console.log(myParam);
+                for (var i = 0; i < members.length; i++) {
+                    if (members[i].id == myParam)
+                        html += getDetails(members[i]);
+
+                }
+                $('#detail').append(html);
+            });
+        });
+
+    </script>
+</body>
+
+</html>

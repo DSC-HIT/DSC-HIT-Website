@@ -70,3 +70,38 @@ ul li a i {
 .team-member-details .team-member-name {
     font-weight: bold;
 }
+
+li #social_button1 {
+    margin: 5px;
+    color: rgb(0,101,202)!important;
+    background-color: rgba(30, 97, 163, 0.1);
+    box-shadow: unset;
+}
+
+.designation {
+    color: rgb(56, 56, 56);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .details-holder {
+        text-align: center;
+    }
+
+    .social {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #joinbtn {
+        margin-left: -1px;
+    }
+
+    .style {
+        display: inline-block;
+        text-align: center;
+    }
+
+
+    
+  }

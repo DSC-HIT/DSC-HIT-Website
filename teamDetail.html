@@ -55,6 +55,23 @@
         .col-xs-6 {
         width: 50%;
         }
+
+
+        .text-status {
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .btn-holder {
+            width: 100%;
+            margin: 15px auto;
+            text-align: center;
+        }
+
+        .btn-holder .btn {
+            width: 65%;
+        }
         
     </style>
 </head>
@@ -78,7 +95,8 @@
             </div>
 
            
-
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
             <!-- **** Footer **** -->
             <div id="footer">
             <!-- ===== Footer Through JS ===== -->
@@ -151,7 +169,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <img class="img-fluid mx-auto" src="${member.displayPicture} " >
-                        <h5 class="text-status description"><strong>something like Github Status something like</strong></p>
+                        <h5 class="text-status description"><strong>Something like Github Status</strong></p>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                         <h2 class="text-name">${member.name}</h2>
@@ -163,19 +181,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row"
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="btn-class">
-                        <button class="btn text-primary bg-light p-5">Get in touch</button>
-                    </div>
-                <div>
-                        <p class="about">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
-                        <div>
-                        
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="btn-holder">
+                            <button class="btn" id="joinbtn"><b id="header_text">Get in touch</b></button>
                         </div>
                     </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <p class="about">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                    <div>      
                 </div>
-            </div>`
+            </div>
+            <p>&nbsp;</p>`
                 return template;
             }
             var html = '';

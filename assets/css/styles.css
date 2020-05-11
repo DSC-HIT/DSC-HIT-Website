@@ -252,6 +252,12 @@ body {
     background-position: bottom;
 }
 
+#background-header-gcpcc {
+    background-image: url('../img/kit/gcpcc.png'); 
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
 #background-login {
     background-image: url(../img/kit/login_bg_cropped.png);
     background-size: 100% auto;
@@ -288,6 +294,11 @@ body {
 
 .logo-partner {
     max-width: 100px;
+}
+
+#gcp-tracks {
+    margin-left:-8px; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* ----------------------------------------------

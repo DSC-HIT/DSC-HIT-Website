@@ -4,7 +4,7 @@
         "info":"A community is nothing without its people, and therefore, we welcomed in the Freshmen at a small orientation Session about DSC wherein we told them about the Club, our vision and the end mission.",
         "date":"1st August, 2019",
         "imgSrc":"./assets/img/Events/dsc_orientation.png",
-        "fbLink":"https://m.facebook.com/story.php?story_fbid=1571144273027661&id=1420625911412832"
+        "fbLink":"https://www.facebook.com/story.php?story_fbid=1571144273027661&id=1420625911412832"
     },
     {
         "eventName": "Cloud Study Jam",
@@ -46,7 +46,7 @@
         "info": "Livestreaming of the DSC India Summit 2019 along with other fun activities.",
         "date": "24th August, 2019",
         "imgSrc": "https://scontent.fccu7-1.fna.fbcdn.net/v/t1.0-9/s960x960/68712563_1575778002564288_3105660400419471360_o.jpg?_nc_cat=103&_nc_oc=AQkNoK6JP6I-HFH_4ANoirSJtZ50IHTDr4ckdEiGI_JTARJw7VZxRXEM3zX6tqB3BaeqEdPXCEHhF097MlH5X_N5&_nc_ht=scontent.fccu7-1.fna&oh=20c52d0ae3d0aca48b09fa49fcddc36c&oe=5E447776",
-        "fbLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdscheritageit%2Fposts%2F1578289052313183"
+        "fbLink": "https://www.facebook.com/story.php?story_fbid=1578289052313183&id=1420625911412832"
     },
     {
         "eventName": "Android Study Jam",
@@ -74,7 +74,7 @@
         "info":"DSC HIT along with Google Developers and Qwiklabs brings to you the #GCPCrashCourse, the best place to get started with the Google Cloud Platform.",
         "date":"1st October, 2019",
         "imgSrc":"./assets/img/Events/GCP Crash Course.png",
-        "fbLink":"https://dschit.com/gcpcc.html"
+        "fbLink":"/gcpcc.html"
     },
     {
         "eventName": "Explore ML Session 1",

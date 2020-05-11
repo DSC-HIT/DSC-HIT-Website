@@ -215,20 +215,18 @@
       });
     });
 
-  </script>
-   <script>
     function myfun(targetid){
         
         var html = '';
-      $.getJSON('./assets/json/team.json', function (members) {
+        $.getJSON('./assets/json/team.json', function (members) {
 
         members.forEach(function (member) {
           if(member.id==targetid)
-          window.location = "teamDetail.html?id="+member.id;
-            
+            window.location = "member.html?id="+member.id;  
           })
         })
     }
+
   </script>
 </body>
 

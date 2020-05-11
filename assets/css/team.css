@@ -84,24 +84,21 @@ li #social_button1 {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    .display-picture {
+        margin-top: 50px;
+    }
+
     .details-holder {
         text-align: center;
     }
 
     .social {
         margin: 0 auto;
+        display: inline-block;
         text-align: center;
     }
 
     #joinbtn {
         margin-left: -1px;
     }
-
-    .style {
-        display: inline-block;
-        text-align: center;
-    }
-
-
-    
   }

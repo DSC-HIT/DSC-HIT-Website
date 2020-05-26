@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="theme-color" content="#ffffff"/>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="icon" href="favicon.png">
+
+    <title>
+        Cyclone Relief
+    </title>
+    <!-- Fonts and icons -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./winterfell/assets/css/material-kit.css?v=2.0.2">
+    <!-- Documentation extras -->
+    <link href="./winterfell/demo.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="./winterfell/assets/assets-custom/css/footer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Be+Vietnam|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <style>
+
+
+        body{
+            overflow-x: hidden;
+        }
+
+
+
+        #top-button
+        {
+            font-size:20px;
+            transition: 0.3s ease;
+        }
+        
+        .tab { margin-left: 40px; }
+/*
+        .grid-item { width: 25%; }
+        .grid-item--width2 { width: 50%; }*/
+
+        .img-fluid
+        {
+            border-radius: 5px 5px;
+        }
+
+        .helpline_tag {
+            color: rgb(113, 184, 255);
+            background-color: rgba(0,101,202,0.1);
+            padding: 8px 10px;
+            border-radius: 50px;
+            font-weight: 700;
+            margin: 5px 5px;
+        }
+        </style>
+
+        
+    <!-- iframe removal -->
+</head>
+
+<body class="landing-page" name="top" id="top">
+               
+        <nav class="navbar navbar-color-on-scroll navbar-dark fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav" style="background: rgb(39, 39, 39); color:white; width:100%;">
+                <div class="container" style="background: rgb(39, 39, 39); color:white;">
+                    <div class="navbar-translate">
+                        <a class="navbar-brand" href="/"><span id="gdg-logo"><img src="assets/img/logos/dsc_header_light.png" style="max-height: 90%;" /> </a>
+                        <button style="color:rgb(120,120,120)" class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="dropdown nav-item">
+                                <a href="./index.html" data-page="index" class="nav-link">
+                                    <span style="color:rgb(255, 255, 255);"><b>Home</b></span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./events.html" data-page="events" class="nav-link">
+                                    <span style="color:rgb(255, 255, 255);"><b id="header_text">Events</b></span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./resources.html" data-page="resources" class="nav-link">
+                                    <span style="color:rgb(255, 255, 255);"><b id="header_text">Resources</b></span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                    <a href="./projects.html" data-page="projects" class="nav-link">
+                                        <span style="color:rgb(255, 255, 255);"><b id="header_text">Projects</b></span>
+                                    </a>
+                                </li>
+                            <li class="nav-item">
+                                <a href="./team.html" data-page="team" class="nav-link">
+                                    <span style="color:rgb(255, 255, 255);"><b id="header_text">Team</b></span>
+                                </a>
+                            </li>
+                             <li class="nav-item">
+                                <a href="https://medium.com/@dscheritageit" data-page="team" class="nav-link">
+                                    <span style="color:rgb(255, 255, 255);"><b id="header_text">Blog</b></span>
+                                </a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link">
+                                     <span ><b id="header_text">Blog</b></span>
+                                </a>
+                            </li> -->
+                            <!--  <li class="nav-item">
+                                <a href="./about" data-page="about" class="nav-link">
+                                     <span ><b id="header_text">About</b></span>
+                                </a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a target="blank" class="nav-link" href="https://forms.gle/xfqLFWCzy34624yLA">
+                                    <span class="btn" id="joinbtn"><b id="header_text">Sign Up</b></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <div class="main main-raised" style="margin-top: 0; background: rgb(39, 39, 39); color:white;">
+            
+        <div class="container">
+            
+                    
+                <p>&nbsp;</p>
+                <p>&nbsp;</p> 
+                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
+                    <!--First column-->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s">
+                        <!--Card-->
+                        <p>&nbsp;</p>
+                        <h2 style="color:rgb(63, 238, 200); margin-left:-8px; font-family: 'Open Sans', sans-serif;"><b>Amphan Cyclone Relief</b></h2>
+                        <p>&nbsp;</p>
+                        <p><h5 class="description">Cyclone Amphan, one of the worst storms over the Bay of Bengal in years, has left a trail of destruction in Bengal after making landfall on the eve of May 20th, 2020.<br>The loss of resources, agriculture and infrastructure has been unprecedented as the largest super cyclone since 1997 made landfall in the Indian State.</h5></p>
+                       
+                        
+                        <p>&nbsp;</p>
+                        <!--/.Card-->
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <p>&nbsp;</p>
+                        <img class="img-fluid" src="./assets/img/kit/cyclone_relief/cyclone-amphan1.jpg"/>
+                        <p>&nbsp;</p>
+                    </div>
+                    <!--/.First column-->    
+                </div>
+
+                
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h4 class="description helpline_tag" style="width: 270px;">Helpline Numbers for Bengal</h4>
+                        <h5 class="description helpline_tag" style="width: 230px;">State-Wide Helpline : 1070</h5>
+                        <h5 class="description">&nbsp;&nbsp;West Bengal Police</h5>
+                        <h5 class="description"><span class="helpline_tag" style="width: 140px;">033-2214-3024</span>
+                            <span class="helpline_tag" style="width: 140px;">033-2214-1310</span><br><br>
+                            <span class="helpline_tag" style="width: 140px;">033-2214-3230</span></h5>
+                            <p>&nbsp;</p>
+                    </div>
+                   
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h5 class="description">&nbsp;&nbsp;Howrah Municipal Corporation</h5>
+                        <h5 class="description"><span class="helpline_tag" style="width: 140px;">033-2637-1735</span>
+                            <p>&nbsp;</p>
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4 class="description">Let us do our bit in helping out during the Crisis. The following are the links to the <b>West Bengal State Disaster Emergency Fund.</b><br>
+                        If you cannot contribute, do pass on the information. In these unprecedented times, we need every bit of help we can get.</h4>
+                        <p>&nbsp;</p>
+                        <h4 class="description">
+                            <h4 class="description">Thank You for your Help!</h4>
+                            
+                            
+                            <a href="https://paytm.com/helpinghand/west-bengal-emergency-relief-fund" class="btn btn-primary" id="buttons" id="buttons" style="background-color: rgb(22, 136, 102);"><b>Donate on PayTM</b></a>
+                            <a>&nbsp;</a>
+                            <a href="https://gpay.app.goo.gl/KQ9NoX" class="btn btn-primary" id="buttons" id="buttons" style="background-color: rgb(22, 136, 102);"><b>Donate on GPay</b></a>
+                        
+                        </h4>
+                        <p>&nbsp;</p>
+                        <h4 class="description">Visit <a style="color:rgb(115, 185, 255); font-weight: 700;" href="https://wb.gov.in/"><b>wb.gov.in</b></a> for further details.</h4>
+    
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="assets/img/kit/cyclone_relief/cyclone-2.webp"/>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+                
+                
+
+              
+        </div> 
+
+        <p>&nbsp;</p>  
+
+
+              
+        </div>
+       
+    </div>
+    
+   
+
+    <div id="footer">
+        <a href="#top" id="top-button" class="top">
+                <i class="material-icons" style=" font-size: 30px;">
+                        keyboard_arrow_up
+                        </i>
+        </a>
+        <div class="container" style="padding-top: 20px;">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="share-social">
+                        <span style="color:rgb(255, 255, 255);"><a><b>Keep In Touch</b></a></span>
+                            <a id="social_button" href="https://www.facebook.com/dscheritageit/" target="_blank"><i class="fa fa-facebook"></i></a><a>&nbsp;</a>
+                            <a id="social_button" href="https://twitter.com/dscheritageit1" target="_blank"><i class="fa fa-twitter"></i></a><a>&nbsp;</a>
+                            <a id="social_button" href="https://medium.com/@dscheritageit" target="_blank"><i class="fa fa-medium"></i></a><a>&nbsp;</a>
+                            <a id="social_button" href="https://github.com/DSC-HIT" target="_blank"><i class="fa fa-github"></i></a><a>&nbsp;</a>
+                            
+                            <a>&nbsp;</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="share-social">
+                        <span><a href="mailto:dscheritageit@gmail.com"><b>Email Us : <b id="blue_text">dscheritageit@gmail.com</b></b></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        
+        <hr />
+        <div class="container" style="padding-bottom: 20px;">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="./assets/img/logos/dsc_linear.png" alt="dsc-logo" />
+                </div>
+                <div class="col-lg-9 copyright" style="font-family: 'Open Sans', sans-serif; font-size:14px; color:rgb(255, 255, 255);">
+                    &copy; Copyright 2019 <b>DSC HIT</b> <span class="hide-bar"> | </span><a id="details_redirect" href="#"><b>Developed with ❤️</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/bootstrap-material-design.js"></script>
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+    <script src="assets/js/material-kit.js?v=2.0.2"></script>
+    <script src="assets/assets-custom/js/material-kit-demo.js"></script>
+    <!-- <script src="assets/assets-custom/js/GridHorizontal.js"></script> -->
+    <!-- <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+
+</body>
+
+</html>

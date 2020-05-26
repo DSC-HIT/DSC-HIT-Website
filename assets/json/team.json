@@ -1,11 +1,12 @@
 [
     {
         "displayPicture":"./assets/img/team/Abhishek.jpg",
+        "id": 1,
         "name":"Abhishek Sen",
         "description":"Core Programming TA",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -25,11 +26,12 @@
     {
        
         "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 2,
         "name":"Anindit Sinha",
         "description":"Head of Design",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -48,11 +50,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Atig.jpg",
+        "id": 3,
         "name":"Atig Ghosh",
         "description":"Event Organizer",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -71,11 +74,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Ishita.jpg",
+        "id": 4,
         "name":"Ishita Bardhan",
         "description":"Project Lead",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -94,11 +98,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Kathakoli.jpg",
+        "id": 5,
         "name":"Kathakoli Sorkhel",
         "description":"Event Organizer",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -117,11 +122,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Fazal.jpg",
+        "id": 6,
         "name":"Md Fazal",
         "description":"Flutter TA",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -140,11 +146,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 7,
         "name":"Niwesh Gupta",
         "description":"Core Programming TA",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -163,11 +170,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Piyush.jpg",
+        "id": 8,
         "name":"Piyush Maheshwari",
         "description":"Android TA",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -186,11 +194,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Sayak.jpg",
+        "id": 9,
         "name":"Sayak Banerjee",
         "description":"Tech Lead",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -209,11 +218,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Sayantak.jpg",
+        "id": 10,
         "name":"Sayantak Karar",
         "description":"Project Lead",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -232,11 +242,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Shuvam.jpg",
+        "id": 11,
         "name":"Shuvam Manna",
         "description":"DSC Lead",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "https://distortedaura.wordpress.com"
             },
             {
@@ -255,11 +266,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 12,
         "name":"Somopriya Seth",
         "description":"Outreach",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -278,11 +290,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Subhasis.jpg",
+        "id": 13,
         "name":"Subhasis Das",
         "description":"Web Technologies TA",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -301,11 +314,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Sumit.jpg",
+        "id": 14,
         "name":"Sumit Chakrabarti",
         "description":"Outreach",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -325,11 +339,12 @@
   
     {
         "displayPicture":"./assets/img/team/Suranjan.jpg",
+        "id": 15,
         "name":"Suranjan Daw",
         "description":"Android & Firebase TA",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {
@@ -348,11 +363,12 @@
     },
     {
         "displayPicture":"./assets/img/team/Yashashwee.jpg",
+        "id": 16,
         "name":"Yashashwee C.",
         "description":"Web Technologies TA",
         "links":[
             {
-                "linkType": "Blog",
+                "linkType": "Github",
                 "link": "#"
             },
             {

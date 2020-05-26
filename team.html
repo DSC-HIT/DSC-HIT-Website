@@ -50,9 +50,14 @@
       width: 50%;
     }
 
-    */ .img-fluid {
+    .img-fluid {
       border-radius: 5px 5px;
     }
+
+    .team-member-details {
+      cursor: pointer;
+    }
+
   </style>
   <!-- iframe removal -->
 </head>
@@ -158,7 +163,7 @@
                        </li>`;
           }
 
-          if (link.linkType == 'Blog') {
+          if (link.linkType == 'Github') {
             result += `<li style="color:rgb(0,101,202);">
                           <a id="social_link1" href="${link.link}" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
                        </li>`;
@@ -183,7 +188,7 @@
                 <img src="${member.displayPicture}">
 
                 <div class="team-member-details">
-                  <span class="team-member-name blue_text" style="font-weight:500;">
+                  <span class="team-member-name blue_text" style="font-weight:500;" onclick="myfun('${member.id}')">
                     <b>${member.name}</b>
                   </span><br>
                   <span style="font-weight:300;">${member.description}</span>
@@ -209,6 +214,18 @@
         $('#container-team').append(html);
       });
     });
+
+    function myfun(targetid){
+        
+        var html = '';
+        $.getJSON('./assets/json/team.json', function (members) {
+
+        members.forEach(function (member) {
+          if(member.id==targetid)
+            window.location = "member.html?id="+member.id;  
+          })
+        })
+    }
 
   </script>
 </body>

@@ -104,19 +104,19 @@
         "displayPicture":"./assets/img/team/Fazal.jpg",
         "id": 6,
         "name":"Md Fazal",
-        "description":"Flutter TA",
+        "description":"DSC Lead | 2020-2021",
         "links":[
             {
                 "linkType": "Github",
-                "link": "#"
+                "link": "https://github.com/mdfazal"
             },
             {
                 "linkType": "Twitter",
-                "link": "#"
+                "link": "https:/twitter.com/fazal_ai"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
+                "link": "https://www.linkedin.com/in/md-fazal-mustafa-ba5265129"
             }
         ]
     },
@@ -124,7 +124,7 @@
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 7,
         "name":"Niwesh Gupta",
-        "description":"Core Programming TA",
+        "description":"Programming TA | 2019-2020",
         "links":[
             {
                 "linkType": "Github",
@@ -188,15 +188,15 @@
         "links":[
             {
                 "linkType": "Github",
-                "link": "#"
+                "link": "https://github.com/Sayantak"
             },
             {
                 "linkType": "Twitter",
-                "link": "#"
+                "link": "https://twitter.com/@SayantakKarar"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
+                "link": "https://www.linkedin.com/in/sayantak-karar-93870716b"
             }
         ]
     },
@@ -204,11 +204,11 @@
         "displayPicture":"./assets/img/team/Shuvam.jpg",
         "id": 11,
         "name":"Shuvam Manna",
-        "description":"DSC Lead",
+        "description":"Lead | 2019-2020",
         "links":[
             {
                 "linkType": "Github",
-                "link": "https://distortedaura.wordpress.com"
+                "link": "https://github.com/geekboysupreme"
             },
             {
                 "linkType": "Twitter",
@@ -402,22 +402,42 @@
         ]
     },
     {
-        "displayPicture":"./assets/img/team/Aniket.jpg",
-        "id": 20,
-        "name":"Aniket Kumar Singh",
-        "description":"Design Lead",
+        "displayPicture":"./assets/img/team/Anjali.jpg",
+        "id": 21,
+        "name":"Anjali",
+        "description":"Director of Outreach",
         "links":[
             {
                 "linkType": "Github",
-                "link": "https://github.com/Baroniket"
+                "link": "https://github.com/anjali-001"
             },
             {
                 "linkType": "Twitter",
-                "link": "https://twitter.com/Baroniket"
+                "link": "https://twitter.com/@_Anjali19_"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/baroniket"
+                "link": "https://www.linkedin.com/in/anjali-singh-282b66170"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Siddharth.jpg",
+        "id": 22,
+        "name":"Siddharth Agarwal",
+        "description":"Machine Learning TA",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/2000siddharth"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/Siddhar21740453"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/siddharth-agarwal-382590162"
             }
         ]
     }

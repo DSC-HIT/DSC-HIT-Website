@@ -14,10 +14,6 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/abhisheksen.theone"
-            },
-            {
                 "linkType": "LinkedIn",
                 "link": "#"
             }
@@ -37,10 +33,6 @@
             {
                 "linkType": "Twitter",
                 "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/anindit.sinha.5"
             },
             {
                 "linkType": "LinkedIn",
@@ -63,10 +55,6 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/atig.ghosh.24"
-            },
-            {
                 "linkType": "LinkedIn",
                 "link": "#"
             }
@@ -85,10 +73,6 @@
             {
                 "linkType": "Twitter",
                 "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/ishita.bardhan.7"
             },
             {
                 "linkType": "LinkedIn",
@@ -111,10 +95,6 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/kothakali.sorkhel"
-            },
-            {
                 "linkType": "LinkedIn",
                 "link": "#"
             }
@@ -133,10 +113,6 @@
             {
                 "linkType": "Twitter",
                 "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/md.fazal.731"
             },
             {
                 "linkType": "LinkedIn",
@@ -159,10 +135,6 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/niweshgupta"
-            },
-            {
                 "linkType": "LinkedIn",
                 "link": "#"
             }
@@ -181,10 +153,6 @@
             {
                 "linkType": "Twitter",
                 "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/piyush.maheswari.946"
             },
             {
                 "linkType": "LinkedIn",
@@ -207,10 +175,6 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sayak.banerjee.96155"
-            },
-            {
                 "linkType": "LinkedIn",
                 "link": "#"
             }
@@ -229,10 +193,6 @@
             {
                 "linkType": "Twitter",
                 "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sayantak.karar"
             },
             {
                 "linkType": "LinkedIn",
@@ -255,10 +215,6 @@
                 "link": "https://twitter.com/shuvam360"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/shuvam.manna.3"
-            },
-            {
                 "linkType": "LinkedIn",
                 "link": "https://www.linkedin.com/in/shuvam-manna/"
             }
@@ -279,10 +235,6 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/somopriya.seth.75?ref=br_rs"
-            },
-            {
                 "linkType": "LinkedIn",
                 "link": "#"
             }
@@ -296,19 +248,15 @@
         "links":[
             {
                 "linkType": "Github",
-                "link": "#"
+                "link": "https://github.com/subhasis020299"
             },
             {
                 "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/omega.ohm.54"
+                "link": "https://twitter.com/geram_er_chhele"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
+                "link": "https://www.linkedin.com/in/subhasis-das-6a00aa172"
             }
         ]
     },
@@ -327,10 +275,6 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sumitloggedin"
-            },
-            {
                 "linkType": "LinkedIn",
                 "link": "#"
             }
@@ -345,19 +289,15 @@
         "links":[
             {
                 "linkType": "Github",
-                "link": "#"
+                "link": "https://github.com/SuranjanDaw"
             },
             {
                 "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/SUNDaw"
+                "link": "https://twitter.com/DawSuranjan"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
+                "link": "https://www.linkedin.com/in/suranjan-daw-07901b15b/"
             }
         ]
     },
@@ -365,7 +305,7 @@
         "displayPicture":"./assets/img/team/Yashashwee.jpg",
         "id": 16,
         "name":"Yashashwee C.",
-        "description":"Web Technologies TA",
+        "description":"Explore ML Facilitator",
         "links":[
             {
                 "linkType": "Github",
@@ -376,12 +316,28 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/yashashwee.chakrabarty"
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Soham.jpg",
+        "id": 17,
+        "name":"Soham Jana",
+        "description":"Event Coordinator",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/SohamJana"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/SohamJana18"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
+                "link": "https://www.linkedin.com/in/soham-jana-407a27185"
             }
         ]
     }

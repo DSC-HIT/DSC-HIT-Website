@@ -20,87 +20,6 @@
         ]
     },
     {
-       
-        "displayPicture":"./assets/img/team/Generic.jpg",
-        "id": 2,
-        "name":"Anindit Sinha",
-        "description":"Head of Design",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Atig.jpg",
-        "id": 3,
-        "name":"Atig Ghosh",
-        "description":"Event Organizer",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Ishita.jpg",
-        "id": 4,
-        "name":"Ishita Bardhan",
-        "description":"Project Lead",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Kathakoli.jpg",
-        "id": 5,
-        "name":"Kathakoli Sorkhel",
-        "description":"Event Organizer",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
         "displayPicture":"./assets/img/team/Fazal.jpg",
         "id": 6,
         "name":"Md Fazal",
@@ -124,7 +43,7 @@
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 7,
         "name":"Niwesh Gupta",
-        "description":"Programming TA | 2019-2020",
+        "description":"Mentor | 2019-2020",
         "links":[
             {
                 "linkType": "Github",
@@ -164,19 +83,19 @@
         "displayPicture":"./assets/img/team/Sayak.jpg",
         "id": 9,
         "name":"Sayak Banerjee",
-        "description":"Tech Lead",
+        "description":"Community Coordinator",
         "links":[
             {
                 "linkType": "Github",
-                "link": "#"
+                "link": "https://github.com/Sayak09"
             },
             {
                 "linkType": "Twitter",
-                "link": "#"
+                "link": "https://twitter.com/Sayak_09"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
+                "link": "http://linkedin.com/in/sayak-banerjee-4b4a00184"
             }
         ]
     },
@@ -438,6 +357,145 @@
             {
                 "linkType": "LinkedIn",
                 "link": "https://www.linkedin.com/in/siddharth-agarwal-382590162"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Akash.jpg",
+        "id": 23,
+        "name":"Akash Modak",
+        "description":"Machine Learning TA",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "www.github.com/akashmodak97"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/akashmodak97"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/akash-modak-04a014178"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Rupdeep.jpeg",
+        "id": 24,
+        "name":"Rupdeep Saha",
+        "description":"Coordinator",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/therupdeep"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/@therupdeep "
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/rupdeep-saha-400793183"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 25,
+        "name":"Mamtu Raja",
+        "description":"Coordinator",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    { 
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 2,
+        "name":"Anindit Sinha",
+        "description":"Mentor | 2019-2020",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Atig.jpg",
+        "id": 3,
+        "name":"Atig Ghosh",
+        "description":"Advisor | 2019-2020",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    }{
+        "displayPicture":"./assets/img/team/Ishita.jpg",
+        "id": 4,
+        "name":"Ishita Bardhan",
+        "description":"Advisor | 2019-2020",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Kathakoli.jpg",
+        "id": 5,
+        "name":"Kathakoli Sorkhel",
+        "description":"Advisor | 2019-2020",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
             }
         ]
     }

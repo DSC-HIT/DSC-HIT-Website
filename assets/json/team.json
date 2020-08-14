@@ -144,19 +144,19 @@
         "displayPicture":"./assets/img/team/Piyush.jpg",
         "id": 8,
         "name":"Piyush Maheshwari",
-        "description":"Android TA",
+        "description":"Android TA | 2019-2020",
         "links":[
             {
                 "linkType": "Github",
-                "link": "#"
+                "link": "https://www.github.com/Piyush2769"
             },
             {
                 "linkType": "Twitter",
-                "link": "#"
+                "link": "https://www.twitter.com/OnlyMaheswari"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
+                "link": "https://www.linkedin.com/in/piyush-maheswari-835424138/"
             }
         ]
     },
@@ -309,15 +309,15 @@
         "links":[
             {
                 "linkType": "Github",
-                "link": "#"
+                "link": "https://github.com/Yashashwee"
             },
             {
                 "linkType": "Twitter",
-                "link": "#"
+                "link": "https://twitter.com/yashashwee"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
+                "link": "https://www.linkedin.com/in/yashashwee-chakrabarty-60a63416b"
             }
         ]
     },
@@ -338,6 +338,86 @@
             {
                 "linkType": "LinkedIn",
                 "link": "https://www.linkedin.com/in/soham-jana-407a27185"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Divya.jpg",
+        "id": 18,
+        "name":"Divya Goswami",
+        "description":"Director of Outreach",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/divyarachel"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/rachejazz"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/divya-goswami-1a863616b"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Diya.jpeg",
+        "id": 19,
+        "name":"Diya Banerjee",
+        "description":"Design Lead",
+        "links":[
+            {
+                "linkType": "Dribbble",
+                "link": "https://dribbble.com/absurdiya"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/Absur_diya"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/diya-banerjee-79922b18b"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Aniket.jpg",
+        "id": 20,
+        "name":"Aniket Kumar Singh",
+        "description":"Design Lead",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/Baroniket"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/Baroniket"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/baroniket"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Aniket.jpg",
+        "id": 20,
+        "name":"Aniket Kumar Singh",
+        "description":"Design Lead",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/Baroniket"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/Baroniket"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/baroniket"
             }
         ]
     }

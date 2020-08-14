@@ -173,6 +173,12 @@
                        </li>`;
           }
 
+          if (link.linkType == 'Dribbble') {
+            result += `<li style="color:rgb(0,101,202);">
+                          <a id="social_link1" href="${link.link}" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                       </li>`;
+          }
+
         });
 
         return result;

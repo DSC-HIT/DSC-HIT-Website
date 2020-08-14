@@ -40,46 +40,6 @@
         ]
     },
     {
-        "displayPicture":"./assets/img/team/Generic.jpg",
-        "id": 7,
-        "name":"Niwesh Gupta",
-        "description":"Mentor | 2019-2020",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Piyush.jpg",
-        "id": 8,
-        "name":"Piyush Maheshwari",
-        "description":"Android TA | 2019-2020",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "https://www.github.com/Piyush2769"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "https://www.twitter.com/OnlyMaheswari"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/piyush-maheswari-835424138/"
-            }
-        ]
-    },
-    {
         "displayPicture":"./assets/img/team/Sayak.jpg",
         "id": 9,
         "name":"Sayak Banerjee",
@@ -140,26 +100,6 @@
         ]
     },
     {
-        "displayPicture":"./assets/img/team/Generic.jpg",
-        "id": 12,
-        "name":"Somopriya Seth",
-        "description":"Outreach",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
         "displayPicture":"./assets/img/team/Subhasis.jpg",
         "id": 13,
         "name":"Subhasis Das",
@@ -179,27 +119,6 @@
             }
         ]
     },
-    {
-        "displayPicture":"./assets/img/team/Sumit.jpg",
-        "id": 14,
-        "name":"Sumit Chakrabarti",
-        "description":"Outreach",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-  
     {
         "displayPicture":"./assets/img/team/Suranjan.jpg",
         "id": 15,
@@ -401,6 +320,26 @@
         ]
     },
     {
+        "displayPicture":"./assets/img/team/Sumit.jpg",
+        "id": 14,
+        "name":"Sumit Chakrabarti",
+        "description":"Outreach",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 25,
         "name":"Mamtu Raja",
@@ -459,7 +398,8 @@
                 "link": "#"
             }
         ]
-    }{
+    },
+    {
         "displayPicture":"./assets/img/team/Ishita.jpg",
         "id": 4,
         "name":"Ishita Bardhan",
@@ -483,6 +423,66 @@
         "displayPicture":"./assets/img/team/Kathakoli.jpg",
         "id": 5,
         "name":"Kathakoli Sorkhel",
+        "description":"Advisor | 2019-2020",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 7,
+        "name":"Niwesh Gupta",
+        "description":"Mentor | 2019-2020",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Piyush.jpg",
+        "id": 8,
+        "name":"Piyush Maheshwari",
+        "description":"Android TA | 2019-2020",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://www.github.com/Piyush2769"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://www.twitter.com/OnlyMaheswari"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/piyush-maheswari-835424138/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 12,
+        "name":"Somopriya Seth",
         "description":"Advisor | 2019-2020",
         "links":[
             {

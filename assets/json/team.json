@@ -4,6 +4,7 @@
         "id": 1,
         "name":"Abhishek Sen",
         "description":"Core Programming TA",
+        "details_stanza":"Abhishek is a Core Programming TA who has been a big part of the community at DSC HIT from the very beginning. He is also a Flutter enthusiast and loves the spirit of Cross-Platform.",
         "links":[
             {
                 "linkType": "Github",
@@ -24,6 +25,7 @@
         "id": 6,
         "name":"Md Fazal",
         "description":"DSC Lead | 2020-2021",
+        "details_stanza":"An extremely confident person who has multiple Udacity Scholarships, is currently Leading Developer Student Club HIT in its second year after being a significant cog in the community for a long time. He is passionate about Machine Learning, Mixed Reality and the possibilities of Cloud.",
         "links":[
             {
                 "linkType": "Github",
@@ -44,6 +46,7 @@
         "id": 9,
         "name":"Sayak Banerjee",
         "description":"Community Coordinator",
+        "details_stanza":"Sayak Banerjee has been working for a significant amount of time in building Communties, Start-ups, and digital learning Initiatives. He is psyched by Drones, IoT, Machine Learning and Mobile Development.",
         "links":[
             {
                 "linkType": "Github",
@@ -64,6 +67,7 @@
         "id": 10,
         "name":"Sayantak Karar",
         "description":"Project Lead",
+        "details_stanza":"Sayantak is extremely enthusiastic about Flutter and the possibilities of Cross-Platform development. He has been a key part of DSC HIT and has led multiple initiatives, including building the current avatar of HITNav - an app that helps you navigate the Campus.",
         "links":[
             {
                 "linkType": "Github",
@@ -84,6 +88,7 @@
         "id": 11,
         "name":"Shuvam Manna",
         "description":"Lead | 2019-2020",
+        "details_stanza":"The Lead for the first Year of Developer Student Club HIT, Shuvam is keen about Products, Design, and literally everything under the sun that he can mix and match to create something really cool. He is a ardent Bibliophile and a vocal detractor of Pineapple on Pizzas.",
         "links":[
             {
                 "linkType": "Github",
@@ -104,6 +109,7 @@
         "id": 13,
         "name":"Subhasis Das",
         "description":"Web Technologies TA",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -124,6 +130,7 @@
         "id": 15,
         "name":"Suranjan Daw",
         "description":"Android & Firebase TA",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -144,6 +151,7 @@
         "id": 16,
         "name":"Yashashwee C.",
         "description":"Explore ML Facilitator",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -164,6 +172,7 @@
         "id": 17,
         "name":"Soham Jana",
         "description":"Event Coordinator",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -184,6 +193,7 @@
         "id": 18,
         "name":"Divya Goswami",
         "description":"Director of Outreach",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -204,6 +214,7 @@
         "id": 19,
         "name":"Diya Banerjee",
         "description":"Design Lead",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Dribbble",
@@ -224,6 +235,7 @@
         "id": 20,
         "name":"Aniket Kumar Singh",
         "description":"Design Lead",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -244,6 +256,7 @@
         "id": 21,
         "name":"Anjali",
         "description":"Director of Outreach",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -264,6 +277,7 @@
         "id": 22,
         "name":"Siddharth Agarwal",
         "description":"Machine Learning TA",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -284,6 +298,7 @@
         "id": 23,
         "name":"Akash Modak",
         "description":"Machine Learning TA",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -304,6 +319,7 @@
         "id": 24,
         "name":"Rupdeep Saha",
         "description":"Coordinator",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -323,7 +339,8 @@
         "displayPicture":"./assets/img/team/Sumit.jpg",
         "id": 14,
         "name":"Sumit Chakrabarti",
-        "description":"Outreach",
+        "description":"Advisor | 2019-2020",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -344,6 +361,7 @@
         "id": 25,
         "name":"Mamtu Raja",
         "description":"Coordinator",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -364,6 +382,7 @@
         "id": 2,
         "name":"Anindit Sinha",
         "description":"Mentor | 2019-2020",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -384,6 +403,7 @@
         "id": 3,
         "name":"Atig Ghosh",
         "description":"Advisor | 2019-2020",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -404,6 +424,7 @@
         "id": 4,
         "name":"Ishita Bardhan",
         "description":"Advisor | 2019-2020",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -424,6 +445,7 @@
         "id": 5,
         "name":"Kathakoli Sorkhel",
         "description":"Advisor | 2019-2020",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -444,6 +466,7 @@
         "id": 7,
         "name":"Niwesh Gupta",
         "description":"Mentor | 2019-2020",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -464,6 +487,7 @@
         "id": 8,
         "name":"Piyush Maheshwari",
         "description":"Android TA | 2019-2020",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",
@@ -484,6 +508,7 @@
         "id": 12,
         "name":"Somopriya Seth",
         "description":"Advisor | 2019-2020",
+        "details_stanza":"",
         "links":[
             {
                 "linkType": "Github",

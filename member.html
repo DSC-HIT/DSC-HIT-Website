@@ -47,7 +47,7 @@
             .grid-item--width2 { width: 50%; }*/
 
         .img-fluid {
-            border-radius: 5px;
+            border-radius: 10px;
         }
 
         .text-status {
@@ -152,6 +152,13 @@
                                 </li>`;
                     }
 
+                    if (link.linkType == 'Dribbble') {
+                        result += `<li>
+                                    <a class="btn btn-primary btn-fab btn-round" id="social_button1" href="${link.link}" target="_blank"><i style="color: rgb(0,101,202)!important;" class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                </li>`;
+                    }
+
+
                     });
 
                     return result;
@@ -163,7 +170,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <img class="img-fluid mx-auto display-picture" src="${member.displayPicture} " >
-                        <h5 class="text-status description"><strong>Something like Github Status</strong></p>
+                        <h5 class="text-status description">&nbsp;</p>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-12 details-holder">
                         <h2 class="text-name">${member.name}</h2>
@@ -175,16 +182,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-offset-1">
-                        <div class="btn-holder">
-                            <button class="btn" id="joinbtn">
-                                <span><i class="fa fa-paper-plane"></i></span>&nbsp;
-                                <span><b id="header_text">Get in touch</b></span>
-                                </button>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                        <h5 class="description">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</h5>
+                        <h5 class="description">${member.details_stanza}</h5>
                     <div>      
                 </div>
             </div>

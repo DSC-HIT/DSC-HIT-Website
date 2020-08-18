@@ -120,7 +120,7 @@
             </div>
           </div>
 
-          <div id="container-projects" class="row" >
+          <div id="container-projects" class="row">
             <!-- ===== Here the Projects will Appear ===== -->
           </div>
 
@@ -248,7 +248,15 @@
       }
 
       var html = '';
-      $.getJSON('./assets/json/projects.json', function (projects) {
+
+      var settings = {
+        "url": "https://dschit-staging.herokuapp.com/projects",
+        "method": "GET",
+        "timeout": 0,
+      };
+      $.ajax(settings).done(function (projects) {
+
+        //console.log(projects)
 
         projects.forEach(function (project) {
           html += getTemplate(project);

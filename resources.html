@@ -162,14 +162,14 @@
 
   <script>
     $('document').ready(function () {
-      function getTemplate(member) {
+      function getTemplate(resource) {
         var template = `<div class="col-lg-4 wow fadeIn"  data-wow-delay="0.2s">
                           <div class="card" style="height: 400px">\
-                            <img class="rounded card-img-top" width="290" height="180" src="${member.imgSrc}">
+                            <img class="rounded card-img-top" width="290" height="180" src="${resource.imgSrc}">
                             <div class="card-body">
-                              <h4 class="description"><b class="blue_text">${member.title}</b></h4>
-                              <h5 class="description" style="sans-serif;">${member.description.substring(0, 100)}... </h5>
-                              <a target="blank" href="${member.link}" style="position:absolute; bottom: 15px;"><b class="blue_text">Learn More</b></a>
+                              <h4 class="description"><b class="blue_text">${resource.title}</b></h4>
+                              <h5 class="description" style="sans-serif;">${resource.description.substring(0, 100)}... </h5>
+                              <a target="blank" href="${resource.link}" style="position:absolute; bottom: 15px;"><b class="blue_text">Learn More</b></a>
                             </div>
                           </div>
                         </div>`;
@@ -181,15 +181,19 @@
       var size = 0; //to check the size of the file
       var html = '';
 
-      $.getJSON('./assets/json/resources.json', function (members) {
-        members.forEach(function (member) {
+      var settings = {
+        "url": "https://dschit-staging.herokuapp.com/resources",
+        "method": "GET",
+        "timeout": 0,
+      };
+      $.ajax(settings).done(function (resources) {
+
+        resources.forEach(function (resource) {
           size += 1
         });
-      });
       
-      $.getJSON('./assets/json/resources.json', function (members) {
-        members.forEach(function (member) {
-          cards += getTemplate(member);
+        resources.forEach(function (resource) {
+          cards += getTemplate(resource);
           if (i % 3 == 0) {
             temp =
               '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>';

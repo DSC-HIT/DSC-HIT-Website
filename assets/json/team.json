@@ -4,6 +4,7 @@
         "id": 1,
         "name":"Abhishek Sen",
         "description":"Core Programming TA",
+        "bio":"Abhishek is a Core Programming TA who has been a big part of the community at DSC HIT from the very beginning. He is also a Flutter enthusiast and loves the spirit of Cross-Platform.",
         "links":[
             {
                 "linkType": "Github",
@@ -12,107 +13,6 @@
             {
                 "linkType": "Twitter",
                 "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/abhisheksen.theone"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-       
-        "displayPicture":"./assets/img/team/Generic.jpg",
-        "id": 2,
-        "name":"Anindit Sinha",
-        "description":"Head of Design",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/anindit.sinha.5"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Atig.jpg",
-        "id": 3,
-        "name":"Atig Ghosh",
-        "description":"Event Organizer",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/atig.ghosh.24"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Ishita.jpg",
-        "id": 4,
-        "name":"Ishita Bardhan",
-        "description":"Project Lead",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/ishita.bardhan.7"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Kathakoli.jpg",
-        "id": 5,
-        "name":"Kathakoli Sorkhel",
-        "description":"Event Organizer",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/kothakali.sorkhel"
             },
             {
                 "linkType": "LinkedIn",
@@ -124,7 +24,323 @@
         "displayPicture":"./assets/img/team/Fazal.jpg",
         "id": 6,
         "name":"Md Fazal",
-        "description":"Flutter TA",
+        "description":"DSC Lead | 2020-2021",
+        "bio":"An extremely confident person who has multiple Udacity Scholarships, is currently Leading Developer Student Club HIT in its second year after being a significant cog in the community for a long time. He is passionate about Machine Learning, Mixed Reality and the possibilities of Cloud.",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/mdfazal"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https:/twitter.com/fazal_ai"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/md-fazal-mustafa-ba5265129"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Sayak.jpg",
+        "id": 9,
+        "name":"Sayak Banerjee",
+        "description":"Community Coordinator",
+        "bio":"Sayak Banerjee has been working for a significant amount of time in building Communties, Start-ups, and digital learning Initiatives. He is psyched by Drones, IoT, Machine Learning and Mobile Development.",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/Sayak09"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/Sayak_09"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "http://linkedin.com/in/sayak-banerjee-4b4a00184"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Sayantak.jpg",
+        "id": 10,
+        "name":"Sayantak Karar",
+        "description":"Project Lead",
+        "bio":"Sayantak is extremely enthusiastic about Flutter and the possibilities of Cross-Platform development. He has been a key part of DSC HIT and has led multiple initiatives, including building the current avatar of HITNav - an app that helps you navigate the Campus.",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/Sayantak"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/@SayantakKarar"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/sayantak-karar-93870716b"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Shuvam.jpg",
+        "id": 11,
+        "name":"Shuvam Manna",
+        "description":"Lead | 2019-2020",
+        "bio":"The Lead for the first Year of Developer Student Club HIT, Shuvam is keen about Products, Design, and literally everything under the sun that he can mix and match to create something really cool. He is a ardent Bibliophile and a vocal detractor of Pineapple on Pizzas.",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/geekboysupreme"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/shuvam360"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/shuvam-manna/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Subhasis.jpg",
+        "id": 13,
+        "name":"Subhasis Das",
+        "description":"Web Technologies TA",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/subhasis020299"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/geram_er_chhele"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/subhasis-das-6a00aa172"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Suranjan.jpg",
+        "id": 15,
+        "name":"Suranjan Daw",
+        "description":"Android & Firebase TA",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/SuranjanDaw"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/DawSuranjan"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/suranjan-daw-07901b15b/"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Yashashwee.jpg",
+        "id": 16,
+        "name":"Yashashwee C.",
+        "description":"Explore ML Facilitator",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/Yashashwee"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/yashashwee"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/yashashwee-chakrabarty-60a63416b"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Soham.jpg",
+        "id": 17,
+        "name":"Soham Jana",
+        "description":"Event Coordinator",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/SohamJana"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/SohamJana18"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/soham-jana-407a27185"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Divya.jpg",
+        "id": 18,
+        "name":"Divya Goswami",
+        "description":"Director of Outreach",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/divyarachel"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/rachejazz"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/divya-goswami-1a863616b"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Diya.jpeg",
+        "id": 19,
+        "name":"Diya Banerjee",
+        "description":"Design Lead",
+        "bio":"Diya likes to play around with photographs, colors and vector art. You can find her cooking up weird things, and trying to keep up with her to-do lists. ",
+        "links":[
+            {
+                "linkType": "Dribbble",
+                "link": "https://dribbble.com/absurdiya"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/Absur_diya"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/diya-banerjee-79922b18b"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Aniket.jpg",
+        "id": 20,
+        "name":"Aniket Kumar Singh",
+        "description":"Design Lead",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/Baroniket"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/Baroniket"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/baroniket"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Anjali.jpg",
+        "id": 21,
+        "name":"Anjali",
+        "description":"Director of Outreach",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/anjali-001"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/@_Anjali19_"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/anjali-singh-282b66170"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Siddharth.jpg",
+        "id": 22,
+        "name":"Siddharth Agarwal",
+        "description":"Machine Learning TA",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/2000siddharth"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/Siddhar21740453"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/siddharth-agarwal-382590162"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Akash.jpg",
+        "id": 23,
+        "name":"Akash Modak",
+        "description":"Machine Learning TA",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "www.github.com/akashmodak97"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/akashmodak97"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/akash-modak-04a014178"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Rupdeep.jpeg",
+        "id": 24,
+        "name":"Rupdeep Saha",
+        "description":"Coordinator",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "https://github.com/therupdeep"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "https://twitter.com/@therupdeep "
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "https://www.linkedin.com/in/rupdeep-saha-400793183"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Sumit.jpg",
+        "id": 14,
+        "name":"Sumit Chakrabarti",
+        "description":"Advisor | 2019-2020",
+        "bio":"",
         "links":[
             {
                 "linkType": "Github",
@@ -135,8 +351,109 @@
                 "link": "#"
             },
             {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/md.fazal.731"
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 25,
+        "name":"Mamtu Raja",
+        "description":"Coordinator",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    { 
+        "displayPicture":"./assets/img/team/Generic.jpg",
+        "id": 2,
+        "name":"Anindit Sinha",
+        "description":"Mentor | 2019-2020",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Atig.jpg",
+        "id": 3,
+        "name":"Atig Ghosh",
+        "description":"Advisor | 2019-2020",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Ishita.jpg",
+        "id": 4,
+        "name":"Ishita Bardhan",
+        "description":"Advisor | 2019-2020",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
+            },
+            {
+                "linkType": "LinkedIn",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "displayPicture":"./assets/img/team/Kathakoli.jpg",
+        "id": 5,
+        "name":"Kathakoli Sorkhel",
+        "description":"Advisor | 2019-2020",
+        "bio":"",
+        "links":[
+            {
+                "linkType": "Github",
+                "link": "#"
+            },
+            {
+                "linkType": "Twitter",
+                "link": "#"
             },
             {
                 "linkType": "LinkedIn",
@@ -148,7 +465,8 @@
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 7,
         "name":"Niwesh Gupta",
-        "description":"Core Programming TA",
+        "description":"Mentor | 2019-2020",
+        "bio":"",
         "links":[
             {
                 "linkType": "Github",
@@ -157,10 +475,6 @@
             {
                 "linkType": "Twitter",
                 "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/niweshgupta"
             },
             {
                 "linkType": "LinkedIn",
@@ -172,95 +486,20 @@
         "displayPicture":"./assets/img/team/Piyush.jpg",
         "id": 8,
         "name":"Piyush Maheshwari",
-        "description":"Android TA",
+        "description":"Android TA | 2019-2020",
+        "bio":"",
         "links":[
             {
                 "linkType": "Github",
-                "link": "#"
+                "link": "https://www.github.com/Piyush2769"
             },
             {
                 "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/piyush.maheswari.946"
+                "link": "https://www.twitter.com/OnlyMaheswari"
             },
             {
                 "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Sayak.jpg",
-        "id": 9,
-        "name":"Sayak Banerjee",
-        "description":"Tech Lead",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sayak.banerjee.96155"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Sayantak.jpg",
-        "id": 10,
-        "name":"Sayantak Karar",
-        "description":"Project Lead",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sayantak.karar"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Shuvam.jpg",
-        "id": 11,
-        "name":"Shuvam Manna",
-        "description":"DSC Lead",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "https://distortedaura.wordpress.com"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "https://twitter.com/shuvam360"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/shuvam.manna.3"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "https://www.linkedin.com/in/shuvam-manna/"
+                "link": "https://www.linkedin.com/in/piyush-maheswari-835424138/"
             }
         ]
     },
@@ -268,7 +507,8 @@
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 12,
         "name":"Somopriya Seth",
-        "description":"Outreach",
+        "description":"Advisor | 2019-2020",
+        "bio":"",
         "links":[
             {
                 "linkType": "Github",
@@ -277,107 +517,6 @@
             {
                 "linkType": "Twitter",
                 "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/somopriya.seth.75?ref=br_rs"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Subhasis.jpg",
-        "id": 13,
-        "name":"Subhasis Das",
-        "description":"Web Technologies TA",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/omega.ohm.54"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Sumit.jpg",
-        "id": 14,
-        "name":"Sumit Chakrabarti",
-        "description":"Outreach",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/sumitloggedin"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-  
-    {
-        "displayPicture":"./assets/img/team/Suranjan.jpg",
-        "id": 15,
-        "name":"Suranjan Daw",
-        "description":"Android & Firebase TA",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/SUNDaw"
-            },
-            {
-                "linkType": "LinkedIn",
-                "link": "#"
-            }
-        ]
-    },
-    {
-        "displayPicture":"./assets/img/team/Yashashwee.jpg",
-        "id": 16,
-        "name":"Yashashwee C.",
-        "description":"Web Technologies TA",
-        "links":[
-            {
-                "linkType": "Github",
-                "link": "#"
-            },
-            {
-                "linkType": "Twitter",
-                "link": "#"
-            },
-            {
-                "linkType": "Facebook",
-                "link": "https://www.facebook.com/yashashwee.chakrabarty"
             },
             {
                 "linkType": "LinkedIn",

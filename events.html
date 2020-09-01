@@ -80,7 +80,7 @@
           <h5 class="description">
             Here at DSC HIT we put the fun in functions and events.<br>
             Attend Study Jams/ Hackathons/ Developer Conferences to learn more about the latest technologies.<br>
-            Interested in being a Speaker at one of our events? Just drop us your Proposal. 
+            Interested in being a Speaker at one of our events? Just drop us your Proposal.
           </h5>
           <p>&nbsp;</p>
           <a href="mailto:dscheritageit@gmail.com" class="btn btn-primary" id="buttons">
@@ -201,6 +201,17 @@
         return template;
       }
 
+      function GetSortOrder(prop) {
+        return function (a, b) {
+          if (a[prop] < b[prop]) {
+            return 1;
+          } else if (a[prop] > b[prop]) {
+            return -1;
+          }
+          return 0;
+        }
+      }
+
       var cards = '';
       var i = 1;
       var temp = '';
@@ -217,7 +228,8 @@
         events.forEach(function (event) {
           size += 1
         });
-     
+
+        events.sort(GetSortOrder("time_stamp"));
         events.forEach(function (event) {
           cards += getTemplate(event);
           if (i % 3 == 0) {

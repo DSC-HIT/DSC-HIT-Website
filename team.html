@@ -208,7 +208,12 @@
       }
 
       var html = '';
-      $.getJSON('./assets/json/team.json', function (members) {
+      var settings = {
+        "url": "https://dschit.herokuapp.com/team",
+        "method": "GET",
+        "timeout": 0,
+      };
+      $.ajax(settings).done(function (members) {
 
         members.forEach(function (member) {
           html += getTemplate(member);
@@ -222,7 +227,12 @@
     function myfun(targetid){
         
         var html = '';
-        $.getJSON('./assets/json/team.json', function (members) {
+        var settings = {
+        "url": "https://dschit.herokuapp.com/team",
+        "method": "GET",
+        "timeout": 0,
+      };
+      $.ajax(settings).done(function (members) {
 
         members.forEach(function (member) {
           if(member.id==targetid)

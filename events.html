@@ -80,7 +80,7 @@
           <h5 class="description">
             Here at DSC HIT we put the fun in functions and events.<br>
             Attend Study Jams/ Hackathons/ Developer Conferences to learn more about the latest technologies.<br>
-            Interested in being a Speaker at one of our events? Just drop us your Proposal. 
+            Interested in being a Speaker at one of our events? Just drop us your Proposal.
           </h5>
           <p>&nbsp;</p>
           <a href="mailto:dscheritageit@gmail.com" class="btn btn-primary" id="buttons">
@@ -185,20 +185,31 @@
   <script>
     $('document').ready(function () {
 
-      function getTemplate(member) {
+      function getTemplate(event) {
         var template =
           `<div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
               <div class="card" style="height: 470px">
-                <img class="rounded card-img-top" width="250" height="200" src="${member.imgSrc}" />
+                <img class="rounded card-img-top" width="250" height="200" src="${event.imgSrc}" />
                 <div class="card-body" style="margin-top:-10px;">
-                  <h4 class="team-member-name description blue_text"><b>${member.eventName}</b></h4>
-                  <h5 style="font-weight:400; color:rgb(0,101,202);">${member.date}</h6>
-                  <h5 class="description">${member.info.substring(0, 100)}...</h5>
-                  <a href="${member.fbLink}" style="position:absolute; bottom: 18px;"><b class="blue_text">Learn more</b></a>
+                  <h4 class="team-member-name description blue_text"><b>${event.eventName}</b></h4>
+                  <h5 style="font-weight:400; color:rgb(0,101,202);">${event.date}</h6>
+                  <h5 class="description">${event.info.substring(0, 100)}...</h5>
+                  <a href="${event.fbLink}" style="position:absolute; bottom: 18px;"><b class="blue_text">Learn more</b></a>
                 </div>
               </div>
             </div>`;
         return template;
+      }
+
+      function GetSortOrder(prop) {
+        return function (a, b) {
+          if (a[prop] < b[prop]) {
+            return 1;
+          } else if (a[prop] > b[prop]) {
+            return -1;
+          }
+          return 0;
+        }
       }
 
       var cards = '';
@@ -207,14 +218,20 @@
       var size = 0; //to check the size of the file
       var html = '';
 
-      $.getJSON('./assets/json/events.json', function (members) {
-        members.forEach(function (member) {
+      var settings = {
+        "url": "https://dschit.herokuapp.com/events",
+        "method": "GET",
+        "timeout": 0,
+      };
+      $.ajax(settings).done(function (events) {
+
+        events.forEach(function (event) {
           size += 1
         });
-      });
-      $.getJSON('./assets/json/events.json', function (members) {
-        members.forEach(function (member) {
-          cards += getTemplate(member);
+
+        events.sort(GetSortOrder("time_stamp"));
+        events.forEach(function (event) {
+          cards += getTemplate(event);
           if (i % 3 == 0) {
             temp =
               '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>';

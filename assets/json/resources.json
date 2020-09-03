@@ -129,13 +129,7 @@
     "title": "Google Developers",
     "description": "Google Developers is Google's site for software development tools, APIs, and technical resources. The site contains documentation for tools and APIs.",
     "imgSrc": "assets/img/kit/google_dev.png",
-    "link": "https://nodeschool.io/"
-},
-{
-    "title": "Papers with Code",
-    "description": "Papers With Code is a free and open resource with Machine Learning papers, code and evaluation tables.",
-    "imgSrc": "https://cdn-images-1.medium.com/max/1200/1*F-eBWsHWtgsNJLlK3jN3XQ.png",
-    "link": "https://paperswithcode.com/"
+    "link": "https://developers.google.com/"
 },
 {
     "title": "Papers with Code",

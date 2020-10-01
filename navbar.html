@@ -1,16 +1,16 @@
-<div class="container">
+<div class="container" id="lg-navbar">
 
   <div class="navbar-translate">
     <a class="navbar-brand" href="/"><span id="dsc-logo"><img src="../assets/img/logos/dsc_header.png" /></span></a>
-    <button class="navbar-toggler black-lighten-5" type="button" data-toggle="collapse" aria-expanded="false"
+    <!--<button class="navbar-toggler black-lighten-5" type="button" data-toggle="collapse" aria-expanded="false"
       aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="navbar-toggler-icon"></span>
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button>-->
   </div>
 
-  <div class="collapse navbar-collapse">
+  <nav class="collapse navbar-collapse">
     <ul class="navbar-nav ml-auto">
 
       <li class="dropdown nav-item">
@@ -49,16 +49,6 @@
         </a>
       </li>
 
-      <!-- <li class="nav-item">
-                      <a class="nav-link">
-                           <span ><b id="header_text">Blog</b></span>
-                      </a>
-                  </li> -->
-      <!--  <li class="nav-item">
-                      <a href="./about" data-page="about" class="nav-link">
-                           <span ><b id="header_text">About</b></span>
-                      </a>
-                  </li> -->
       <li class="nav-item">
         <a target="blank" class="nav-link" href="https://dsc.community.dev/heritage-institute-of-technology/">
           <span class="btn" id="joinbtn"><b id="header_text">Sign Up</b></span>
@@ -66,5 +56,44 @@
       </li>
 
     </ul>
-  </div>
+  </nav>
+</div>
+
+<!-- For Mobile Device Only -->
+<div id="md-navbar">
+  <nav class="navbar-translate container">
+    <a class="navbar-brand" style="padding: 10px 
+    15px;" href="/"><span id="dsc-logo"><img
+          src="../assets/img/logos/dsc_header.png" /></span></a>
+    <a target="blank" class="nav-link" href="https://forms.gle/xfqLFWCzy34624yLA">
+      <span class="btn" id="joinbtn" style="padding: 10px 30px;"><b id="header_text">Join US</b></span>
+    </a>
+  </nav>
+
+  <nav class="nav">
+    <a href="/" class="nav__link nav__link--active">
+      <i class="material-icons nav__icon">home</i>
+      <span class="nav__text">Home</span>
+    </a>
+    <a href="/events.html" class="nav__link">
+      <i class="material-icons nav__icon">event_available</i>
+      <span class="nav__text">Events</span>
+    </a>
+    <a href="/resources.html" class="nav__link">
+      <i class="material-icons nav__icon">computer</i>
+      <span class="nav__text">Resources</span>
+    </a>
+    <a href="/projects.html" class="nav__link">
+      <i class="material-icons nav__icon">emoji_objects</i>
+      <span class="nav__text">Projects</span>
+    </a>
+    <a href="/team.html" class="nav__link">
+      <i class="material-icons nav__icon">group</i>
+      <span class="nav__text">Team</span>
+    </a>
+    <!--<a href="#" class="nav__link">
+      <i class="material-icons nav__icon">rss_feed</i>
+      <span class="nav__text">Blog</span>
+    </a>-->
+  </nav>
 </div>

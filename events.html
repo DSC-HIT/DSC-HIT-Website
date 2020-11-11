@@ -53,12 +53,36 @@
     .img-fluid {
       border-radius: 5px 5px;
     }
+        /* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 99;
+}
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}
   </style>
   <!-- iframe removal -->
 </head>
 
 <body class="landing-page" name="top" id="top">
-
+  <div id="preloader">
+    <lottie-player id="status" src="https://assets6.lottiefiles.com/private_files/lf30_8a9atN.json" mode="bounce" background="#FFFFFF"  speed="1" loop  autoplay></lottie-player>
+  </div>
   <!-- Navbar -->
   <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg" color-on-scroll="100"
     id="sectionsNav">
@@ -180,12 +204,20 @@
   <!-- <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script> -->
   <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
   <script src="assets/assets-custom/main.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
   <!-- <script src="assets/assets-custom/index.js"></script> -->
 
 
   <script>
-    $('document').ready(function () {
+
+$(window).on('load', function() { // makes sure the whole site is loaded 
+      $('#status').fadeOut(); // will first fade out the loading animation 
+      $('#preloader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+      $('body').delay(450).css({'overflow':'visible'});
+    })
+
+$('document').ready(function () {
 
       function getTemplate(event) {
         var template =

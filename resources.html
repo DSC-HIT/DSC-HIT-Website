@@ -9,7 +9,7 @@
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="favicon.png">
   <link rel="icon" href="favicon.png">
-  
+
   <title>
     Resources | DSC HIT
   </title>
@@ -69,19 +69,18 @@
       display: flex;
       flex-direction: column;
     }
-
   </style>
   <!-- iframe removal -->
 </head>
 
 <body class="landing-page" name="top" id="top">
 
-  <!-- Navbar -->
+  <!-- ============================================ Navbar ============================================ -->
   <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg " color-on-scroll="100"
     id="sectionsNav">
     <!-- ===== Navbar through JS ===== -->
   </nav>
-  <!-- /.Navbar -->
+  <!-- ============================================ /.Navbar ============================================ -->
 
   <div class="main main-raised margin-t-0">
     <p>&nbsp;</p>
@@ -125,6 +124,16 @@
 
       </div>
 
+      <!-- ============================================ Loading Animation ============================================ -->
+      <div id="loading-animation">
+        <div class="google-loader">
+          <div class="dot blue"></div>
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+      </div>
+
       <div id="container-resources">
         <!-- ===== Here the Resources will Appear ===== -->
       </div>
@@ -134,11 +143,11 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
 
-    <!-- **** Footer **** -->
+    <!-- ============================================ **** Footer **** ============================================ -->
     <div id="footer">
       <!-- ===== Footer Through JS ===== -->
     </div>
-    <!-- /. Footer -->
+    <!-- ============================================ /. Footer ============================================ -->
 
   </div>
 
@@ -164,6 +173,8 @@
 
   <script>
     $('document').ready(function () {
+
+      /* ============================================ Getting Template ============================================ */
       function getTemplate(resource) {
         var template = `<div class="col-lg-4 wow fadeIn"  data-wow-delay="0.2s">
                           <div class="card" style="height: 400px">\
@@ -177,12 +188,14 @@
                         </div>`;
         return template;
       }
+
       var cards = '';
       var i = 1;
       var temp = '';
       var size = 0; //to check the size of the file
       var html = '';
 
+      /* ============================================ fetching Data by API ============================================ */
       var settings = {
         "url": "https://dschit.herokuapp.com/resources",
         "method": "GET",
@@ -193,23 +206,33 @@
         resources.forEach(function (resource) {
           size += 1
         });
-      
+
         resources.forEach(function (resource) {
+
           cards += getTemplate(resource);
+
           if (i % 3 == 0) {
             temp =
               '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>';
             cards = '';
           };
+
           html += temp;
           temp = '';
+
           if (i == size) {
             html += '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>';
           };
+
           i += 1;
         });
+
         html = '<div class="container-page">' + html + '</div>';
+
+        /* ============================================ Stopping Animation and Placing Data ============================================ */
+        document.getElementById('loading-animation').style.display = "none";
         $('#container-resources').append(html);
+        
       });
     });
   </script>

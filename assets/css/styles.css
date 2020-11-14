@@ -335,19 +335,19 @@ body {
     color:rgb(53, 53, 53);
 }
 
-.yellow {
+.yellow-text {
     color:rgb(228, 180, 25);
 }
 
-.blue {
+.blue-text {
     color:rgb(12, 80, 182);
 }
 
-.orange {
+.orange-text {
     color:rgb(223, 77, 19);
 }
 
-.green {
+.green-text {
     color:rgb(11, 184, 83);
 }
 
@@ -452,9 +452,9 @@ p{
     margin-left: 10px;
 }
 
-#footer span {
+/*#footer span {
     margin: 0px 50px 0px 0px;
-}
+}*/
 
 
 
@@ -575,3 +575,53 @@ body::-webkit-scrollbar-thumb {
     background-color: #999;
     outline: 1px solid slategrey;
 }
+
+/*=============Loader=================*/
+#loading-animation {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    display: block;
+}
+
+.google-loader {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    transform: translateY(-50%);
+  }
+  
+  .dot {
+    background-color: grey;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  .dot {
+    animation: ani 1s ease-in-out infinite alternate forwards;
+  }
+  
+  .blue {
+    background-color: #4A8CF5;
+    animation-delay: 0.2s;
+  }
+  .red {
+    background-color: #EB4132;
+    animation-delay: 0.4s;
+  }
+  .yellow {
+    background-color: #FBBD00;
+    animation-delay: 0.6s;
+  }
+  .green {
+    background-color: #069E57;
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes ani {
+    to {
+      transform: translateY(1rem);
+    }
+  }
+  

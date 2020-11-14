@@ -56,34 +56,36 @@
       border-radius: 5px 5px;
     }
 
-    .dot {
+    .peoject-dot {
       height: 0.8em;
       width: 0.8em;
       border-radius: 50%;
       margin-left: 5px;
     }
-        /* Preloader */
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #fff;
-  z-index: 99;
-}
-#status {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: -100px 0 0 -100px;
-}
+    /* Preloader */
+
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #fff;
+      z-index: 99;
+    }
+
+    #status {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      background: #fff;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: -100px 0 0 -100px;
+    }
   </style>
   <!-- iframe removal -->
 </head>
@@ -91,14 +93,15 @@
 <body class="landing-page" name="top" id="top">
 
   <div id="preloader">
-    <lottie-player id="status" src="https://assets6.lottiefiles.com/private_files/lf30_8a9atN.json" mode="bounce" background="#FFFFFF"  speed="1" loop  autoplay></lottie-player>
+    <lottie-player id="status" src="https://assets6.lottiefiles.com/private_files/lf30_8a9atN.json" mode="bounce"
+      background="#FFFFFF" speed="1" loop autoplay></lottie-player>
   </div>
-  <!-- Navbar -->
+  <!-- ============================================ Navbar ============================================ -->
   <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg " color-on-scroll="100"
     id="sectionsNav">
     <!-- ===== Navbar through JS ===== -->
   </nav>
-  <!-- /.Navbar -->
+  <!-- ============================================ /.Navbar ============================================ -->
 
   <div class="main main-raised margin-t-0">
 
@@ -109,7 +112,7 @@
 
       <div class="container-page">
 
-        <!-- **** Banner **** -->
+        <!-- ============================================ **** Banner **** ============================================ -->
         <div class="row mt-5">
 
           <!-- First Column -->
@@ -134,7 +137,7 @@
             <img class="img-fluid" src="assets/img/kit/collage.png" />
           </div>
         </div>
-        <!-- /.**** Banner **** -->
+        <!-- ============================================ /.**** Banner **** ============================================ -->
 
         <div class="container no-padding container-sub-page">
 
@@ -144,6 +147,16 @@
           <div class="row">
             <div class="col-lg-12">
               <h3 class="title">Featured Projects</h3>
+            </div>
+          </div>
+
+          <!-- ============================================ Loading Animation ============================================ -->
+          <div id="loading-animation">
+            <div class="google-loader">
+              <div class="dot blue"></div>
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
             </div>
           </div>
 
@@ -159,11 +172,11 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
 
-    <!-- **** Footer **** -->
+    <!-- ============================================ **** Footer **** ============================================ -->
     <div id="footer">
       <!-- ===== Footer Through JS ===== -->
     </div>
-    <!-- /. Footer -->
+    <!-- ============================================ /. Footer ============================================ -->
 
   </div>
 
@@ -189,17 +202,20 @@
 
 
   <script>
-        $(window).on('load', function() { // makes sure the whole site is loaded 
+    $(window).on('load', function () { // makes sure the whole site is loaded 
       $('#status').fadeOut(); // will first fade out the loading animation 
       $('#preloader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-      $('body').delay(450).css({'overflow':'visible'});
+      $('body').delay(450).css({ 'overflow': 'visible' });
     })
+
+
     $('document').ready(function () {
 
       function getLinks(links) {
 
         var result = '';
 
+        /* ============================================ Getting Link Type ============================================ */
         links.forEach(function (link) {
 
           if (link.linkType === 'Twitter') {
@@ -225,6 +241,7 @@
         return result;
       }
 
+      /* ============================================ Getting the Right Colour ============================================ */
       function getColour(project) {
         var colour = "";
 
@@ -254,6 +271,7 @@
         return colour;
       }
 
+      /* ============================================ Getting Template ============================================ */
       function getTemplate(project) {
         var template =
           `<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 parent-card">                                        
@@ -267,9 +285,9 @@
                   <h2 style="font-weight:400;" class="blue_text">${project.fullName}</h2>                          
                   <p class="description">
                     <b>${project.category.split('.')[0]}</b>
-                    <span class="dot" style="background :${getColour(project)}";></span>
+                    <span class="peoject-dot" style="background :${getColour(project)}";></span>
                   </p>            
-                  <p class="about">${((project.bio).substring(0,84)).concat("...")}</p>                     
+                  <p class="about">${((project.bio).substring(0, 84)).concat("...")}</p>                     
                   <span class="project-social">                                                   
                     <ul>${getLinks(project.links)}</ul>                                                          
                   </span>                                                    
@@ -282,6 +300,7 @@
 
       var html = '';
 
+      /* ============================================ fetching Data by API ============================================ */
       var settings = {
         "url": "https://dschit.herokuapp.com/projects",
         "method": "GET",
@@ -289,13 +308,14 @@
       };
       $.ajax(settings).done(function (projects) {
 
-        //console.log(projects)
-
         projects.forEach(function (project) {
           html += getTemplate(project);
         });
 
+        /* ============================================ Stopping Animation and Placing Data ============================================ */
+        document.getElementById('loading-animation').style.display = "none";
         $('#container-projects').append(html);
+        
       });
     });
   </script>

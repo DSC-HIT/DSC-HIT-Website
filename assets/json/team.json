@@ -3,6 +3,7 @@
         "displayPicture":"./assets/img/team/Abhishek.jpg",
         "id": 1,
         "name":"Abhishek Sen",
+        "year":"2020 - 2021",
         "description":"Core Programming TA",
         "bio":"Abhishek is a Core Programming TA who has been a big part of the community at DSC HIT from the very beginning. He is also a Flutter enthusiast and loves the spirit of Cross-Platform.",
         "links":[
@@ -24,6 +25,7 @@
         "displayPicture":"./assets/img/team/Fazal.jpg",
         "id": 6,
         "name":"Md Fazal",
+        "year":"2020 - 2021",
         "description":"DSC Lead | 2020-2021",
         "bio":"An extremely confident person who has multiple Udacity Scholarships, is currently Leading Developer Student Club HIT in its second year after being a significant cog in the community for a long time. He is passionate about Machine Learning, Mixed Reality and the possibilities of Cloud.",
         "links":[
@@ -45,6 +47,7 @@
         "displayPicture":"./assets/img/team/Sayak.jpg",
         "id": 9,
         "name":"Sayak Banerjee",
+        "year":"2019 - 2020",
         "description":"Community Coordinator",
         "bio":"Sayak Banerjee has been working for a significant amount of time in building Communties, Start-ups, and digital learning Initiatives. He is psyched by Drones, IoT, Machine Learning and Mobile Development.",
         "links":[
@@ -66,6 +69,7 @@
         "displayPicture":"./assets/img/team/Sayantak.jpg",
         "id": 10,
         "name":"Sayantak Karar",
+        "year":"2019 - 2020",
         "description":"Project Lead",
         "bio":"Sayantak is extremely enthusiastic about Flutter and the possibilities of Cross-Platform development. He has been a key part of DSC HIT and has led multiple initiatives, including building the current avatar of HITNav - an app that helps you navigate the Campus.",
         "links":[
@@ -108,6 +112,7 @@
         "displayPicture":"./assets/img/team/Subhasis.jpg",
         "id": 13,
         "name":"Subhasis Das",
+        "year":"2019 - 2020",
         "description":"Web Technologies TA",
         "bio":"",
         "links":[
@@ -129,6 +134,7 @@
         "displayPicture":"./assets/img/team/Suranjan.jpg",
         "id": 15,
         "name":"Suranjan Daw",
+        "year":"2019 - 2020",
         "description":"Android & Firebase TA",
         "bio":"",
         "links":[
@@ -150,6 +156,7 @@
         "displayPicture":"./assets/img/team/Yashashwee.jpg",
         "id": 16,
         "name":"Yashashwee C.",
+        "year":"2019 - 2020",
         "description":"Explore ML Facilitator",
         "bio":"",
         "links":[
@@ -171,6 +178,7 @@
         "displayPicture":"./assets/img/team/Soham.jpg",
         "id": 17,
         "name":"Soham Jana",
+        "year":"2020 - 2021",
         "description":"Event Coordinator",
         "bio":"",
         "links":[
@@ -192,6 +200,7 @@
         "displayPicture":"./assets/img/team/Divya.jpg",
         "id": 18,
         "name":"Divya Goswami",
+        "year":"2020 - 2021",
         "description":"Director of Outreach",
         "bio":"",
         "links":[
@@ -213,6 +222,7 @@
         "displayPicture":"./assets/img/team/Diya.jpeg",
         "id": 19,
         "name":"Diya Banerjee",
+        "year":"2020 - 2021",
         "description":"Design Lead",
         "bio":"Diya likes to play around with photographs, colors and vector art. You can find her cooking up weird things, and trying to keep up with her to-do lists. ",
         "links":[
@@ -234,6 +244,7 @@
         "displayPicture":"./assets/img/team/Aniket.jpg",
         "id": 20,
         "name":"Aniket Kumar Singh",
+        "year":"2020 - 2021",
         "description":"Design Lead",
         "bio":"",
         "links":[
@@ -255,6 +266,7 @@
         "displayPicture":"./assets/img/team/Anjali.jpg",
         "id": 21,
         "name":"Anjali",
+        "year":"2019 - 2020",
         "description":"Director of Outreach",
         "bio":"",
         "links":[
@@ -276,6 +288,7 @@
         "displayPicture":"./assets/img/team/Siddharth.jpg",
         "id": 22,
         "name":"Siddharth Agarwal",
+        "year":"2019 - 2020",
         "description":"Machine Learning TA",
         "bio":"",
         "links":[
@@ -297,6 +310,7 @@
         "displayPicture":"./assets/img/team/Akash.jpg",
         "id": 23,
         "name":"Akash Modak",
+        "year":"2019 - 2020",
         "description":"Machine Learning TA",
         "bio":"",
         "links":[
@@ -318,6 +332,7 @@
         "displayPicture":"./assets/img/team/Rupdeep.jpeg",
         "id": 24,
         "name":"Rupdeep Saha",
+        "year":"2019 - 2020",
         "description":"Coordinator",
         "bio":"",
         "links":[
@@ -339,6 +354,7 @@
         "displayPicture":"./assets/img/team/Sumit.jpg",
         "id": 14,
         "name":"Sumit Chakrabarti",
+        "year":"2019 - 2020",
         "description":"Advisor | 2019-2020",
         "bio":"",
         "links":[
@@ -360,6 +376,7 @@
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 25,
         "name":"Mamtu Raja",
+        "year":"2019 - 2020",
         "description":"Coordinator",
         "bio":"",
         "links":[
@@ -381,6 +398,7 @@
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 2,
         "name":"Anindit Sinha",
+        "year":"2019 - 2020",
         "description":"Mentor | 2019-2020",
         "bio":"",
         "links":[
@@ -402,6 +420,7 @@
         "displayPicture":"./assets/img/team/Atig.jpg",
         "id": 3,
         "name":"Atig Ghosh",
+        "year":"2019 - 2020",
         "description":"Advisor | 2019-2020",
         "bio":"",
         "links":[
@@ -423,6 +442,7 @@
         "displayPicture":"./assets/img/team/Ishita.jpg",
         "id": 4,
         "name":"Ishita Bardhan",
+        "year":"2019 - 2020",
         "description":"Advisor | 2019-2020",
         "bio":"",
         "links":[
@@ -444,6 +464,7 @@
         "displayPicture":"./assets/img/team/Kathakoli.jpg",
         "id": 5,
         "name":"Kathakoli Sorkhel",
+        "year":"2019 - 2020",
         "description":"Advisor | 2019-2020",
         "bio":"",
         "links":[
@@ -465,6 +486,7 @@
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 7,
         "name":"Niwesh Gupta",
+        "year":"2019 - 2020",
         "description":"Mentor | 2019-2020",
         "bio":"",
         "links":[
@@ -486,6 +508,7 @@
         "displayPicture":"./assets/img/team/Piyush.jpg",
         "id": 8,
         "name":"Piyush Maheshwari",
+        "year":"2019 - 2020",
         "description":"Android TA | 2019-2020",
         "bio":"",
         "links":[
@@ -507,6 +530,7 @@
         "displayPicture":"./assets/img/team/Generic.jpg",
         "id": 12,
         "name":"Somopriya Seth",
+        "year":"2019 - 2020",
         "description":"Advisor | 2019-2020",
         "bio":"",
         "links":[

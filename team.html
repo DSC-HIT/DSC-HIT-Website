@@ -62,26 +62,27 @@
 
     /* Preloader */
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #fff;
-  z-index: 99;
-}
-#status {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: -100px 0 0 -100px;
-}
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #fff;
+      z-index: 99;
+    }
+
+    #status {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      background: #fff;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: -100px 0 0 -100px;
+    }
   </style>
   <!-- iframe removal -->
 </head>
@@ -89,14 +90,15 @@
 <body class="landing-page" name="top" id="top">
 
   <div id="preloader">
-    <lottie-player id="status" src="https://assets6.lottiefiles.com/private_files/lf30_8a9atN.json" mode="bounce" background="#FFFFFF"  speed="1" loop  autoplay></lottie-player>
+    <lottie-player id="status" src="https://assets6.lottiefiles.com/private_files/lf30_8a9atN.json" mode="bounce"
+      background="#FFFFFF" speed="1" loop autoplay></lottie-player>
   </div>
-  <!-- Navbar -->
+  <!-- ============================================ Navbar ============================================ -->
   <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg " color-on-scroll="100"
     id="sectionsNav">
     <!-- ===== Navbar through JS ===== -->
   </nav>
-  <!-- /.Navbar -->
+  <!-- ============================================ /.Navbar ============================================ -->
 
   <div class="main main-raised margin-t-0">
 
@@ -106,7 +108,7 @@
     <div class="container">
       <div class="container-page">
 
-        <!-- **** Banner **** -->
+        <!-- ============================================ **** Banner **** ============================================ -->
         <div class="row mt-5">
 
           <!-- First Column -->
@@ -116,7 +118,7 @@
             <h5 class="description">
               One log creates a small fire, adequate to warm you up, add just a few
               more pieces to blast an immense bonfire, large enough to warm up your entire circle;
-              needless to say that individuality counts but teamwork dynamites. At <b class="blue_text">DSC HIT</b> 
+              needless to say that individuality counts but teamwork dynamites. At <b class="blue_text">DSC HIT</b>
               celebrate teamwork and attribute the success of DSC to the wonderful individuals
               who put untiring efforts for it.
             </h5>
@@ -130,8 +132,27 @@
         </div>
 
         <div class="container no-padding container-sub-page">
+
+          <!-- ============================================ Loading Animation ============================================ -->
+          <div id="loading-animation">
+            <div class="google-loader">
+              <div class="dot blue"></div>
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
+            </div>
+          </div>
+
           <div id="container-team" class="row">
             <!-- ===== Here the Team will Appear ===== -->
+          </div>
+
+          <div id="prev-team-wrapper">
+            <div id="prev-member-heading"><a id="load-prev-team" onclick="loadPrevTeam()">View Core 2019 - 2020</a></div>
+
+            <div id="container-team-prev" class="row">
+              <!-- ===== Here the Previous Team will Appear ===== -->
+            </div>
           </div>
         </div>
 
@@ -139,11 +160,11 @@
     </div>
 
 
-    <!-- **** Footer **** -->
+    <!-- ============================================ **** Footer **** ============================================ -->
     <div id="footer">
       <!-- ===== Footer Through JS ===== -->
     </div>
-    <!-- /. Footer -->
+    <!-- ============================================ /. Footer ============================================ -->
 
   </div>
 
@@ -169,18 +190,19 @@
 
 
   <script>
-      $(window).on('load', function() { // makes sure the whole site is loaded 
+    $(window).on('load', function () { // makes sure the whole site is loaded 
       $('#status').fadeOut(); // will first fade out the loading animation 
       $('#preloader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-      $('body').delay(450).css({'overflow':'visible'});
+      $('body').delay(450).css({ 'overflow': 'visible' });
     })
 
-      $('document').ready(function () {
+    $('document').ready(function () {
 
+      /* ============================================ Getting Link Type ============================================ */
       function getLinks(links) {
 
         var result = '';
-
+        
         links.forEach(function (link) {
 
           if (link.linkType === 'Twitter') {
@@ -218,6 +240,7 @@
         return result;
       }
 
+      /* ============================================ Getting Template ============================================ */
       function getTemplate(member) {
 
         var template =
@@ -241,6 +264,46 @@
         return template;
       }
 
+      var html_curr = '';
+      var html_prev = '';
+
+      /* ============================================ fetching Data by API ============================================ */
+      var settings = {
+        "url": "https://dschit.herokuapp.com/team",
+        "method": "GET",
+        "timeout": 0,
+      };
+      
+      $.ajax(settings).done(function (members) {
+
+        members.forEach(function (member) {
+          if (member.year === "2020 - 2021") {
+            html_curr += getTemplate(member);
+          }
+          else {
+            html_prev += getTemplate(member);
+          }
+        });
+
+        /* ============================================ Stopping Animation and Placing Data ============================================ */
+        document.getElementById('loading-animation').style.display = "none";
+        $('#container-team').append(html_curr);
+        $('#container-team-prev').append(html_prev);
+      });
+
+    });
+
+    /* ============================================ Function for Loading Previous Team ============================================ */
+    function loadPrevTeam() {
+      document.getElementById('container-team-prev').style.display = "flex";
+      document.getElementById('prev-member-heading').style.borderRadius = "0 0 10px 60px";
+      document.getElementById('prev-member-heading').style.marginRight = "0";
+      document.getElementById('load-prev-team').innerHTML = "Core 20120 - 2021"
+    };
+
+    /* ============================================ Funtion for Moving to Particular Member Page ============================================ */
+    function myfun(targetid) {
+
       var html = '';
       var settings = {
         "url": "https://dschit.herokuapp.com/team",
@@ -250,29 +313,10 @@
       $.ajax(settings).done(function (members) {
 
         members.forEach(function (member) {
-          html += getTemplate(member);
-
-        });
-
-        $('#container-team').append(html);
-      });
-    });
-
-    function myfun(targetid){
-        
-        var html = '';
-        var settings = {
-        "url": "https://dschit.herokuapp.com/team",
-        "method": "GET",
-        "timeout": 0,
-      };
-      $.ajax(settings).done(function (members) {
-
-        members.forEach(function (member) {
-          if(member.id==targetid)
-            window.location = "member.html?id="+member.id;  
-          })
+          if (member.id == targetid)
+            window.location = "member.html?id=" + member.id;
         })
+      })
     }
 
   </script>

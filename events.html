@@ -53,42 +53,45 @@
     .img-fluid {
       border-radius: 5px 5px;
     }
-        /* Preloader */
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #fff;
-  z-index: 99;
-}
-#status {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  background: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: -100px 0 0 -100px;
-}
+    /* Preloader */
+
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #fff;
+      z-index: 99;
+    }
+
+    #status {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      background: #fff;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: -100px 0 0 -100px;
+    }
   </style>
   <!-- iframe removal -->
 </head>
 
 <body class="landing-page" name="top" id="top">
   <div id="preloader">
-    <lottie-player id="status" src="https://assets6.lottiefiles.com/private_files/lf30_8a9atN.json" mode="bounce" background="#FFFFFF"  speed="1" loop  autoplay></lottie-player>
+    <lottie-player id="status" src="https://assets6.lottiefiles.com/private_files/lf30_8a9atN.json" mode="bounce"
+      background="#FFFFFF" speed="1" loop autoplay></lottie-player>
   </div>
-  <!-- Navbar -->
+  <!-- ============================================ Navbar ============================================ -->
   <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg" color-on-scroll="100"
     id="sectionsNav">
     <!-- ===== Navbar through JS ===== -->
   </nav>
-  <!-- /.Navbar -->
+  <!-- ============================================ /.Navbar ============================================ -->
 
   <div class="main main-raised margin-t-0">
     <p>&nbsp;</p>
@@ -96,7 +99,7 @@
 
     <div id="container-event" class="container">
 
-      <!-- **** Top Banner **** -->
+      <!-- ============================================ **** Top Banner **** ============================================ -->
       <div class="row mt-5">
 
         <!-- Fisrt Column -->
@@ -123,68 +126,30 @@
         </div>
         <!-- /.Second Column -->
       </div>
-      <!-- /.**** Top Banner **** -->
+      <!-- ============================================ /.**** Top Banner **** ============================================ -->
 
+      <!-- ============================================ Loading Animation ============================================ -->
+      <div id="loading-animation">
+        <div class="google-loader">
+          <div class="dot blue"></div>
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+      </div>
       <!-- ===== Here the Evenets will Appear ===== -->
 
-
-      <!--
-                        <div class="row mt-5 wow fadeIn" style="text-align:center;">
-                            <div class="col-lg-12" style="text-align:center;">
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                           
-                                            <div class="carousel-inner">
-                                              <div class="carousel-item active">
-                                                  <div class="carousel-wrapper">
-                                                    <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
-                                                    <img src="assets/img/logos/exploreML.png" height="40px"/>
-                                                    <h4 class="description">Explore Machine Learning (ML) is a Google-sponsored program  for university students to get started with Machine Learning. The curriculum offers 3 tracks of machine learning content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus.</h4>
-                                                    <h1 id="orange_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
-                                                    <h4 class="description"><b>Google AI | Explore ML</b></h4>
-                                                </div>
-                                            </div>
-                                              <div class="carousel-item">
-                                                    <div class="carousel-wrapper">
-                                                    <h1 id="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
-                                                    <img src="https://www.pixitmedia.com/wp-content/uploads/2019/09/google_lockup_cloud_rgb.png" height="40px"/>
-                                                    <h4 class="description">#GCPCrashCourse is a Cloud based learning campaign that focuses on building Learning Paths for students across 3 distinct Tracks. With <span id="blue_text">#GCPCrashCourse</span> you get to learn dedicated topics across three complete tracks, namely -  Application Development, Data & Machine Learning.</h4>
-                                                    <h1 id="blue_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
-                                                    <a href="./gcpcc.html" target="blank"><b><h4 class="description">Click to Sign Up for <span id="blue_text">#GCPCrashCourse</span></b></h4></a>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                    <div class="carousel-wrapper">
-                                                    <h1 id="red_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1>
-                                                    <img src="https://miro.medium.com/max/4282/1*PshD8n5B_7h-cmmFYpurqA.png" height="40px"/>
-                                                    <h4 class="description">Cloud Fest '19 is an occasion which promises to be a celebration of ideas, learning, productive discussions, and the conception of unique solutions to critical real-world problems using cloud computing.  </h4>
-                                                    <h1 id="red_text" style="font-family: 'Be Vietnam', sans-serif;">"</h1> 
-                                                    <h4 class="description"><b>Coming Soon</b></h4>
-                                                    </div>
-                                            </div>
-                                            
-                                            </div>
-                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                              <span>&nbsp;</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                              <span>&nbsp;</span>
-                                            </a>
-                                          </div>
-                                    
-                                </div>
-                            </div>
-                    -->
       <p>&nbsp;</p>
     </div>
 
     <p>&nbsp;</p>
     <p>&nbsp;</p>
 
-    <!-- **** Footer **** -->
+    <!-- ============================================ **** Footer **** ============================================ -->
     <div id="footer">
       <!-- ===== Footer Through JS ===== -->
     </div>
-    <!-- /. Footer -->
+    <!-- ============================================ /. Footer ============================================ -->
 
   </div>
 
@@ -211,14 +176,22 @@
 
   <script>
 
-$(window).on('load', function() { // makes sure the whole site is loaded 
+    $(window).on('load', function () { // makes sure the whole site is loaded 
       $('#status').fadeOut(); // will first fade out the loading animation 
       $('#preloader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-      $('body').delay(450).css({'overflow':'visible'});
+      $('body').delay(450).css({ 'overflow': 'visible' });
     })
 
-$('document').ready(function () {
+    $('document').ready(function () {
 
+      var cards = '';
+      var i = 1;
+      var temp = '';
+      var size = 0; //to check the size of the file
+      var html = '';
+
+
+      /* ============================================  Template ============================================ */
       function getTemplate(event) {
         var template =
           `<div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
@@ -235,6 +208,7 @@ $('document').ready(function () {
         return template;
       }
 
+      /* ============================================ Sorting by Date ============================================ */
       function GetSortOrder(prop) {
         return function (a, b) {
           if (a[prop] < b[prop]) {
@@ -246,17 +220,13 @@ $('document').ready(function () {
         }
       }
 
-      var cards = '';
-      var i = 1;
-      var temp = '';
-      var size = 0; //to check the size of the file
-      var html = '';
-
+      /* ============================================ fetching Data by API ============================================ */
       var settings = {
         "url": "https://dschit.herokuapp.com/events",
         "method": "GET",
         "timeout": 0,
       };
+
       $.ajax(settings).done(function (events) {
 
         events.forEach(function (event) {
@@ -264,22 +234,30 @@ $('document').ready(function () {
         });
 
         events.sort(GetSortOrder("time_stamp"));
+
         events.forEach(function (event) {
           cards += getTemplate(event);
+
           if (i % 3 == 0) {
             temp =
               '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>';
             cards = '';
           };
+
           html += temp;
           temp = '';
+
           if (i == size) {
             html += '<div class="row equal mt-5 wow justify-content-center">' + cards + '</div>';
           };
+
           i += 1;
         });
+
         html = '<div class="container-page">' + html + '</div>';
-        //console.log(html);
+
+        /* ============================================ Stopping Animation and Placing Data ============================================ */
+        document.getElementById('loading-animation').style.display = "none";
         $('#container-event').append(html);
 
       });

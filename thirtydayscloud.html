@@ -35,27 +35,62 @@
     body {
       overflow-x: hidden;
     }
+    @media only screen and (max-width: 760px) {
+      .dis {
+        display: none
+      }
+      #copyrightBotNav{
+        margin-bottom: 60px;
+    }
+    }
+
 
     @media only screen and (max-width: 600px) {
       .dis {
         display: none
       }
+      #copyrightBotNav{
+      margin-bottom: 60px;
+    }
     }
 
     #top-button {
       font-size: 20px;
       transition: 0.3s ease;
     }
+    #buttons:hover{
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.05);
+    }
+    #header_text:hover{
+      color: rgb(211, 88, 109);
+    }
+    #joinbtn:hover{
+      background-color: rgb(233, 84, 108);
+      color: black;
+    }
 
     .tab {
       margin-left: 40px;
     }
-
+    #cloudCard:hover{
+      box-shadow: 0 0 10px #ccc , 0 0 20px rgb(0, 0, 0);
+      transition: all 0.5s ease-in-out;
+      transform: scale(1.03);
+    }
+    #dsmCard:hover{
+      box-shadow: 0 0 10px #ccc , 0 0 20px rgb(0, 0, 0);
+      transition: all 0.5s ease-in-out;
+      transform: scale(1.03);
+    }
     /*
         .grid-item { width: 25%; }
         .grid-item--width2 { width: 50%; }*/
     .img-fluid {
       border-radius: 5px 5px;
+    }
+    #copyrightBotNav{
+      padding-bottom: 20px;
     }
   </style>
   <!-- iframe removal -->
@@ -82,7 +117,7 @@
           <img class="img-fluid"
             src="https://cloud.google.com/images/social-icon-google-cloud-1200-630.png" width="40%"/>
           <h3 class="tag_details"><b>#30DaysofGoogleCloud</b></h3>
-          <h4 class="tag_details"><b>Already Ended !</b></h4>
+          <h4 class="tag_details"><b>Already Ended </b></h4>
           <p>
             <a href="#tracks"><button class="btn btn-primary" id="buttons"><b>Know More</b></button></a>
           </p>
@@ -164,7 +199,7 @@
 
         <!-- Cloud Engineering -->
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
-          <div class="card">
+          <div class="card" id="cloudCard">
 
             <!--Card image-->
             <img class="img-fluid"
@@ -214,7 +249,7 @@
 
         <!-- **** Machine Learning and Data Science **** -->
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.6s">
-          <div class="card">
+          <div class="card" id="dsmCard">
 
             <!--Card image-->
             <img class="img-fluid"

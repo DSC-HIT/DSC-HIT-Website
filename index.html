@@ -87,14 +87,15 @@
 
           <h2 class="tag_title">Developer Student Club</h2>
           <h4 class="tag_details"><b>Heritage Institute of Technology</b></h4>
-          <p>&nbsp;</p>
           <p>
             <a target="blank" href="https://dsc.community.dev/heritage-institute-of-technology/">
               <button class="btn btn-primary" id="buttons"><b>Join Us</b></button></a>
           </p>
 
         </div>
-        <div class="col-md-8" id="background-header-home">&nbsp;</div>
+        <div class="col-md-8" id="background-header-home">
+          <div id="particles-js">
+          &nbsp;</div></div>
       </div>
     </div>
   </div>
@@ -327,7 +328,7 @@
                 <b>CFP</b>
               </h4>
 
-              <h5 class="description"">
+              <h5 class="description">
                   Interested in being a Speaker at one of our events? Just drop us your Proposal.
                 </h5>
                 <a href=" mailto:dscheritageit@gmail.com" class="btn btn-primary" id="buttons">
@@ -498,7 +499,7 @@
             <p>&nbsp;</p>
             <a href="https://discord.gg/aEDyUKb" target="blank" class="btn btn-primary" id="buttons"
               style="background: #2C2F33;">
-              <b>Join us on &nbsp; <img height="30px" src="assets/img/logos/discord.png" /></b>
+              <b>Join us on &nbsp; <img height="30px" src="assets/img/logos/discord.svg" /></b>
             </a>
           </h5>
         </div>
@@ -568,6 +569,13 @@
   <script src="assets/js/navbar.js"></script>
   <script src="assets/js/footer.js"></script>
 
+  <!-- including particle.js  -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>particlesJS.load('particles-js','/particle_assets/particles.json', function(){
+          console.log("particles.json loaded")
+      })
+  </script>
+  
   <!--   Core JS Files   -->
   <script src="assets/js/core/jquery.min.js"></script>
   <script src="assets/js/core/popper.min.js"></script>

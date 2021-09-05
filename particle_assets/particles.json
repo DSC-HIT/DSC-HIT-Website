@@ -1,0 +1,51 @@
+
+
+{
+    "particles":{
+        "number":{
+            "value":20,
+            "density":{
+                "enable":true,
+                "value_area":800
+                }
+            },
+        "color":{
+            "value": ["#FBBC04","#4285F4","#EA4335","34A853"]
+            },
+        "size":{
+            "value":70,
+            "random":true
+
+            },
+        "line_linked":{
+            "enable":true,
+            "distance":200,
+            "color":"#4285F4",
+            "width":2
+            },
+        "move": {
+            "enable": true,
+            "speed": 8,
+            "direction": "none",
+            "out_mode": "bounce",
+            "bounce": false
+            }
+        },
+    "interactivity":{
+        "events":{
+            "onhover":{
+                "enable":true,
+                "mode":"repulse"
+            },
+            "onclick":{
+                "enable":false
+            }
+        },
+        "modes":{
+            "repulse":{
+                "distance":120,
+                "duration":1
+            }
+        }
+    }
+}

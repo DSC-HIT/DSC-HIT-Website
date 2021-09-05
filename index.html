@@ -94,7 +94,9 @@
           </p>
 
         </div>
-        <div class="col-md-8" id="background-header-home">&nbsp;</div>
+        <div class="col-md-8" id="background-header-home">
+          <div id="particles-js">
+          &nbsp;</div></div>
       </div>
     </div>
   </div>
@@ -568,6 +570,13 @@
   <script src="assets/js/navbar.js"></script>
   <script src="assets/js/footer.js"></script>
 
+  <!-- including particle.js  -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>particlesJS.load('particles-js','/particle_assets/particles.json', function(){
+          console.log("particles.json loaded")
+      })
+  </script>
+  
   <!--   Core JS Files   -->
   <script src="assets/js/core/jquery.min.js"></script>
   <script src="assets/js/core/popper.min.js"></script>
